@@ -1,0 +1,30 @@
+Program started at: 2018-04-06 09:05:43.212894
+Getting the previous day high values
+Got previous day high values for: 2018-04-06
+Staring gap up strategy
+The top four stocks less than two percent are:
+[794369 415745 633601 359937]
+Preparing for placing orders at: 2018-04-06 09:15:01.804245
+Placing MIS order for: SHREECEM at: 2018-04-06 09:15:01.806174
+Placing MIS order for: IOC at: 2018-04-06 09:15:02.143425
+Placing MIS order for: ONGC at: 2018-04-06 09:15:02.322433
+Placing MIS order for: HINDPETRO at: 2018-04-06 09:15:02.420259
+Strategy execution completed at: 2018-04-06 09:15:02.523433
+All gapped up stocks with trading symbol:
+    Gap_Up_Percent  Instrument  Open Price Trading Symbol
+5         1.323463      794369    17000.00       SHREECEM
+2         1.062303      415745      176.00            IOC
+4         0.815065      633601      179.35           ONGC
+1         0.542857      359937      351.90      HINDPETRO
+14        0.470958     4369665      384.00        UJJIVAN
+7         0.460123     2674433     3275.00     MCDOWELL-N
+12        0.438048     3663105      321.00        INDIANB
+8         0.382409     2760193       52.50           ALBK
+15        0.377806     7712001     1355.00     IBULHSGFIN
+0         0.300510      140033     5089.95      BRITANNIA
+3         0.192308      424961      260.50            ITC
+9         0.179533     2796801      558.00      GODREJIND
+13        0.144092     3735553      139.00         FORTIS
+10        0.080261     2815745     9165.00         MARUTI
+6         0.045697     2170625      656.80       TVSMOTOR
+11        0.021464     2905857      233.00       PETRONET
