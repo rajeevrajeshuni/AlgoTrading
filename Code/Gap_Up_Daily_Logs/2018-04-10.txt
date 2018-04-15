@@ -1,0 +1,6350 @@
+Program started at: 2018-04-10 08:39:04.504062
+Getting the previous day high values
+Got the previous day high values for: 2018-04-09
+Getting the values again today
+Time taken to extract previous day high values: 0:01:08.191320
+<kiteconnect.ticker.KiteTicker object at 0x101d84a58>
+Connecting to websocket
+Ticks: 1 2018-04-09 15:59:31 2018-04-10 08:40:13.899047
+Open price checked for: 0  stocks
+^Z
+[1]+  Stopped                 python3.5 Live_Gap_Up.py
+apples-MacBook-Pro:Code Rajeev$ python3.5 Live_Gap_Up.py
+Program started at: 2018-04-10 09:04:06.270753
+Getting the previous day high values
+Got previous day high values for: 2018-04-10
+<kiteconnect.ticker.KiteTicker object at 0x101d84a58>
+Connecting to websocket
+Ticks: 1 2018-04-10 09:04:08 2018-04-10 09:04:09.159217
+Open price checked for: 0  stocks
+Ticks: 2 2018-04-10 09:04:09 2018-04-10 09:04:09.243745
+Open price checked for: 0  stocks
+Ticks: 3 2018-04-10 09:04:09 2018-04-10 09:04:09.644074
+Open price checked for: 0  stocks
+Ticks: 4 2018-04-10 09:04:09 2018-04-10 09:04:09.836028
+Open price checked for: 0  stocks
+Ticks: 5 2018-04-10 09:04:09 2018-04-10 09:04:10.259792
+Open price checked for: 0  stocks
+Ticks: 6 2018-04-10 09:04:10 2018-04-10 09:04:10.433573
+Open price checked for: 0  stocks
+Ticks: 7 2018-04-10 09:04:10 2018-04-10 09:04:10.854873
+Open price checked for: 0  stocks
+Ticks: 8 2018-04-10 09:04:10 2018-04-10 09:04:11.038988
+Open price checked for: 0  stocks
+Ticks: 9 2018-04-10 09:04:11 2018-04-10 09:04:11.450135
+Open price checked for: 0  stocks
+Ticks: 10 2018-04-10 09:04:11 2018-04-10 09:04:11.630486
+Open price checked for: 0  stocks
+Ticks: 11 2018-04-10 09:04:11 2018-04-10 09:04:12.043573
+Open price checked for: 0  stocks
+Ticks: 12 2018-04-10 09:04:12 2018-04-10 09:04:12.235612
+Open price checked for: 0  stocks
+Ticks: 13 2018-04-10 09:04:12 2018-04-10 09:04:12.638303
+Open price checked for: 0  stocks
+Ticks: 14 2018-04-10 09:04:12 2018-04-10 09:04:12.836014
+Open price checked for: 0  stocks
+Ticks: 15 2018-04-10 09:04:12 2018-04-10 09:04:13.265342
+Open price checked for: 0  stocks
+Ticks: 16 2018-04-10 09:04:13 2018-04-10 09:04:13.437281
+Open price checked for: 0  stocks
+Ticks: 17 2018-04-10 09:04:13 2018-04-10 09:04:13.839248
+Open price checked for: 0  stocks
+Ticks: 18 2018-04-10 09:04:13 2018-04-10 09:04:14.030364
+Open price checked for: 0  stocks
+Ticks: 19 2018-04-10 09:04:14 2018-04-10 09:04:14.446104
+Open price checked for: 0  stocks
+Ticks: 20 2018-04-10 09:04:14 2018-04-10 09:04:14.629129
+Open price checked for: 0  stocks
+Ticks: 21 2018-04-10 09:04:14 2018-04-10 09:04:15.052838
+Open price checked for: 0  stocks
+Ticks: 22 2018-04-10 09:04:14 2018-04-10 09:04:15.247518
+Open price checked for: 0  stocks
+Ticks: 23 2018-04-10 09:04:15 2018-04-10 09:04:15.647712
+Open price checked for: 0  stocks
+Ticks: 24 2018-04-10 09:04:15 2018-04-10 09:04:15.828388
+Open price checked for: 0  stocks
+Ticks: 25 2018-04-10 09:04:15 2018-04-10 09:04:16.237916
+Open price checked for: 0  stocks
+Ticks: 26 2018-04-10 09:04:16 2018-04-10 09:04:16.431823
+Open price checked for: 0  stocks
+Ticks: 27 2018-04-10 09:04:16 2018-04-10 09:04:16.865769
+Open price checked for: 0  stocks
+Ticks: 28 2018-04-10 09:04:16 2018-04-10 09:04:17.030609
+Open price checked for: 0  stocks
+Ticks: 29 2018-04-10 09:04:17 2018-04-10 09:04:17.440883
+Open price checked for: 0  stocks
+Ticks: 30 2018-04-10 09:04:17 2018-04-10 09:04:17.632476
+Open price checked for: 0  stocks
+Ticks: 31 2018-04-10 09:04:17 2018-04-10 09:04:18.048058
+Open price checked for: 0  stocks
+Ticks: 32 2018-04-10 09:04:17 2018-04-10 09:04:18.235847
+Open price checked for: 0  stocks
+Ticks: 33 2018-04-10 09:04:18 2018-04-10 09:04:18.650719
+Open price checked for: 0  stocks
+Ticks: 34 2018-04-10 09:04:18 2018-04-10 09:04:18.827969
+Open price checked for: 0  stocks
+Ticks: 35 2018-04-10 09:04:19 2018-04-10 09:04:19.242888
+Open price checked for: 0  stocks
+Ticks: 36 2018-04-10 09:04:19 2018-04-10 09:04:19.432126
+Open price checked for: 0  stocks
+Ticks: 37 2018-04-10 09:04:19 2018-04-10 09:04:19.834655
+Open price checked for: 0  stocks
+Ticks: 38 2018-04-10 09:04:19 2018-04-10 09:04:20.031846
+Open price checked for: 0  stocks
+Ticks: 39 2018-04-10 09:04:20 2018-04-10 09:04:20.446616
+Open price checked for: 0  stocks
+Ticks: 40 2018-04-10 09:04:20 2018-04-10 09:04:20.639856
+Open price checked for: 0  stocks
+Ticks: 41 2018-04-10 09:04:20 2018-04-10 09:04:21.044439
+Open price checked for: 0  stocks
+Ticks: 42 2018-04-10 09:04:21 2018-04-10 09:04:21.237884
+Open price checked for: 0  stocks
+Ticks: 43 2018-04-10 09:04:21 2018-04-10 09:04:21.646291
+Open price checked for: 0  stocks
+Ticks: 44 2018-04-10 09:04:21 2018-04-10 09:04:21.859485
+Open price checked for: 0  stocks
+Ticks: 45 2018-04-10 09:04:21 2018-04-10 09:04:22.256467
+Open price checked for: 0  stocks
+Ticks: 46 2018-04-10 09:04:22 2018-04-10 09:04:22.475616
+Open price checked for: 0  stocks
+Ticks: 47 2018-04-10 09:04:22 2018-04-10 09:04:22.840816
+Open price checked for: 0  stocks
+Ticks: 48 2018-04-10 09:04:22 2018-04-10 09:04:23.041787
+Open price checked for: 0  stocks
+Ticks: 49 2018-04-10 09:04:23 2018-04-10 09:04:23.478251
+Open price checked for: 0  stocks
+Ticks: 50 2018-04-10 09:04:23 2018-04-10 09:04:23.631222
+Open price checked for: 0  stocks
+Ticks: 51 2018-04-10 09:04:23 2018-04-10 09:04:24.033621
+Open price checked for: 0  stocks
+Ticks: 52 2018-04-10 09:04:24 2018-04-10 09:04:24.230408
+Open price checked for: 0  stocks
+Ticks: 53 2018-04-10 09:04:24 2018-04-10 09:04:24.761632
+Open price checked for: 0  stocks
+Ticks: 54 2018-04-10 09:04:24 2018-04-10 09:04:24.842797
+Open price checked for: 0  stocks
+Ticks: 55 2018-04-10 09:04:24 2018-04-10 09:04:25.353179
+Open price checked for: 0  stocks
+Ticks: 56 2018-04-10 09:04:25 2018-04-10 09:04:25.458890
+Open price checked for: 0  stocks
+Ticks: 57 2018-04-10 09:04:25 2018-04-10 09:04:25.858648
+Open price checked for: 0  stocks
+Ticks: 58 2018-04-10 09:04:25 2018-04-10 09:04:26.040229
+Open price checked for: 0  stocks
+Ticks: 59 2018-04-10 09:04:25 2018-04-10 09:04:26.436044
+Open price checked for: 0  stocks
+Ticks: 60 2018-04-10 09:04:26 2018-04-10 09:04:26.638492
+Open price checked for: 0  stocks
+Ticks: 61 2018-04-10 09:04:26 2018-04-10 09:04:27.046110
+Open price checked for: 0  stocks
+Ticks: 62 2018-04-10 09:04:26 2018-04-10 09:04:27.236556
+Open price checked for: 0  stocks
+Ticks: 63 2018-04-10 09:04:27 2018-04-10 09:04:27.644499
+Open price checked for: 0  stocks
+Ticks: 64 2018-04-10 09:04:27 2018-04-10 09:04:27.839706
+Open price checked for: 0  stocks
+Ticks: 65 2018-04-10 09:04:27 2018-04-10 09:04:28.239241
+Open price checked for: 0  stocks
+Ticks: 66 2018-04-10 09:04:28 2018-04-10 09:04:28.440204
+Open price checked for: 0  stocks
+Ticks: 67 2018-04-10 09:04:28 2018-04-10 09:04:28.881076
+Open price checked for: 0  stocks
+Ticks: 68 2018-04-10 09:04:28 2018-04-10 09:04:29.032263
+Open price checked for: 0  stocks
+Ticks: 69 2018-04-10 09:04:29 2018-04-10 09:04:29.445280
+Open price checked for: 0  stocks
+Ticks: 70 2018-04-10 09:04:29 2018-04-10 09:04:29.631506
+Open price checked for: 0  stocks
+Ticks: 71 2018-04-10 09:04:29 2018-04-10 09:04:30.033362
+Open price checked for: 0  stocks
+Ticks: 72 2018-04-10 09:04:29 2018-04-10 09:04:30.230422
+Open price checked for: 0  stocks
+Ticks: 73 2018-04-10 09:04:30 2018-04-10 09:04:30.638400
+Open price checked for: 0  stocks
+Ticks: 74 2018-04-10 09:04:30 2018-04-10 09:04:30.829928
+Open price checked for: 0  stocks
+Ticks: 75 2018-04-10 09:04:30 2018-04-10 09:04:31.239599
+Open price checked for: 0  stocks
+Ticks: 76 2018-04-10 09:04:31 2018-04-10 09:04:31.431120
+Open price checked for: 0  stocks
+Ticks: 77 2018-04-10 09:04:31 2018-04-10 09:04:31.835915
+Open price checked for: 0  stocks
+Ticks: 78 2018-04-10 09:04:31 2018-04-10 09:04:32.031621
+Open price checked for: 0  stocks
+Ticks: 79 2018-04-10 09:04:32 2018-04-10 09:04:32.438778
+Open price checked for: 0  stocks
+Ticks: 80 2018-04-10 09:04:32 2018-04-10 09:04:32.642376
+Open price checked for: 0  stocks
+Ticks: 81 2018-04-10 09:04:32 2018-04-10 09:04:33.035998
+Open price checked for: 0  stocks
+Ticks: 82 2018-04-10 09:04:33 2018-04-10 09:04:33.238141
+Open price checked for: 0  stocks
+Ticks: 83 2018-04-10 09:04:33 2018-04-10 09:04:33.637792
+Open price checked for: 0  stocks
+Ticks: 84 2018-04-10 09:04:33 2018-04-10 09:04:33.827436
+Open price checked for: 0  stocks
+Ticks: 85 2018-04-10 09:04:33 2018-04-10 09:04:34.244277
+Open price checked for: 0  stocks
+Ticks: 86 2018-04-10 09:04:34 2018-04-10 09:04:34.434147
+Open price checked for: 0  stocks
+Ticks: 87 2018-04-10 09:04:34 2018-04-10 09:04:34.837629
+Open price checked for: 0  stocks
+Ticks: 88 2018-04-10 09:04:34 2018-04-10 09:04:35.031494
+Open price checked for: 0  stocks
+Ticks: 89 2018-04-10 09:04:35 2018-04-10 09:04:35.446121
+Open price checked for: 0  stocks
+Ticks: 90 2018-04-10 09:04:35 2018-04-10 09:04:35.629213
+Open price checked for: 0  stocks
+Ticks: 91 2018-04-10 09:04:35 2018-04-10 09:04:36.035468
+Open price checked for: 0  stocks
+Ticks: 92 2018-04-10 09:04:35 2018-04-10 09:04:36.233893
+Open price checked for: 0  stocks
+Ticks: 93 2018-04-10 09:04:36 2018-04-10 09:04:37.064325
+Open price checked for: 0  stocks
+Ticks: 94 2018-04-10 09:04:36 2018-04-10 09:04:37.070132
+Open price checked for: 0  stocks
+Ticks: 95 2018-04-10 09:04:36 2018-04-10 09:04:37.244964
+Open price checked for: 0  stocks
+Ticks: 96 2018-04-10 09:04:37 2018-04-10 09:04:37.434361
+Open price checked for: 0  stocks
+Ticks: 97 2018-04-10 09:04:37 2018-04-10 09:04:37.834369
+Open price checked for: 0  stocks
+Ticks: 98 2018-04-10 09:04:37 2018-04-10 09:04:38.030021
+Open price checked for: 0  stocks
+Ticks: 99 2018-04-10 09:04:38 2018-04-10 09:04:38.451117
+Open price checked for: 0  stocks
+Ticks: 100 2018-04-10 09:04:38 2018-04-10 09:04:38.631281
+Open price checked for: 0  stocks
+Ticks: 101 2018-04-10 09:04:38 2018-04-10 09:04:39.035822
+Open price checked for: 0  stocks
+Ticks: 102 2018-04-10 09:04:39 2018-04-10 09:04:39.233862
+Open price checked for: 0  stocks
+Ticks: 103 2018-04-10 09:04:39 2018-04-10 09:04:39.638516
+Open price checked for: 0  stocks
+Ticks: 104 2018-04-10 09:04:39 2018-04-10 09:04:39.828901
+Open price checked for: 0  stocks
+Ticks: 105 2018-04-10 09:04:40 2018-04-10 09:04:40.239566
+Open price checked for: 0  stocks
+Ticks: 106 2018-04-10 09:04:40 2018-04-10 09:04:40.430948
+Open price checked for: 0  stocks
+Ticks: 107 2018-04-10 09:04:40 2018-04-10 09:04:40.832846
+Open price checked for: 0  stocks
+Ticks: 108 2018-04-10 09:04:40 2018-04-10 09:04:41.031383
+Open price checked for: 0  stocks
+Ticks: 109 2018-04-10 09:04:40 2018-04-10 09:04:41.443251
+Open price checked for: 0  stocks
+Ticks: 110 2018-04-10 09:04:41 2018-04-10 09:04:41.631378
+Open price checked for: 0  stocks
+Ticks: 111 2018-04-10 09:04:41 2018-04-10 09:04:42.043878
+Open price checked for: 0  stocks
+Ticks: 112 2018-04-10 09:04:41 2018-04-10 09:04:42.235954
+Open price checked for: 0  stocks
+Ticks: 113 2018-04-10 09:04:42 2018-04-10 09:04:42.650173
+Open price checked for: 0  stocks
+Ticks: 114 2018-04-10 09:04:42 2018-04-10 09:04:42.828386
+Open price checked for: 0  stocks
+Ticks: 115 2018-04-10 09:04:42 2018-04-10 09:04:43.241120
+Open price checked for: 0  stocks
+Ticks: 116 2018-04-10 09:04:43 2018-04-10 09:04:43.431708
+Open price checked for: 0  stocks
+Ticks: 117 2018-04-10 09:04:43 2018-04-10 09:04:43.850665
+Open price checked for: 0  stocks
+Ticks: 118 2018-04-10 09:04:43 2018-04-10 09:04:44.030364
+Open price checked for: 0  stocks
+Ticks: 119 2018-04-10 09:04:44 2018-04-10 09:04:44.442079
+Open price checked for: 0  stocks
+Ticks: 120 2018-04-10 09:04:44 2018-04-10 09:04:44.628244
+Open price checked for: 0  stocks
+Ticks: 121 2018-04-10 09:04:44 2018-04-10 09:04:45.037933
+Open price checked for: 0  stocks
+Ticks: 122 2018-04-10 09:04:44 2018-04-10 09:04:45.234464
+Open price checked for: 0  stocks
+Ticks: 123 2018-04-10 09:04:45 2018-04-10 09:04:45.638215
+Open price checked for: 0  stocks
+Ticks: 124 2018-04-10 09:04:45 2018-04-10 09:04:45.829297
+Open price checked for: 0  stocks
+Ticks: 125 2018-04-10 09:04:45 2018-04-10 09:04:46.244233
+Open price checked for: 0  stocks
+Ticks: 126 2018-04-10 09:04:46 2018-04-10 09:04:46.435006
+Open price checked for: 0  stocks
+Ticks: 127 2018-04-10 09:04:46 2018-04-10 09:04:46.838906
+Open price checked for: 0  stocks
+Ticks: 128 2018-04-10 09:04:46 2018-04-10 09:04:47.039741
+Open price checked for: 0  stocks
+Ticks: 129 2018-04-10 09:04:46 2018-04-10 09:04:47.440898
+Open price checked for: 0  stocks
+Ticks: 130 2018-04-10 09:04:47 2018-04-10 09:04:47.630714
+Open price checked for: 0  stocks
+Ticks: 131 2018-04-10 09:04:47 2018-04-10 09:04:48.035065
+Open price checked for: 0  stocks
+Ticks: 132 2018-04-10 09:04:47 2018-04-10 09:04:48.239240
+Open price checked for: 0  stocks
+Ticks: 133 2018-04-10 09:04:48 2018-04-10 09:04:48.640770
+Open price checked for: 0  stocks
+Ticks: 134 2018-04-10 09:04:48 2018-04-10 09:04:48.827868
+Open price checked for: 0  stocks
+Ticks: 135 2018-04-10 09:04:48 2018-04-10 09:04:49.237031
+Open price checked for: 0  stocks
+Ticks: 136 2018-04-10 09:04:49 2018-04-10 09:04:49.432378
+Open price checked for: 0  stocks
+Ticks: 137 2018-04-10 09:04:49 2018-04-10 09:04:49.831184
+Open price checked for: 0  stocks
+Ticks: 138 2018-04-10 09:04:49 2018-04-10 09:04:50.031589
+Open price checked for: 0  stocks
+Ticks: 139 2018-04-10 09:04:50 2018-04-10 09:04:50.454344
+Open price checked for: 0  stocks
+Ticks: 140 2018-04-10 09:04:50 2018-04-10 09:04:50.659047
+Open price checked for: 0  stocks
+Ticks: 141 2018-04-10 09:04:50 2018-04-10 09:04:51.046364
+Open price checked for: 0  stocks
+Ticks: 142 2018-04-10 09:04:51 2018-04-10 09:04:51.234014
+Open price checked for: 0  stocks
+Ticks: 143 2018-04-10 09:04:51 2018-04-10 09:04:51.651860
+Open price checked for: 0  stocks
+Ticks: 144 2018-04-10 09:04:51 2018-04-10 09:04:51.829048
+Open price checked for: 0  stocks
+Ticks: 145 2018-04-10 09:04:51 2018-04-10 09:04:52.240514
+Open price checked for: 0  stocks
+Ticks: 146 2018-04-10 09:04:52 2018-04-10 09:04:52.433181
+Open price checked for: 0  stocks
+Ticks: 147 2018-04-10 09:04:52 2018-04-10 09:04:52.867831
+Open price checked for: 0  stocks
+Ticks: 148 2018-04-10 09:04:52 2018-04-10 09:04:53.045097
+Open price checked for: 0  stocks
+Ticks: 149 2018-04-10 09:04:52 2018-04-10 09:04:53.449718
+Open price checked for: 0  stocks
+Ticks: 150 2018-04-10 09:04:53 2018-04-10 09:04:53.648948
+Open price checked for: 0  stocks
+Ticks: 151 2018-04-10 09:04:53 2018-04-10 09:04:54.030683
+Open price checked for: 0  stocks
+Ticks: 152 2018-04-10 09:04:53 2018-04-10 09:04:54.258722
+Open price checked for: 0  stocks
+Ticks: 153 2018-04-10 09:04:54 2018-04-10 09:04:54.637918
+Open price checked for: 0  stocks
+Ticks: 154 2018-04-10 09:04:54 2018-04-10 09:04:54.837304
+Open price checked for: 0  stocks
+Ticks: 155 2018-04-10 09:04:55 2018-04-10 09:04:55.243064
+Open price checked for: 0  stocks
+Ticks: 156 2018-04-10 09:04:55 2018-04-10 09:04:55.432973
+Open price checked for: 0  stocks
+Ticks: 157 2018-04-10 09:04:55 2018-04-10 09:04:55.835796
+Open price checked for: 0  stocks
+Ticks: 158 2018-04-10 09:04:55 2018-04-10 09:04:56.032407
+Open price checked for: 0  stocks
+Ticks: 159 2018-04-10 09:04:56 2018-04-10 09:04:56.440308
+Open price checked for: 0  stocks
+Ticks: 160 2018-04-10 09:04:56 2018-04-10 09:04:56.648465
+Open price checked for: 0  stocks
+Ticks: 161 2018-04-10 09:04:56 2018-04-10 09:04:57.035591
+Open price checked for: 0  stocks
+Ticks: 162 2018-04-10 09:04:56 2018-04-10 09:04:57.241437
+Open price checked for: 0  stocks
+Ticks: 163 2018-04-10 09:04:57 2018-04-10 09:04:57.640029
+Open price checked for: 0  stocks
+Ticks: 164 2018-04-10 09:04:57 2018-04-10 09:04:57.829032
+Open price checked for: 0  stocks
+Ticks: 165 2018-04-10 09:04:58 2018-04-10 09:04:58.240237
+Open price checked for: 0  stocks
+Ticks: 166 2018-04-10 09:04:58 2018-04-10 09:04:58.433661
+Open price checked for: 0  stocks
+Ticks: 167 2018-04-10 09:04:58 2018-04-10 09:04:58.834694
+Open price checked for: 0  stocks
+Ticks: 168 2018-04-10 09:04:58 2018-04-10 09:04:59.038153
+Open price checked for: 0  stocks
+Ticks: 169 2018-04-10 09:04:59 2018-04-10 09:04:59.515889
+Open price checked for: 0  stocks
+Ticks: 170 2018-04-10 09:04:59 2018-04-10 09:04:59.630327
+Open price checked for: 0  stocks
+Ticks: 171 2018-04-10 09:04:59 2018-04-10 09:05:00.033358
+Open price checked for: 0  stocks
+Ticks: 172 2018-04-10 09:04:59 2018-04-10 09:05:00.241175
+Open price checked for: 0  stocks
+Ticks: 173 2018-04-10 09:05:00 2018-04-10 09:05:00.643283
+Open price checked for: 0  stocks
+Ticks: 174 2018-04-10 09:05:00 2018-04-10 09:05:00.829508
+Open price checked for: 0  stocks
+Ticks: 175 2018-04-10 09:05:00 2018-04-10 09:05:01.245141
+Open price checked for: 0  stocks
+Ticks: 176 2018-04-10 09:05:01 2018-04-10 09:05:01.435661
+Open price checked for: 0  stocks
+Ticks: 177 2018-04-10 09:05:01 2018-04-10 09:05:01.843975
+Open price checked for: 0  stocks
+Ticks: 178 2018-04-10 09:05:01 2018-04-10 09:05:02.033945
+Open price checked for: 0  stocks
+Ticks: 179 2018-04-10 09:05:01 2018-04-10 09:05:02.442796
+Open price checked for: 0  stocks
+Ticks: 180 2018-04-10 09:05:02 2018-04-10 09:05:02.633577
+Open price checked for: 0  stocks
+Ticks: 181 2018-04-10 09:05:02 2018-04-10 09:05:03.037050
+Open price checked for: 0  stocks
+Ticks: 182 2018-04-10 09:05:03 2018-04-10 09:05:03.231069
+Open price checked for: 0  stocks
+Ticks: 183 2018-04-10 09:05:03 2018-04-10 09:05:03.636882
+Open price checked for: 0  stocks
+Ticks: 184 2018-04-10 09:05:03 2018-04-10 09:05:03.829389
+Open price checked for: 0  stocks
+Ticks: 185 2018-04-10 09:05:04 2018-04-10 09:05:04.244241
+Open price checked for: 0  stocks
+Ticks: 186 2018-04-10 09:05:04 2018-04-10 09:05:04.433910
+Open price checked for: 0  stocks
+Ticks: 187 2018-04-10 09:05:04 2018-04-10 09:05:04.832912
+Open price checked for: 0  stocks
+Ticks: 188 2018-04-10 09:05:04 2018-04-10 09:05:05.028753
+Open price checked for: 0  stocks
+Ticks: 189 2018-04-10 09:05:04 2018-04-10 09:05:05.442604
+Open price checked for: 0  stocks
+Ticks: 190 2018-04-10 09:05:05 2018-04-10 09:05:05.638038
+Open price checked for: 0  stocks
+Ticks: 191 2018-04-10 09:05:05 2018-04-10 09:05:06.031012
+Open price checked for: 0  stocks
+Ticks: 192 2018-04-10 09:05:05 2018-04-10 09:05:06.234683
+Open price checked for: 0  stocks
+Ticks: 193 2018-04-10 09:05:06 2018-04-10 09:05:06.649474
+Open price checked for: 0  stocks
+Ticks: 194 2018-04-10 09:05:06 2018-04-10 09:05:06.828968
+Open price checked for: 0  stocks
+Ticks: 195 2018-04-10 09:05:06 2018-04-10 09:05:07.235419
+Open price checked for: 0  stocks
+Ticks: 196 2018-04-10 09:05:07 2018-04-10 09:05:07.439914
+Open price checked for: 0  stocks
+Ticks: 197 2018-04-10 09:05:07 2018-04-10 09:05:07.839105
+Open price checked for: 0  stocks
+Ticks: 198 2018-04-10 09:05:07 2018-04-10 09:05:08.030969
+Open price checked for: 0  stocks
+Ticks: 199 2018-04-10 09:05:08 2018-04-10 09:05:08.438604
+Open price checked for: 0  stocks
+Ticks: 200 2018-04-10 09:05:08 2018-04-10 09:05:08.648077
+Open price checked for: 0  stocks
+Ticks: 201 2018-04-10 09:05:08 2018-04-10 09:05:09.032788
+Open price checked for: 0  stocks
+Ticks: 202 2018-04-10 09:05:08 2018-04-10 09:05:09.237710
+Open price checked for: 0  stocks
+Ticks: 203 2018-04-10 09:05:09 2018-04-10 09:05:09.640834
+Open price checked for: 0  stocks
+Ticks: 204 2018-04-10 09:05:09 2018-04-10 09:05:09.830216
+Open price checked for: 0  stocks
+Ticks: 205 2018-04-10 09:05:09 2018-04-10 09:05:10.237107
+Open price checked for: 0  stocks
+Ticks: 206 2018-04-10 09:05:10 2018-04-10 09:05:10.436318
+Open price checked for: 0  stocks
+Ticks: 207 2018-04-10 09:05:10 2018-04-10 09:05:10.831212
+Open price checked for: 0  stocks
+Ticks: 208 2018-04-10 09:05:10 2018-04-10 09:05:11.029853
+Open price checked for: 0  stocks
+Ticks: 209 2018-04-10 09:05:11 2018-04-10 09:05:11.443216
+Open price checked for: 0  stocks
+Ticks: 210 2018-04-10 09:05:11 2018-04-10 09:05:11.635064
+Open price checked for: 0  stocks
+Ticks: 211 2018-04-10 09:05:11 2018-04-10 09:05:12.038834
+Open price checked for: 0  stocks
+Ticks: 212 2018-04-10 09:05:12 2018-04-10 09:05:12.241266
+Open price checked for: 0  stocks
+Ticks: 213 2018-04-10 09:05:12 2018-04-10 09:05:12.643359
+Open price checked for: 0  stocks
+Ticks: 214 2018-04-10 09:05:12 2018-04-10 09:05:12.834120
+Open price checked for: 0  stocks
+Ticks: 215 2018-04-10 09:05:12 2018-04-10 09:05:13.240757
+Open price checked for: 0  stocks
+Ticks: 216 2018-04-10 09:05:13 2018-04-10 09:05:13.434407
+Open price checked for: 0  stocks
+Ticks: 217 2018-04-10 09:05:13 2018-04-10 09:05:13.834620
+Open price checked for: 0  stocks
+Ticks: 218 2018-04-10 09:05:13 2018-04-10 09:05:14.030995
+Open price checked for: 0  stocks
+Ticks: 219 2018-04-10 09:05:14 2018-04-10 09:05:14.467733
+Open price checked for: 0  stocks
+Ticks: 220 2018-04-10 09:05:14 2018-04-10 09:05:14.634650
+Open price checked for: 0  stocks
+Ticks: 221 2018-04-10 09:05:14 2018-04-10 09:05:15.034839
+Open price checked for: 0  stocks
+Ticks: 222 2018-04-10 09:05:14 2018-04-10 09:05:15.236950
+Open price checked for: 0  stocks
+Ticks: 223 2018-04-10 09:05:15 2018-04-10 09:05:15.636785
+Open price checked for: 0  stocks
+Ticks: 224 2018-04-10 09:05:15 2018-04-10 09:05:15.830556
+Open price checked for: 0  stocks
+Ticks: 225 2018-04-10 09:05:15 2018-04-10 09:05:16.241762
+Open price checked for: 0  stocks
+Ticks: 226 2018-04-10 09:05:16 2018-04-10 09:05:16.453380
+Open price checked for: 0  stocks
+Ticks: 227 2018-04-10 09:05:16 2018-04-10 09:05:16.836713
+Open price checked for: 0  stocks
+Ticks: 228 2018-04-10 09:05:16 2018-04-10 09:05:17.032893
+Open price checked for: 0  stocks
+Ticks: 229 2018-04-10 09:05:17 2018-04-10 09:05:17.438162
+Open price checked for: 0  stocks
+Ticks: 230 2018-04-10 09:05:17 2018-04-10 09:05:17.643479
+Open price checked for: 0  stocks
+Ticks: 231 2018-04-10 09:05:17 2018-04-10 09:05:18.032072
+Open price checked for: 0  stocks
+Ticks: 232 2018-04-10 09:05:17 2018-04-10 09:05:18.237435
+Open price checked for: 0  stocks
+Ticks: 233 2018-04-10 09:05:18 2018-04-10 09:05:18.634112
+Open price checked for: 0  stocks
+Ticks: 234 2018-04-10 09:05:18 2018-04-10 09:05:18.827868
+Open price checked for: 0  stocks
+Ticks: 235 2018-04-10 09:05:19 2018-04-10 09:05:19.236031
+Open price checked for: 0  stocks
+Ticks: 236 2018-04-10 09:05:19 2018-04-10 09:05:19.433003
+Open price checked for: 0  stocks
+Ticks: 237 2018-04-10 09:05:19 2018-04-10 09:05:19.836453
+Open price checked for: 0  stocks
+Ticks: 238 2018-04-10 09:05:19 2018-04-10 09:05:20.030946
+Open price checked for: 0  stocks
+Ticks: 239 2018-04-10 09:05:20 2018-04-10 09:05:20.437838
+Open price checked for: 0  stocks
+Ticks: 240 2018-04-10 09:05:20 2018-04-10 09:05:20.629852
+Open price checked for: 0  stocks
+Ticks: 241 2018-04-10 09:05:20 2018-04-10 09:05:21.033577
+Open price checked for: 0  stocks
+Ticks: 242 2018-04-10 09:05:20 2018-04-10 09:05:21.234960
+Open price checked for: 0  stocks
+Ticks: 243 2018-04-10 09:05:21 2018-04-10 09:05:21.662438
+Open price checked for: 0  stocks
+Ticks: 244 2018-04-10 09:05:21 2018-04-10 09:05:21.829512
+Open price checked for: 0  stocks
+Ticks: 245 2018-04-10 09:05:22 2018-04-10 09:05:22.243780
+Open price checked for: 0  stocks
+Ticks: 246 2018-04-10 09:05:22 2018-04-10 09:05:22.434062
+Open price checked for: 0  stocks
+Ticks: 247 2018-04-10 09:05:22 2018-04-10 09:05:22.835530
+Open price checked for: 0  stocks
+Ticks: 248 2018-04-10 09:05:22 2018-04-10 09:05:23.075188
+Open price checked for: 0  stocks
+Ticks: 249 2018-04-10 09:05:23 2018-04-10 09:05:23.610944
+Open price checked for: 0  stocks
+Ticks: 250 2018-04-10 09:05:23 2018-04-10 09:05:23.630087
+Open price checked for: 0  stocks
+Ticks: 251 2018-04-10 09:05:23 2018-04-10 09:05:24.097426
+Open price checked for: 0  stocks
+Ticks: 252 2018-04-10 09:05:23 2018-04-10 09:05:24.270934
+Open price checked for: 0  stocks
+Ticks: 253 2018-04-10 09:05:24 2018-04-10 09:05:24.644308
+Open price checked for: 0  stocks
+Ticks: 254 2018-04-10 09:05:24 2018-04-10 09:05:24.941921
+Open price checked for: 0  stocks
+Ticks: 255 2018-04-10 09:05:24 2018-04-10 09:05:25.286321
+Open price checked for: 0  stocks
+Ticks: 256 2018-04-10 09:05:25 2018-04-10 09:05:25.463241
+Open price checked for: 0  stocks
+Ticks: 257 2018-04-10 09:05:25 2018-04-10 09:05:25.989045
+Open price checked for: 0  stocks
+Ticks: 258 2018-04-10 09:05:25 2018-04-10 09:05:26.151968
+Open price checked for: 0  stocks
+Ticks: 259 2018-04-10 09:05:26 2018-04-10 09:05:26.497864
+Open price checked for: 0  stocks
+Ticks: 260 2018-04-10 09:05:26 2018-04-10 09:05:26.668737
+Open price checked for: 0  stocks
+Ticks: 261 2018-04-10 09:05:26 2018-04-10 09:05:27.035070
+Open price checked for: 0  stocks
+Ticks: 262 2018-04-10 09:05:27 2018-04-10 09:05:27.242488
+Open price checked for: 0  stocks
+Ticks: 263 2018-04-10 09:05:27 2018-04-10 09:05:27.683809
+Open price checked for: 0  stocks
+Ticks: 264 2018-04-10 09:05:27 2018-04-10 09:05:27.830675
+Open price checked for: 0  stocks
+Ticks: 265 2018-04-10 09:05:27 2018-04-10 09:05:28.236166
+Open price checked for: 0  stocks
+Ticks: 266 2018-04-10 09:05:28 2018-04-10 09:05:28.432475
+Open price checked for: 0  stocks
+Ticks: 267 2018-04-10 09:05:28 2018-04-10 09:05:28.837579
+Open price checked for: 0  stocks
+Ticks: 268 2018-04-10 09:05:28 2018-04-10 09:05:29.035081
+Open price checked for: 0  stocks
+Ticks: 269 2018-04-10 09:05:29 2018-04-10 09:05:29.520752
+Open price checked for: 0  stocks
+Ticks: 270 2018-04-10 09:05:29 2018-04-10 09:05:29.635773
+Open price checked for: 0  stocks
+Ticks: 271 2018-04-10 09:05:29 2018-04-10 09:05:30.030002
+Open price checked for: 0  stocks
+Ticks: 272 2018-04-10 09:05:30 2018-04-10 09:05:30.236727
+Open price checked for: 0  stocks
+Ticks: 273 2018-04-10 09:05:30 2018-04-10 09:05:30.639917
+Open price checked for: 0  stocks
+Ticks: 274 2018-04-10 09:05:30 2018-04-10 09:05:30.830446
+Open price checked for: 0  stocks
+Ticks: 275 2018-04-10 09:05:30 2018-04-10 09:05:31.248181
+Open price checked for: 0  stocks
+Ticks: 276 2018-04-10 09:05:31 2018-04-10 09:05:31.436213
+Open price checked for: 0  stocks
+Ticks: 277 2018-04-10 09:05:31 2018-04-10 09:05:31.846586
+Open price checked for: 0  stocks
+Ticks: 278 2018-04-10 09:05:31 2018-04-10 09:05:32.032075
+Open price checked for: 0  stocks
+Ticks: 279 2018-04-10 09:05:32 2018-04-10 09:05:32.439136
+Open price checked for: 0  stocks
+Ticks: 280 2018-04-10 09:05:32 2018-04-10 09:05:32.633447
+Open price checked for: 0  stocks
+Ticks: 281 2018-04-10 09:05:32 2018-04-10 09:05:33.032984
+Open price checked for: 0  stocks
+Ticks: 282 2018-04-10 09:05:32 2018-04-10 09:05:33.235076
+Open price checked for: 0  stocks
+Ticks: 283 2018-04-10 09:05:33 2018-04-10 09:05:33.641672
+Open price checked for: 0  stocks
+Ticks: 284 2018-04-10 09:05:33 2018-04-10 09:05:33.830679
+Open price checked for: 0  stocks
+Ticks: 285 2018-04-10 09:05:33 2018-04-10 09:05:34.240320
+Open price checked for: 0  stocks
+Ticks: 286 2018-04-10 09:05:34 2018-04-10 09:05:34.447600
+Open price checked for: 0  stocks
+Ticks: 287 2018-04-10 09:05:34 2018-04-10 09:05:34.832167
+Open price checked for: 0  stocks
+Ticks: 288 2018-04-10 09:05:34 2018-04-10 09:05:35.032163
+Open price checked for: 0  stocks
+Ticks: 289 2018-04-10 09:05:35 2018-04-10 09:05:35.441604
+Open price checked for: 0  stocks
+Ticks: 290 2018-04-10 09:05:35 2018-04-10 09:05:35.635177
+Open price checked for: 0  stocks
+Ticks: 291 2018-04-10 09:05:35 2018-04-10 09:05:36.030894
+Open price checked for: 0  stocks
+Ticks: 292 2018-04-10 09:05:35 2018-04-10 09:05:36.246708
+Open price checked for: 0  stocks
+Ticks: 293 2018-04-10 09:05:36 2018-04-10 09:05:36.639424
+Open price checked for: 0  stocks
+Ticks: 294 2018-04-10 09:05:36 2018-04-10 09:05:36.829798
+Open price checked for: 0  stocks
+Ticks: 295 2018-04-10 09:05:36 2018-04-10 09:05:37.236431
+Open price checked for: 0  stocks
+Ticks: 296 2018-04-10 09:05:37 2018-04-10 09:05:37.433535
+Open price checked for: 0  stocks
+Ticks: 297 2018-04-10 09:05:37 2018-04-10 09:05:37.841045
+Open price checked for: 0  stocks
+Ticks: 298 2018-04-10 09:05:37 2018-04-10 09:05:38.053262
+Open price checked for: 0  stocks
+Ticks: 299 2018-04-10 09:05:38 2018-04-10 09:05:38.443826
+Open price checked for: 0  stocks
+Ticks: 300 2018-04-10 09:05:38 2018-04-10 09:05:38.632398
+Open price checked for: 0  stocks
+Ticks: 301 2018-04-10 09:05:38 2018-04-10 09:05:39.036360
+Open price checked for: 0  stocks
+Ticks: 302 2018-04-10 09:05:38 2018-04-10 09:05:39.240022
+Open price checked for: 0  stocks
+Ticks: 303 2018-04-10 09:05:39 2018-04-10 09:05:39.644916
+Open price checked for: 0  stocks
+Ticks: 304 2018-04-10 09:05:39 2018-04-10 09:05:39.829627
+Open price checked for: 0  stocks
+Ticks: 305 2018-04-10 09:05:39 2018-04-10 09:05:40.242063
+Open price checked for: 0  stocks
+Ticks: 306 2018-04-10 09:05:40 2018-04-10 09:05:40.433143
+Open price checked for: 0  stocks
+Ticks: 307 2018-04-10 09:05:40 2018-04-10 09:05:40.832000
+Open price checked for: 0  stocks
+Ticks: 308 2018-04-10 09:05:40 2018-04-10 09:05:41.036187
+Open price checked for: 0  stocks
+Ticks: 309 2018-04-10 09:05:41 2018-04-10 09:05:41.436451
+Open price checked for: 0  stocks
+Ticks: 310 2018-04-10 09:05:41 2018-04-10 09:05:41.630805
+Open price checked for: 0  stocks
+Ticks: 311 2018-04-10 09:05:41 2018-04-10 09:05:42.056739
+Open price checked for: 0  stocks
+Ticks: 312 2018-04-10 09:05:42 2018-04-10 09:05:42.234437
+Open price checked for: 0  stocks
+Ticks: 313 2018-04-10 09:05:42 2018-04-10 09:05:42.654306
+Open price checked for: 0  stocks
+Ticks: 314 2018-04-10 09:05:42 2018-04-10 09:05:42.832095
+Open price checked for: 0  stocks
+Ticks: 315 2018-04-10 09:05:43 2018-04-10 09:05:43.242353
+Open price checked for: 0  stocks
+Ticks: 316 2018-04-10 09:05:43 2018-04-10 09:05:43.434490
+Open price checked for: 0  stocks
+Ticks: 317 2018-04-10 09:05:43 2018-04-10 09:05:43.926140
+Open price checked for: 0  stocks
+Ticks: 318 2018-04-10 09:05:43 2018-04-10 09:05:44.029803
+Open price checked for: 0  stocks
+Ticks: 319 2018-04-10 09:05:44 2018-04-10 09:05:44.556799
+Open price checked for: 0  stocks
+Ticks: 320 2018-04-10 09:05:44 2018-04-10 09:05:44.642658
+Open price checked for: 0  stocks
+Ticks: 321 2018-04-10 09:05:44 2018-04-10 09:05:45.063683
+Open price checked for: 0  stocks
+Ticks: 322 2018-04-10 09:05:45 2018-04-10 09:05:45.244860
+Open price checked for: 0  stocks
+Ticks: 323 2018-04-10 09:05:45 2018-04-10 09:05:45.655973
+Open price checked for: 0  stocks
+Ticks: 324 2018-04-10 09:05:45 2018-04-10 09:05:45.839112
+Open price checked for: 0  stocks
+Ticks: 325 2018-04-10 09:05:45 2018-04-10 09:05:46.266071
+Open price checked for: 0  stocks
+Ticks: 326 2018-04-10 09:05:46 2018-04-10 09:05:46.450174
+Open price checked for: 0  stocks
+Ticks: 327 2018-04-10 09:05:46 2018-04-10 09:05:46.829727
+Open price checked for: 0  stocks
+Ticks: 328 2018-04-10 09:05:46 2018-04-10 09:05:47.066636
+Open price checked for: 0  stocks
+Ticks: 329 2018-04-10 09:05:47 2018-04-10 09:05:47.437680
+Open price checked for: 0  stocks
+Ticks: 330 2018-04-10 09:05:47 2018-04-10 09:05:47.647228
+Open price checked for: 0  stocks
+Ticks: 331 2018-04-10 09:05:47 2018-04-10 09:05:48.054773
+Open price checked for: 0  stocks
+Ticks: 332 2018-04-10 09:05:48 2018-04-10 09:05:48.233684
+Open price checked for: 0  stocks
+Ticks: 333 2018-04-10 09:05:48 2018-04-10 09:05:48.637095
+Open price checked for: 0  stocks
+Ticks: 334 2018-04-10 09:05:48 2018-04-10 09:05:48.832035
+Open price checked for: 0  stocks
+Ticks: 335 2018-04-10 09:05:49 2018-04-10 09:05:49.237406
+Open price checked for: 0  stocks
+Ticks: 336 2018-04-10 09:05:49 2018-04-10 09:05:49.438771
+Open price checked for: 0  stocks
+Ticks: 337 2018-04-10 09:05:49 2018-04-10 09:05:49.828922
+Open price checked for: 0  stocks
+Ticks: 338 2018-04-10 09:05:49 2018-04-10 09:05:50.028674
+Open price checked for: 0  stocks
+Ticks: 339 2018-04-10 09:05:50 2018-04-10 09:05:50.441456
+Open price checked for: 0  stocks
+Ticks: 340 2018-04-10 09:05:50 2018-04-10 09:05:50.631910
+Open price checked for: 0  stocks
+Ticks: 341 2018-04-10 09:05:50 2018-04-10 09:05:51.125200
+Open price checked for: 0  stocks
+Ticks: 342 2018-04-10 09:05:50 2018-04-10 09:05:51.236226
+Open price checked for: 0  stocks
+Ticks: 343 2018-04-10 09:05:51 2018-04-10 09:05:51.640487
+Open price checked for: 0  stocks
+Ticks: 344 2018-04-10 09:05:51 2018-04-10 09:05:51.841445
+Open price checked for: 0  stocks
+Ticks: 345 2018-04-10 09:05:51 2018-04-10 09:05:52.246299
+Open price checked for: 0  stocks
+Ticks: 346 2018-04-10 09:05:52 2018-04-10 09:05:52.437896
+Open price checked for: 0  stocks
+Ticks: 347 2018-04-10 09:05:52 2018-04-10 09:05:52.844977
+Open price checked for: 0  stocks
+Ticks: 348 2018-04-10 09:05:52 2018-04-10 09:05:53.029514
+Open price checked for: 0  stocks
+Ticks: 349 2018-04-10 09:05:53 2018-04-10 09:05:53.447252
+Open price checked for: 0  stocks
+Ticks: 350 2018-04-10 09:05:53 2018-04-10 09:05:53.635971
+Open price checked for: 0  stocks
+Ticks: 351 2018-04-10 09:05:53 2018-04-10 09:05:54.035927
+Open price checked for: 0  stocks
+Ticks: 352 2018-04-10 09:05:54 2018-04-10 09:05:54.240561
+Open price checked for: 0  stocks
+Ticks: 353 2018-04-10 09:05:54 2018-04-10 09:05:54.640038
+Open price checked for: 0  stocks
+Ticks: 354 2018-04-10 09:05:54 2018-04-10 09:05:54.840944
+Open price checked for: 0  stocks
+Ticks: 355 2018-04-10 09:05:54 2018-04-10 09:05:55.246382
+Open price checked for: 0  stocks
+Ticks: 356 2018-04-10 09:05:55 2018-04-10 09:05:55.436453
+Open price checked for: 0  stocks
+Ticks: 357 2018-04-10 09:05:55 2018-04-10 09:05:55.849931
+Open price checked for: 0  stocks
+Ticks: 358 2018-04-10 09:05:55 2018-04-10 09:05:56.029358
+Open price checked for: 0  stocks
+Ticks: 359 2018-04-10 09:05:56 2018-04-10 09:05:56.439510
+Open price checked for: 0  stocks
+Ticks: 360 2018-04-10 09:05:56 2018-04-10 09:05:56.634904
+Open price checked for: 0  stocks
+Ticks: 361 2018-04-10 09:05:56 2018-04-10 09:05:57.040150
+Open price checked for: 0  stocks
+Ticks: 362 2018-04-10 09:05:57 2018-04-10 09:05:57.236990
+Open price checked for: 0  stocks
+Ticks: 363 2018-04-10 09:05:57 2018-04-10 09:05:57.650861
+Open price checked for: 0  stocks
+Ticks: 364 2018-04-10 09:05:57 2018-04-10 09:05:57.830682
+Open price checked for: 0  stocks
+Ticks: 365 2018-04-10 09:05:57 2018-04-10 09:05:58.240288
+Open price checked for: 0  stocks
+Ticks: 366 2018-04-10 09:05:58 2018-04-10 09:05:58.442367
+Open price checked for: 0  stocks
+Ticks: 367 2018-04-10 09:05:58 2018-04-10 09:05:58.847848
+Open price checked for: 0  stocks
+Ticks: 368 2018-04-10 09:05:58 2018-04-10 09:05:59.059637
+Open price checked for: 0  stocks
+Ticks: 369 2018-04-10 09:05:58 2018-04-10 09:05:59.477753
+Open price checked for: 0  stocks
+Ticks: 370 2018-04-10 09:05:59 2018-04-10 09:05:59.665735
+Open price checked for: 0  stocks
+Ticks: 371 2018-04-10 09:05:59 2018-04-10 09:06:00.034946
+Open price checked for: 0  stocks
+Ticks: 372 2018-04-10 09:06:00 2018-04-10 09:06:00.252737
+Open price checked for: 0  stocks
+Ticks: 373 2018-04-10 09:06:00 2018-04-10 09:06:00.648679
+Open price checked for: 0  stocks
+Ticks: 374 2018-04-10 09:06:00 2018-04-10 09:06:00.838975
+Open price checked for: 0  stocks
+Ticks: 375 2018-04-10 09:06:01 2018-04-10 09:06:01.235596
+Open price checked for: 0  stocks
+Ticks: 376 2018-04-10 09:06:01 2018-04-10 09:06:01.456809
+Open price checked for: 0  stocks
+Ticks: 377 2018-04-10 09:06:01 2018-04-10 09:06:01.839494
+Open price checked for: 0  stocks
+Ticks: 378 2018-04-10 09:06:01 2018-04-10 09:06:02.050041
+Open price checked for: 0  stocks
+Ticks: 379 2018-04-10 09:06:02 2018-04-10 09:06:02.467644
+Open price checked for: 0  stocks
+Ticks: 380 2018-04-10 09:06:02 2018-04-10 09:06:02.648873
+Open price checked for: 0  stocks
+Ticks: 381 2018-04-10 09:06:02 2018-04-10 09:06:03.031213
+Open price checked for: 0  stocks
+Ticks: 382 2018-04-10 09:06:03 2018-04-10 09:06:03.253844
+Open price checked for: 0  stocks
+Ticks: 383 2018-04-10 09:06:03 2018-04-10 09:06:03.668064
+Open price checked for: 0  stocks
+Ticks: 384 2018-04-10 09:06:03 2018-04-10 09:06:03.866607
+Open price checked for: 0  stocks
+Ticks: 385 2018-04-10 09:06:03 2018-04-10 09:06:04.281785
+Open price checked for: 0  stocks
+Ticks: 386 2018-04-10 09:06:04 2018-04-10 09:06:04.467942
+Open price checked for: 0  stocks
+Ticks: 387 2018-04-10 09:06:04 2018-04-10 09:06:04.855378
+Open price checked for: 0  stocks
+Ticks: 388 2018-04-10 09:06:04 2018-04-10 09:06:05.038117
+Open price checked for: 0  stocks
+Ticks: 389 2018-04-10 09:06:05 2018-04-10 09:06:05.443279
+Open price checked for: 0  stocks
+Ticks: 390 2018-04-10 09:06:05 2018-04-10 09:06:05.636451
+Open price checked for: 0  stocks
+Ticks: 391 2018-04-10 09:06:05 2018-04-10 09:06:06.032091
+Open price checked for: 0  stocks
+Ticks: 392 2018-04-10 09:06:05 2018-04-10 09:06:06.240788
+Open price checked for: 0  stocks
+Ticks: 393 2018-04-10 09:06:06 2018-04-10 09:06:06.639706
+Open price checked for: 0  stocks
+Ticks: 394 2018-04-10 09:06:06 2018-04-10 09:06:06.831719
+Open price checked for: 0  stocks
+Ticks: 395 2018-04-10 09:06:06 2018-04-10 09:06:07.235079
+Open price checked for: 0  stocks
+Ticks: 396 2018-04-10 09:06:07 2018-04-10 09:06:07.434234
+Open price checked for: 0  stocks
+Ticks: 397 2018-04-10 09:06:07 2018-04-10 09:06:07.830653
+Open price checked for: 0  stocks
+Ticks: 398 2018-04-10 09:06:07 2018-04-10 09:06:08.036020
+Open price checked for: 0  stocks
+Ticks: 399 2018-04-10 09:06:08 2018-04-10 09:06:08.441004
+Open price checked for: 0  stocks
+Ticks: 400 2018-04-10 09:06:08 2018-04-10 09:06:08.630603
+Open price checked for: 0  stocks
+Ticks: 401 2018-04-10 09:06:08 2018-04-10 09:06:09.028061
+Open price checked for: 0  stocks
+Ticks: 402 2018-04-10 09:06:09 2018-04-10 09:06:09.237156
+Open price checked for: 0  stocks
+Ticks: 403 2018-04-10 09:06:09 2018-04-10 09:06:09.641339
+Open price checked for: 0  stocks
+Ticks: 404 2018-04-10 09:06:09 2018-04-10 09:06:09.832268
+Open price checked for: 0  stocks
+Ticks: 405 2018-04-10 09:06:10 2018-04-10 09:06:10.248666
+Open price checked for: 0  stocks
+Ticks: 406 2018-04-10 09:06:10 2018-04-10 09:06:10.434124
+Open price checked for: 0  stocks
+Ticks: 407 2018-04-10 09:06:10 2018-04-10 09:06:10.829518
+Open price checked for: 0  stocks
+Ticks: 408 2018-04-10 09:06:10 2018-04-10 09:06:11.031561
+Open price checked for: 0  stocks
+Ticks: 409 2018-04-10 09:06:11 2018-04-10 09:06:11.436801
+Open price checked for: 0  stocks
+Ticks: 410 2018-04-10 09:06:11 2018-04-10 09:06:11.645108
+Open price checked for: 0  stocks
+Ticks: 411 2018-04-10 09:06:11 2018-04-10 09:06:12.031805
+Open price checked for: 0  stocks
+Ticks: 412 2018-04-10 09:06:12 2018-04-10 09:06:12.247617
+Open price checked for: 0  stocks
+Ticks: 413 2018-04-10 09:06:12 2018-04-10 09:06:12.636173
+Open price checked for: 0  stocks
+Ticks: 414 2018-04-10 09:06:12 2018-04-10 09:06:12.830430
+Open price checked for: 0  stocks
+Ticks: 415 2018-04-10 09:06:13 2018-04-10 09:06:13.278523
+Open price checked for: 0  stocks
+Ticks: 416 2018-04-10 09:06:13 2018-04-10 09:06:13.436399
+Open price checked for: 0  stocks
+Ticks: 417 2018-04-10 09:06:13 2018-04-10 09:06:13.833015
+Open price checked for: 0  stocks
+Ticks: 418 2018-04-10 09:06:13 2018-04-10 09:06:14.054169
+Open price checked for: 0  stocks
+Ticks: 419 2018-04-10 09:06:14 2018-04-10 09:06:14.456177
+Open price checked for: 0  stocks
+Ticks: 420 2018-04-10 09:06:14 2018-04-10 09:06:14.632838
+Open price checked for: 0  stocks
+Ticks: 421 2018-04-10 09:06:14 2018-04-10 09:06:15.057739
+Open price checked for: 0  stocks
+Ticks: 422 2018-04-10 09:06:15 2018-04-10 09:06:15.247038
+Open price checked for: 0  stocks
+Ticks: 423 2018-04-10 09:06:15 2018-04-10 09:06:15.634352
+Open price checked for: 0  stocks
+Ticks: 424 2018-04-10 09:06:15 2018-04-10 09:06:15.831984
+Open price checked for: 0  stocks
+Ticks: 425 2018-04-10 09:06:16 2018-04-10 09:06:16.242152
+Open price checked for: 0  stocks
+Ticks: 426 2018-04-10 09:06:16 2018-04-10 09:06:16.445919
+Open price checked for: 0  stocks
+Ticks: 427 2018-04-10 09:06:16 2018-04-10 09:06:16.840665
+Open price checked for: 0  stocks
+Ticks: 428 2018-04-10 09:06:16 2018-04-10 09:06:17.049234
+Open price checked for: 0  stocks
+Ticks: 429 2018-04-10 09:06:17 2018-04-10 09:06:17.461846
+Open price checked for: 0  stocks
+Ticks: 430 2018-04-10 09:06:17 2018-04-10 09:06:17.640892
+Open price checked for: 0  stocks
+Ticks: 431 2018-04-10 09:06:17 2018-04-10 09:06:18.066299
+Open price checked for: 0  stocks
+Ticks: 432 2018-04-10 09:06:18 2018-04-10 09:06:18.234354
+Open price checked for: 0  stocks
+Ticks: 433 2018-04-10 09:06:18 2018-04-10 09:06:18.658623
+Open price checked for: 0  stocks
+Ticks: 434 2018-04-10 09:06:18 2018-04-10 09:06:18.829387
+Open price checked for: 0  stocks
+Ticks: 435 2018-04-10 09:06:18 2018-04-10 09:06:19.242502
+Open price checked for: 0  stocks
+Ticks: 436 2018-04-10 09:06:19 2018-04-10 09:06:19.438557
+Open price checked for: 0  stocks
+Ticks: 437 2018-04-10 09:06:19 2018-04-10 09:06:19.899514
+Open price checked for: 0  stocks
+Ticks: 438 2018-04-10 09:06:19 2018-04-10 09:06:20.031087
+Open price checked for: 0  stocks
+Ticks: 439 2018-04-10 09:06:20 2018-04-10 09:06:20.463047
+Open price checked for: 0  stocks
+Ticks: 440 2018-04-10 09:06:20 2018-04-10 09:06:20.630131
+Open price checked for: 0  stocks
+Ticks: 441 2018-04-10 09:06:20 2018-04-10 09:06:21.030281
+Open price checked for: 0  stocks
+Ticks: 442 2018-04-10 09:06:21 2018-04-10 09:06:21.236674
+Open price checked for: 0  stocks
+Ticks: 443 2018-04-10 09:06:21 2018-04-10 09:06:21.641261
+Open price checked for: 0  stocks
+Ticks: 444 2018-04-10 09:06:21 2018-04-10 09:06:21.832930
+Open price checked for: 0  stocks
+Ticks: 445 2018-04-10 09:06:22 2018-04-10 09:06:22.235938
+Open price checked for: 0  stocks
+Ticks: 446 2018-04-10 09:06:22 2018-04-10 09:06:22.471651
+Open price checked for: 0  stocks
+Ticks: 447 2018-04-10 09:06:22 2018-04-10 09:06:22.832698
+Open price checked for: 0  stocks
+Ticks: 448 2018-04-10 09:06:22 2018-04-10 09:06:23.030733
+Open price checked for: 0  stocks
+Ticks: 449 2018-04-10 09:06:23 2018-04-10 09:06:23.445341
+Open price checked for: 0  stocks
+Ticks: 450 2018-04-10 09:06:23 2018-04-10 09:06:23.633722
+Open price checked for: 0  stocks
+Ticks: 451 2018-04-10 09:06:23 2018-04-10 09:06:24.029255
+Open price checked for: 0  stocks
+Ticks: 452 2018-04-10 09:06:24 2018-04-10 09:06:24.237846
+Open price checked for: 0  stocks
+Ticks: 453 2018-04-10 09:06:24 2018-04-10 09:06:24.647677
+Open price checked for: 0  stocks
+Ticks: 454 2018-04-10 09:06:24 2018-04-10 09:06:24.830899
+Open price checked for: 0  stocks
+Ticks: 455 2018-04-10 09:06:24 2018-04-10 09:06:25.251947
+Open price checked for: 0  stocks
+Ticks: 456 2018-04-10 09:06:25 2018-04-10 09:06:25.443859
+Open price checked for: 0  stocks
+Ticks: 457 2018-04-10 09:06:25 2018-04-10 09:06:25.844256
+Open price checked for: 0  stocks
+Ticks: 458 2018-04-10 09:06:25 2018-04-10 09:06:26.033526
+Open price checked for: 0  stocks
+Ticks: 459 2018-04-10 09:06:26 2018-04-10 09:06:26.438351
+Open price checked for: 0  stocks
+Ticks: 460 2018-04-10 09:06:26 2018-04-10 09:06:26.637762
+Open price checked for: 0  stocks
+Ticks: 461 2018-04-10 09:06:26 2018-04-10 09:06:27.035563
+Open price checked for: 0  stocks
+Ticks: 462 2018-04-10 09:06:27 2018-04-10 09:06:27.233609
+Open price checked for: 0  stocks
+Ticks: 463 2018-04-10 09:06:27 2018-04-10 09:06:27.639559
+Open price checked for: 0  stocks
+Ticks: 464 2018-04-10 09:06:27 2018-04-10 09:06:27.828813
+Open price checked for: 0  stocks
+Ticks: 465 2018-04-10 09:06:28 2018-04-10 09:06:28.231787
+Open price checked for: 0  stocks
+Ticks: 466 2018-04-10 09:06:28 2018-04-10 09:06:28.438302
+Open price checked for: 0  stocks
+Ticks: 467 2018-04-10 09:06:28 2018-04-10 09:06:28.836260
+Open price checked for: 0  stocks
+Ticks: 468 2018-04-10 09:06:28 2018-04-10 09:06:29.048939
+Open price checked for: 0  stocks
+Ticks: 469 2018-04-10 09:06:29 2018-04-10 09:06:29.457670
+Open price checked for: 0  stocks
+Ticks: 470 2018-04-10 09:06:29 2018-04-10 09:06:29.642991
+Open price checked for: 0  stocks
+Ticks: 471 2018-04-10 09:06:29 2018-04-10 09:06:30.029715
+Open price checked for: 0  stocks
+Ticks: 472 2018-04-10 09:06:30 2018-04-10 09:06:30.238218
+Open price checked for: 0  stocks
+Ticks: 473 2018-04-10 09:06:30 2018-04-10 09:06:30.633255
+Open price checked for: 0  stocks
+Ticks: 474 2018-04-10 09:06:30 2018-04-10 09:06:30.834770
+Open price checked for: 0  stocks
+Ticks: 475 2018-04-10 09:06:31 2018-04-10 09:06:31.240012
+Open price checked for: 0  stocks
+Ticks: 476 2018-04-10 09:06:31 2018-04-10 09:06:31.439992
+Open price checked for: 0  stocks
+Ticks: 477 2018-04-10 09:06:31 2018-04-10 09:06:31.851395
+Open price checked for: 0  stocks
+Ticks: 478 2018-04-10 09:06:31 2018-04-10 09:06:32.036801
+Open price checked for: 0  stocks
+Ticks: 479 2018-04-10 09:06:32 2018-04-10 09:06:32.435836
+Open price checked for: 0  stocks
+Ticks: 480 2018-04-10 09:06:32 2018-04-10 09:06:32.630984
+Open price checked for: 0  stocks
+Ticks: 481 2018-04-10 09:06:32 2018-04-10 09:06:33.031476
+Open price checked for: 0  stocks
+Ticks: 482 2018-04-10 09:06:33 2018-04-10 09:06:33.237867
+Open price checked for: 0  stocks
+Ticks: 483 2018-04-10 09:06:33 2018-04-10 09:06:33.648379
+Open price checked for: 0  stocks
+Ticks: 484 2018-04-10 09:06:33 2018-04-10 09:06:33.842086
+Open price checked for: 0  stocks
+Ticks: 485 2018-04-10 09:06:33 2018-04-10 09:06:34.231551
+Open price checked for: 0  stocks
+Ticks: 486 2018-04-10 09:06:34 2018-04-10 09:06:34.466932
+Open price checked for: 0  stocks
+Ticks: 487 2018-04-10 09:06:34 2018-04-10 09:06:34.833049
+Open price checked for: 0  stocks
+Ticks: 488 2018-04-10 09:06:34 2018-04-10 09:06:35.052646
+Open price checked for: 0  stocks
+Ticks: 489 2018-04-10 09:06:35 2018-04-10 09:06:35.471520
+Open price checked for: 0  stocks
+Ticks: 490 2018-04-10 09:06:35 2018-04-10 09:06:35.640855
+Open price checked for: 0  stocks
+Ticks: 491 2018-04-10 09:06:35 2018-04-10 09:06:36.034293
+Open price checked for: 0  stocks
+Ticks: 492 2018-04-10 09:06:36 2018-04-10 09:06:36.237898
+Open price checked for: 0  stocks
+Ticks: 493 2018-04-10 09:06:36 2018-04-10 09:06:36.636391
+Open price checked for: 0  stocks
+Ticks: 494 2018-04-10 09:06:36 2018-04-10 09:06:36.830653
+Open price checked for: 0  stocks
+Ticks: 495 2018-04-10 09:06:36 2018-04-10 09:06:37.237026
+Open price checked for: 0  stocks
+Ticks: 496 2018-04-10 09:06:37 2018-04-10 09:06:37.438501
+Open price checked for: 0  stocks
+Ticks: 497 2018-04-10 09:06:37 2018-04-10 09:06:37.837406
+Open price checked for: 0  stocks
+Ticks: 498 2018-04-10 09:06:37 2018-04-10 09:06:38.029814
+Open price checked for: 0  stocks
+Ticks: 499 2018-04-10 09:06:38 2018-04-10 09:06:38.441873
+Open price checked for: 0  stocks
+Ticks: 500 2018-04-10 09:06:38 2018-04-10 09:06:38.633966
+Open price checked for: 0  stocks
+Ticks: 501 2018-04-10 09:06:38 2018-04-10 09:06:39.029395
+Open price checked for: 0  stocks
+Ticks: 502 2018-04-10 09:06:39 2018-04-10 09:06:39.239378
+Open price checked for: 0  stocks
+Ticks: 503 2018-04-10 09:06:39 2018-04-10 09:06:39.641014
+Open price checked for: 0  stocks
+Ticks: 504 2018-04-10 09:06:39 2018-04-10 09:06:39.829820
+Open price checked for: 0  stocks
+Ticks: 505 2018-04-10 09:06:40 2018-04-10 09:06:40.239690
+Open price checked for: 0  stocks
+Ticks: 506 2018-04-10 09:06:40 2018-04-10 09:06:40.440419
+Open price checked for: 0  stocks
+Ticks: 507 2018-04-10 09:06:40 2018-04-10 09:06:40.832269
+Open price checked for: 0  stocks
+Ticks: 508 2018-04-10 09:06:40 2018-04-10 09:06:41.034385
+Open price checked for: 0  stocks
+Ticks: 509 2018-04-10 09:06:41 2018-04-10 09:06:41.436784
+Open price checked for: 0  stocks
+Ticks: 510 2018-04-10 09:06:41 2018-04-10 09:06:41.635880
+Open price checked for: 0  stocks
+Ticks: 511 2018-04-10 09:06:41 2018-04-10 09:06:42.032738
+Open price checked for: 0  stocks
+Ticks: 512 2018-04-10 09:06:42 2018-04-10 09:06:42.247894
+Open price checked for: 0  stocks
+Ticks: 513 2018-04-10 09:06:42 2018-04-10 09:06:42.647902
+Open price checked for: 0  stocks
+Ticks: 514 2018-04-10 09:06:42 2018-04-10 09:06:42.840371
+Open price checked for: 0  stocks
+Ticks: 515 2018-04-10 09:06:42 2018-04-10 09:06:43.236208
+Open price checked for: 0  stocks
+Ticks: 516 2018-04-10 09:06:43 2018-04-10 09:06:43.442119
+Open price checked for: 0  stocks
+Ticks: 517 2018-04-10 09:06:43 2018-04-10 09:06:43.833146
+Open price checked for: 0  stocks
+Ticks: 518 2018-04-10 09:06:43 2018-04-10 09:06:44.028003
+Open price checked for: 0  stocks
+Ticks: 519 2018-04-10 09:06:44 2018-04-10 09:06:44.479759
+Open price checked for: 0  stocks
+Ticks: 520 2018-04-10 09:06:44 2018-04-10 09:06:44.635847
+Open price checked for: 0  stocks
+Ticks: 521 2018-04-10 09:06:44 2018-04-10 09:06:45.031186
+Open price checked for: 0  stocks
+Ticks: 522 2018-04-10 09:06:45 2018-04-10 09:06:45.236181
+Open price checked for: 0  stocks
+Ticks: 523 2018-04-10 09:06:45 2018-04-10 09:06:45.634823
+Open price checked for: 0  stocks
+Ticks: 524 2018-04-10 09:06:45 2018-04-10 09:06:45.836079
+Open price checked for: 0  stocks
+Ticks: 525 2018-04-10 09:06:45 2018-04-10 09:06:46.238042
+Open price checked for: 0  stocks
+Ticks: 526 2018-04-10 09:06:46 2018-04-10 09:06:46.452706
+Open price checked for: 0  stocks
+Ticks: 527 2018-04-10 09:06:46 2018-04-10 09:06:46.835796
+Open price checked for: 0  stocks
+Ticks: 528 2018-04-10 09:06:46 2018-04-10 09:06:47.035534
+Open price checked for: 0  stocks
+Ticks: 529 2018-04-10 09:06:47 2018-04-10 09:06:47.440220
+Open price checked for: 0  stocks
+Ticks: 530 2018-04-10 09:06:47 2018-04-10 09:06:47.644189
+Open price checked for: 0  stocks
+Ticks: 531 2018-04-10 09:06:47 2018-04-10 09:06:48.031352
+Open price checked for: 0  stocks
+Ticks: 532 2018-04-10 09:06:48 2018-04-10 09:06:48.245445
+Open price checked for: 0  stocks
+Ticks: 533 2018-04-10 09:06:48 2018-04-10 09:06:48.638499
+Open price checked for: 0  stocks
+Ticks: 534 2018-04-10 09:06:48 2018-04-10 09:06:48.831884
+Open price checked for: 0  stocks
+Ticks: 535 2018-04-10 09:06:48 2018-04-10 09:06:49.231730
+Open price checked for: 0  stocks
+Ticks: 536 2018-04-10 09:06:49 2018-04-10 09:06:49.441087
+Open price checked for: 0  stocks
+Ticks: 537 2018-04-10 09:06:49 2018-04-10 09:06:49.830327
+Open price checked for: 0  stocks
+Ticks: 538 2018-04-10 09:06:49 2018-04-10 09:06:50.036454
+Open price checked for: 0  stocks
+Ticks: 539 2018-04-10 09:06:50 2018-04-10 09:06:50.442067
+Open price checked for: 0  stocks
+Ticks: 540 2018-04-10 09:06:50 2018-04-10 09:06:50.639782
+Open price checked for: 0  stocks
+Ticks: 541 2018-04-10 09:06:50 2018-04-10 09:06:51.030889
+Open price checked for: 0  stocks
+Ticks: 542 2018-04-10 09:06:51 2018-04-10 09:06:51.234051
+Open price checked for: 0  stocks
+Ticks: 543 2018-04-10 09:06:51 2018-04-10 09:06:51.639898
+Open price checked for: 0  stocks
+Ticks: 544 2018-04-10 09:06:51 2018-04-10 09:06:51.833408
+Open price checked for: 0  stocks
+Ticks: 545 2018-04-10 09:06:51 2018-04-10 09:06:52.249443
+Open price checked for: 0  stocks
+Ticks: 546 2018-04-10 09:06:52 2018-04-10 09:06:52.437142
+Open price checked for: 0  stocks
+Ticks: 547 2018-04-10 09:06:52 2018-04-10 09:06:52.830577
+Open price checked for: 0  stocks
+Ticks: 548 2018-04-10 09:06:52 2018-04-10 09:06:53.043483
+Open price checked for: 0  stocks
+Ticks: 549 2018-04-10 09:06:53 2018-04-10 09:06:53.440942
+Open price checked for: 0  stocks
+Ticks: 550 2018-04-10 09:06:53 2018-04-10 09:06:53.648376
+Open price checked for: 0  stocks
+Ticks: 551 2018-04-10 09:06:53 2018-04-10 09:06:54.030633
+Open price checked for: 0  stocks
+Ticks: 552 2018-04-10 09:06:54 2018-04-10 09:06:54.241049
+Open price checked for: 0  stocks
+Ticks: 553 2018-04-10 09:06:54 2018-04-10 09:06:54.634649
+Open price checked for: 0  stocks
+Ticks: 554 2018-04-10 09:06:54 2018-04-10 09:06:54.831308
+Open price checked for: 0  stocks
+Ticks: 555 2018-04-10 09:06:55 2018-04-10 09:06:55.239011
+Open price checked for: 0  stocks
+Ticks: 556 2018-04-10 09:06:55 2018-04-10 09:06:55.436024
+Open price checked for: 0  stocks
+Ticks: 557 2018-04-10 09:06:55 2018-04-10 09:06:55.831650
+Open price checked for: 0  stocks
+Ticks: 558 2018-04-10 09:06:55 2018-04-10 09:06:56.033091
+Open price checked for: 0  stocks
+Ticks: 559 2018-04-10 09:06:56 2018-04-10 09:06:56.444035
+Open price checked for: 0  stocks
+Ticks: 560 2018-04-10 09:06:56 2018-04-10 09:06:56.648646
+Open price checked for: 0  stocks
+Ticks: 561 2018-04-10 09:06:56 2018-04-10 09:06:57.071010
+Open price checked for: 0  stocks
+Ticks: 562 2018-04-10 09:06:57 2018-04-10 09:06:57.235495
+Open price checked for: 0  stocks
+Ticks: 563 2018-04-10 09:06:57 2018-04-10 09:06:57.632755
+Open price checked for: 0  stocks
+Ticks: 564 2018-04-10 09:06:57 2018-04-10 09:06:57.830289
+Open price checked for: 0  stocks
+Ticks: 565 2018-04-10 09:06:57 2018-04-10 09:06:58.230937
+Open price checked for: 0  stocks
+Ticks: 566 2018-04-10 09:06:58 2018-04-10 09:06:58.437217
+Open price checked for: 0  stocks
+Ticks: 567 2018-04-10 09:06:58 2018-04-10 09:06:58.840377
+Open price checked for: 0  stocks
+Ticks: 568 2018-04-10 09:06:58 2018-04-10 09:06:59.049188
+Open price checked for: 0  stocks
+Ticks: 569 2018-04-10 09:06:59 2018-04-10 09:06:59.529308
+Open price checked for: 0  stocks
+Ticks: 570 2018-04-10 09:06:59 2018-04-10 09:06:59.636451
+Open price checked for: 0  stocks
+Ticks: 571 2018-04-10 09:06:59 2018-04-10 09:07:00.027702
+Open price checked for: 0  stocks
+Ticks: 572 2018-04-10 09:07:00 2018-04-10 09:07:00.236120
+Open price checked for: 0  stocks
+Ticks: 573 2018-04-10 09:07:00 2018-04-10 09:07:00.635152
+Open price checked for: 0  stocks
+Ticks: 574 2018-04-10 09:07:00 2018-04-10 09:07:00.830847
+Open price checked for: 0  stocks
+Ticks: 575 2018-04-10 09:07:00 2018-04-10 09:07:01.240108
+Open price checked for: 0  stocks
+Ticks: 576 2018-04-10 09:07:01 2018-04-10 09:07:01.446945
+Open price checked for: 0  stocks
+Ticks: 577 2018-04-10 09:07:01 2018-04-10 09:07:01.836797
+Open price checked for: 0  stocks
+Ticks: 578 2018-04-10 09:07:01 2018-04-10 09:07:02.053245
+Open price checked for: 0  stocks
+Ticks: 579 2018-04-10 09:07:02 2018-04-10 09:07:02.439542
+Open price checked for: 0  stocks
+Ticks: 580 2018-04-10 09:07:02 2018-04-10 09:07:02.632225
+Open price checked for: 0  stocks
+Ticks: 581 2018-04-10 09:07:02 2018-04-10 09:07:03.028468
+Open price checked for: 0  stocks
+Ticks: 582 2018-04-10 09:07:03 2018-04-10 09:07:03.231437
+Open price checked for: 0  stocks
+Ticks: 583 2018-04-10 09:07:03 2018-04-10 09:07:03.650581
+Open price checked for: 0  stocks
+Ticks: 584 2018-04-10 09:07:03 2018-04-10 09:07:03.833390
+Open price checked for: 0  stocks
+Ticks: 585 2018-04-10 09:07:03 2018-04-10 09:07:04.246050
+Open price checked for: 0  stocks
+Ticks: 586 2018-04-10 09:07:04 2018-04-10 09:07:04.439821
+Open price checked for: 0  stocks
+Ticks: 587 2018-04-10 09:07:04 2018-04-10 09:07:04.836135
+Open price checked for: 0  stocks
+Ticks: 588 2018-04-10 09:07:04 2018-04-10 09:07:05.032700
+Open price checked for: 0  stocks
+Ticks: 589 2018-04-10 09:07:05 2018-04-10 09:07:05.441924
+Open price checked for: 0  stocks
+Ticks: 590 2018-04-10 09:07:05 2018-04-10 09:07:05.636095
+Open price checked for: 0  stocks
+Ticks: 591 2018-04-10 09:07:05 2018-04-10 09:07:06.029751
+Open price checked for: 0  stocks
+Ticks: 592 2018-04-10 09:07:06 2018-04-10 09:07:06.241527
+Open price checked for: 0  stocks
+Ticks: 593 2018-04-10 09:07:06 2018-04-10 09:07:06.633897
+Open price checked for: 0  stocks
+Ticks: 594 2018-04-10 09:07:06 2018-04-10 09:07:06.828483
+Open price checked for: 0  stocks
+Ticks: 595 2018-04-10 09:07:07 2018-04-10 09:07:07.236171
+Open price checked for: 0  stocks
+Ticks: 596 2018-04-10 09:07:07 2018-04-10 09:07:07.444691
+Open price checked for: 0  stocks
+Ticks: 597 2018-04-10 09:07:07 2018-04-10 09:07:07.834994
+Open price checked for: 0  stocks
+Ticks: 598 2018-04-10 09:07:07 2018-04-10 09:07:08.039185
+Open price checked for: 0  stocks
+Ticks: 599 2018-04-10 09:07:08 2018-04-10 09:07:08.437734
+Open price checked for: 0  stocks
+Ticks: 600 2018-04-10 09:07:08 2018-04-10 09:07:08.633260
+Open price checked for: 0  stocks
+Ticks: 601 2018-04-10 09:07:08 2018-04-10 09:07:09.029734
+Open price checked for: 0  stocks
+Ticks: 602 2018-04-10 09:07:09 2018-04-10 09:07:09.238762
+Open price checked for: 0  stocks
+Ticks: 603 2018-04-10 09:07:09 2018-04-10 09:07:09.640560
+Open price checked for: 0  stocks
+Ticks: 604 2018-04-10 09:07:09 2018-04-10 09:07:09.832366
+Open price checked for: 0  stocks
+Ticks: 605 2018-04-10 09:07:10 2018-04-10 09:07:10.231961
+Open price checked for: 0  stocks
+Ticks: 606 2018-04-10 09:07:10 2018-04-10 09:07:10.442798
+Open price checked for: 0  stocks
+Ticks: 607 2018-04-10 09:07:10 2018-04-10 09:07:10.833743
+Open price checked for: 0  stocks
+Ticks: 608 2018-04-10 09:07:10 2018-04-10 09:07:11.035459
+Open price checked for: 0  stocks
+Ticks: 609 2018-04-10 09:07:11 2018-04-10 09:07:11.451301
+Open price checked for: 0  stocks
+Ticks: 610 2018-04-10 09:07:11 2018-04-10 09:07:11.640383
+Open price checked for: 0  stocks
+Ticks: 611 2018-04-10 09:07:11 2018-04-10 09:07:12.029559
+Open price checked for: 0  stocks
+Ticks: 612 2018-04-10 09:07:12 2018-04-10 09:07:12.239463
+Open price checked for: 0  stocks
+Ticks: 613 2018-04-10 09:07:12 2018-04-10 09:07:12.636502
+Open price checked for: 0  stocks
+Ticks: 614 2018-04-10 09:07:12 2018-04-10 09:07:12.833057
+Open price checked for: 0  stocks
+Ticks: 615 2018-04-10 09:07:12 2018-04-10 09:07:13.234389
+Open price checked for: 0  stocks
+Ticks: 616 2018-04-10 09:07:13 2018-04-10 09:07:13.438576
+Open price checked for: 0  stocks
+Ticks: 617 2018-04-10 09:07:13 2018-04-10 09:07:13.833991
+Open price checked for: 0  stocks
+Ticks: 618 2018-04-10 09:07:13 2018-04-10 09:07:14.049867
+Open price checked for: 0  stocks
+Ticks: 619 2018-04-10 09:07:14 2018-04-10 09:07:14.479886
+Open price checked for: 0  stocks
+Ticks: 620 2018-04-10 09:07:14 2018-04-10 09:07:14.637069
+Open price checked for: 0  stocks
+Ticks: 621 2018-04-10 09:07:14 2018-04-10 09:07:15.031499
+Open price checked for: 0  stocks
+Ticks: 622 2018-04-10 09:07:15 2018-04-10 09:07:15.236278
+Open price checked for: 0  stocks
+Ticks: 623 2018-04-10 09:07:15 2018-04-10 09:07:15.649515
+Open price checked for: 0  stocks
+Ticks: 624 2018-04-10 09:07:15 2018-04-10 09:07:15.826886
+Open price checked for: 0  stocks
+Ticks: 625 2018-04-10 09:07:15 2018-04-10 09:07:16.232914
+Open price checked for: 0  stocks
+Ticks: 626 2018-04-10 09:07:16 2018-04-10 09:07:16.437620
+Open price checked for: 0  stocks
+Ticks: 627 2018-04-10 09:07:16 2018-04-10 09:07:16.847018
+Open price checked for: 0  stocks
+Ticks: 628 2018-04-10 09:07:16 2018-04-10 09:07:17.067617
+Open price checked for: 0  stocks
+Ticks: 629 2018-04-10 09:07:17 2018-04-10 09:07:17.440239
+Open price checked for: 0  stocks
+Ticks: 630 2018-04-10 09:07:17 2018-04-10 09:07:17.632517
+Open price checked for: 0  stocks
+Ticks: 631 2018-04-10 09:07:17 2018-04-10 09:07:18.036081
+Open price checked for: 0  stocks
+Ticks: 632 2018-04-10 09:07:18 2018-04-10 09:07:18.239072
+Open price checked for: 0  stocks
+Ticks: 633 2018-04-10 09:07:18 2018-04-10 09:07:18.638965
+Open price checked for: 0  stocks
+Ticks: 634 2018-04-10 09:07:18 2018-04-10 09:07:18.827409
+Open price checked for: 0  stocks
+Ticks: 635 2018-04-10 09:07:18 2018-04-10 09:07:19.229789
+Open price checked for: 0  stocks
+Ticks: 636 2018-04-10 09:07:19 2018-04-10 09:07:19.443259
+Open price checked for: 0  stocks
+Ticks: 637 2018-04-10 09:07:19 2018-04-10 09:07:19.833572
+Open price checked for: 0  stocks
+Ticks: 638 2018-04-10 09:07:19 2018-04-10 09:07:20.036345
+Open price checked for: 0  stocks
+Ticks: 639 2018-04-10 09:07:20 2018-04-10 09:07:20.436154
+Open price checked for: 0  stocks
+Ticks: 640 2018-04-10 09:07:20 2018-04-10 09:07:20.653184
+Open price checked for: 0  stocks
+Ticks: 641 2018-04-10 09:07:20 2018-04-10 09:07:21.027153
+Open price checked for: 0  stocks
+Ticks: 642 2018-04-10 09:07:21 2018-04-10 09:07:21.237199
+Open price checked for: 0  stocks
+Ticks: 643 2018-04-10 09:07:21 2018-04-10 09:07:21.648400
+Open price checked for: 0  stocks
+Ticks: 644 2018-04-10 09:07:21 2018-04-10 09:07:21.832725
+Open price checked for: 0  stocks
+Ticks: 645 2018-04-10 09:07:22 2018-04-10 09:07:22.238874
+Open price checked for: 0  stocks
+Ticks: 646 2018-04-10 09:07:22 2018-04-10 09:07:22.434280
+Open price checked for: 0  stocks
+Ticks: 647 2018-04-10 09:07:22 2018-04-10 09:07:22.871458
+Open price checked for: 0  stocks
+Ticks: 648 2018-04-10 09:07:22 2018-04-10 09:07:23.033654
+Open price checked for: 0  stocks
+Ticks: 649 2018-04-10 09:07:23 2018-04-10 09:07:23.436375
+Open price checked for: 0  stocks
+Ticks: 650 2018-04-10 09:07:23 2018-04-10 09:07:23.641576
+Open price checked for: 0  stocks
+Ticks: 651 2018-04-10 09:07:23 2018-04-10 09:07:24.030717
+Open price checked for: 0  stocks
+Ticks: 652 2018-04-10 09:07:24 2018-04-10 09:07:24.237137
+Open price checked for: 0  stocks
+Ticks: 653 2018-04-10 09:07:24 2018-04-10 09:07:24.667921
+Open price checked for: 0  stocks
+Ticks: 654 2018-04-10 09:07:24 2018-04-10 09:07:24.833980
+Open price checked for: 0  stocks
+Ticks: 655 2018-04-10 09:07:24 2018-04-10 09:07:25.263121
+Open price checked for: 0  stocks
+Ticks: 656 2018-04-10 09:07:25 2018-04-10 09:07:25.438063
+Open price checked for: 0  stocks
+Ticks: 657 2018-04-10 09:07:25 2018-04-10 09:07:25.832564
+Open price checked for: 0  stocks
+Ticks: 658 2018-04-10 09:07:25 2018-04-10 09:07:26.032168
+Open price checked for: 0  stocks
+Ticks: 659 2018-04-10 09:07:26 2018-04-10 09:07:26.438561
+Open price checked for: 0  stocks
+Ticks: 660 2018-04-10 09:07:26 2018-04-10 09:07:26.632444
+Open price checked for: 0  stocks
+Ticks: 661 2018-04-10 09:07:26 2018-04-10 09:07:27.031003
+Open price checked for: 0  stocks
+Ticks: 662 2018-04-10 09:07:27 2018-04-10 09:07:27.240401
+Open price checked for: 0  stocks
+Ticks: 663 2018-04-10 09:07:27 2018-04-10 09:07:27.634203
+Open price checked for: 0  stocks
+Ticks: 664 2018-04-10 09:07:27 2018-04-10 09:07:27.831368
+Open price checked for: 0  stocks
+Ticks: 665 2018-04-10 09:07:27 2018-04-10 09:07:28.237460
+Open price checked for: 0  stocks
+Ticks: 666 2018-04-10 09:07:28 2018-04-10 09:07:28.438361
+Open price checked for: 0  stocks
+Ticks: 667 2018-04-10 09:07:28 2018-04-10 09:07:28.850347
+Open price checked for: 0  stocks
+Ticks: 668 2018-04-10 09:07:28 2018-04-10 09:07:29.030238
+Open price checked for: 0  stocks
+Ticks: 669 2018-04-10 09:07:29 2018-04-10 09:07:29.549266
+Open price checked for: 0  stocks
+Ticks: 670 2018-04-10 09:07:29 2018-04-10 09:07:29.636558
+Open price checked for: 0  stocks
+Ticks: 671 2018-04-10 09:07:29 2018-04-10 09:07:30.031049
+Open price checked for: 0  stocks
+Ticks: 672 2018-04-10 09:07:29 2018-04-10 09:07:30.238173
+Open price checked for: 0  stocks
+Ticks: 673 2018-04-10 09:07:30 2018-04-10 09:07:30.631938
+Open price checked for: 0  stocks
+Ticks: 674 2018-04-10 09:07:30 2018-04-10 09:07:30.833794
+Open price checked for: 0  stocks
+Ticks: 675 2018-04-10 09:07:30 2018-04-10 09:07:31.235620
+Open price checked for: 0  stocks
+Ticks: 676 2018-04-10 09:07:31 2018-04-10 09:07:31.437382
+Open price checked for: 0  stocks
+Ticks: 677 2018-04-10 09:07:31 2018-04-10 09:07:31.832481
+Open price checked for: 0  stocks
+Ticks: 678 2018-04-10 09:07:31 2018-04-10 09:07:32.035961
+Open price checked for: 0  stocks
+Ticks: 679 2018-04-10 09:07:32 2018-04-10 09:07:32.444302
+Open price checked for: 0  stocks
+Ticks: 680 2018-04-10 09:07:32 2018-04-10 09:07:32.632372
+Open price checked for: 0  stocks
+Ticks: 681 2018-04-10 09:07:32 2018-04-10 09:07:33.031482
+Open price checked for: 0  stocks
+Ticks: 682 2018-04-10 09:07:33 2018-04-10 09:07:33.237445
+Open price checked for: 0  stocks
+Ticks: 683 2018-04-10 09:07:33 2018-04-10 09:07:33.629836
+Open price checked for: 0  stocks
+Ticks: 684 2018-04-10 09:07:33 2018-04-10 09:07:33.831895
+Open price checked for: 0  stocks
+Ticks: 685 2018-04-10 09:07:34 2018-04-10 09:07:34.229865
+Open price checked for: 0  stocks
+Ticks: 686 2018-04-10 09:07:34 2018-04-10 09:07:34.437825
+Open price checked for: 0  stocks
+Ticks: 687 2018-04-10 09:07:34 2018-04-10 09:07:34.834983
+Open price checked for: 0  stocks
+Ticks: 688 2018-04-10 09:07:34 2018-04-10 09:07:35.036076
+Open price checked for: 0  stocks
+Ticks: 689 2018-04-10 09:07:35 2018-04-10 09:07:35.435629
+Open price checked for: 0  stocks
+Ticks: 690 2018-04-10 09:07:35 2018-04-10 09:07:35.632480
+Open price checked for: 0  stocks
+Ticks: 691 2018-04-10 09:07:35 2018-04-10 09:07:36.028675
+Open price checked for: 0  stocks
+Ticks: 692 2018-04-10 09:07:36 2018-04-10 09:07:36.237906
+Open price checked for: 0  stocks
+Ticks: 693 2018-04-10 09:07:36 2018-04-10 09:07:36.630479
+Open price checked for: 0  stocks
+Ticks: 694 2018-04-10 09:07:36 2018-04-10 09:07:36.831019
+Open price checked for: 0  stocks
+Ticks: 695 2018-04-10 09:07:36 2018-04-10 09:07:37.230828
+Open price checked for: 0  stocks
+Ticks: 696 2018-04-10 09:07:37 2018-04-10 09:07:37.440286
+Open price checked for: 0  stocks
+Ticks: 697 2018-04-10 09:07:37 2018-04-10 09:07:37.832272
+Open price checked for: 0  stocks
+Ticks: 698 2018-04-10 09:07:37 2018-04-10 09:07:38.030195
+Open price checked for: 0  stocks
+Ticks: 699 2018-04-10 09:07:38 2018-04-10 09:07:38.437857
+Open price checked for: 0  stocks
+Ticks: 700 2018-04-10 09:07:38 2018-04-10 09:07:38.636777
+Open price checked for: 0  stocks
+Ticks: 701 2018-04-10 09:07:38 2018-04-10 09:07:39.027709
+Open price checked for: 0  stocks
+Ticks: 702 2018-04-10 09:07:38 2018-04-10 09:07:39.234578
+Open price checked for: 0  stocks
+Ticks: 703 2018-04-10 09:07:39 2018-04-10 09:07:39.636337
+Open price checked for: 0  stocks
+Ticks: 704 2018-04-10 09:07:39 2018-04-10 09:07:39.827286
+Open price checked for: 0  stocks
+Ticks: 705 2018-04-10 09:07:39 2018-04-10 09:07:40.230106
+Open price checked for: 0  stocks
+Ticks: 706 2018-04-10 09:07:40 2018-04-10 09:07:40.440895
+Open price checked for: 0  stocks
+Ticks: 707 2018-04-10 09:07:40 2018-04-10 09:07:40.832353
+Open price checked for: 0  stocks
+Ticks: 708 2018-04-10 09:07:40 2018-04-10 09:07:41.031014
+Open price checked for: 0  stocks
+Ticks: 709 2018-04-10 09:07:41 2018-04-10 09:07:41.439328
+Open price checked for: 0  stocks
+Ticks: 710 2018-04-10 09:07:41 2018-04-10 09:07:41.636316
+Open price checked for: 0  stocks
+Ticks: 711 2018-04-10 09:07:41 2018-04-10 09:07:42.028532
+Open price checked for: 0  stocks
+Ticks: 712 2018-04-10 09:07:42 2018-04-10 09:07:42.236347
+Open price checked for: 0  stocks
+Ticks: 713 2018-04-10 09:07:42 2018-04-10 09:07:42.649669
+Open price checked for: 0  stocks
+Ticks: 714 2018-04-10 09:07:42 2018-04-10 09:07:42.827666
+Open price checked for: 0  stocks
+Ticks: 715 2018-04-10 09:07:43 2018-04-10 09:07:43.233326
+Open price checked for: 0  stocks
+Ticks: 716 2018-04-10 09:07:43 2018-04-10 09:07:43.436076
+Open price checked for: 0  stocks
+Ticks: 717 2018-04-10 09:07:43 2018-04-10 09:07:43.827394
+Open price checked for: 0  stocks
+Ticks: 718 2018-04-10 09:07:43 2018-04-10 09:07:44.030781
+Open price checked for: 0  stocks
+Ticks: 719 2018-04-10 09:07:44 2018-04-10 09:07:44.485978
+Open price checked for: 0  stocks
+Ticks: 720 2018-04-10 09:07:44 2018-04-10 09:07:44.631141
+Open price checked for: 0  stocks
+Ticks: 721 2018-04-10 09:07:44 2018-04-10 09:07:45.027451
+Open price checked for: 0  stocks
+Ticks: 722 2018-04-10 09:07:45 2018-04-10 09:07:45.239501
+Open price checked for: 0  stocks
+Ticks: 723 2018-04-10 09:07:45 2018-04-10 09:07:45.638506
+Open price checked for: 0  stocks
+Ticks: 724 2018-04-10 09:07:45 2018-04-10 09:07:45.827924
+Open price checked for: 0  stocks
+Ticks: 725 2018-04-10 09:07:46 2018-04-10 09:07:46.235581
+Open price checked for: 0  stocks
+Ticks: 726 2018-04-10 09:07:46 2018-04-10 09:07:46.438078
+Open price checked for: 0  stocks
+Ticks: 727 2018-04-10 09:07:46 2018-04-10 09:07:46.828857
+Open price checked for: 0  stocks
+Ticks: 728 2018-04-10 09:07:46 2018-04-10 09:07:47.028384
+Open price checked for: 0  stocks
+Ticks: 729 2018-04-10 09:07:47 2018-04-10 09:07:47.430407
+Open price checked for: 0  stocks
+Ticks: 730 2018-04-10 09:07:47 2018-04-10 09:07:47.635014
+Open price checked for: 0  stocks
+Ticks: 731 2018-04-10 09:07:47 2018-04-10 09:07:48.032443
+Open price checked for: 0  stocks
+Ticks: 732 2018-04-10 09:07:48 2018-04-10 09:07:48.234896
+Open price checked for: 0  stocks
+Ticks: 733 2018-04-10 09:07:48 2018-04-10 09:07:48.634019
+Open price checked for: 0  stocks
+Ticks: 734 2018-04-10 09:07:48 2018-04-10 09:07:48.827345
+Open price checked for: 0  stocks
+Ticks: 735 2018-04-10 09:07:48 2018-04-10 09:07:49.233536
+Open price checked for: 0  stocks
+Ticks: 736 2018-04-10 09:07:49 2018-04-10 09:07:49.444904
+Open price checked for: 0  stocks
+Ticks: 737 2018-04-10 09:07:49 2018-04-10 09:07:49.832603
+Open price checked for: 0  stocks
+Ticks: 738 2018-04-10 09:07:49 2018-04-10 09:07:50.043692
+Open price checked for: 0  stocks
+Ticks: 739 2018-04-10 09:07:50 2018-04-10 09:07:50.543289
+Open price checked for: 0  stocks
+Ticks: 740 2018-04-10 09:07:50 2018-04-10 09:07:50.629662
+Open price checked for: 0  stocks
+Ticks: 741 2018-04-10 09:07:50 2018-04-10 09:07:51.030856
+Open price checked for: 0  stocks
+Ticks: 742 2018-04-10 09:07:51 2018-04-10 09:07:51.243573
+Open price checked for: 0  stocks
+Ticks: 743 2018-04-10 09:07:51 2018-04-10 09:07:51.637995
+Open price checked for: 0  stocks
+Ticks: 744 2018-04-10 09:07:51 2018-04-10 09:07:51.919454
+Open price checked for: 0  stocks
+Ticks: 745 2018-04-10 09:07:51 2018-04-10 09:07:52.228340
+Open price checked for: 0  stocks
+Ticks: 746 2018-04-10 09:07:52 2018-04-10 09:07:52.464117
+Open price checked for: 0  stocks
+Ticks: 747 2018-04-10 09:07:52 2018-04-10 09:07:52.828820
+Open price checked for: 0  stocks
+Ticks: 748 2018-04-10 09:07:52 2018-04-10 09:07:53.030530
+Open price checked for: 0  stocks
+Ticks: 749 2018-04-10 09:07:53 2018-04-10 09:07:53.435300
+Open price checked for: 0  stocks
+Ticks: 750 2018-04-10 09:07:53 2018-04-10 09:07:53.633274
+Open price checked for: 0  stocks
+Ticks: 751 2018-04-10 09:07:53 2018-04-10 09:07:54.070713
+Open price checked for: 0  stocks
+Ticks: 752 2018-04-10 09:07:53 2018-04-10 09:07:54.236832
+Open price checked for: 0  stocks
+Ticks: 753 2018-04-10 09:07:54 2018-04-10 09:07:54.632638
+Open price checked for: 0  stocks
+Ticks: 754 2018-04-10 09:07:54 2018-04-10 09:07:54.834625
+Open price checked for: 0  stocks
+Ticks: 755 2018-04-10 09:07:54 2018-04-10 09:07:55.230157
+Open price checked for: 0  stocks
+Ticks: 756 2018-04-10 09:07:55 2018-04-10 09:07:55.427696
+Open price checked for: 0  stocks
+Ticks: 757 2018-04-10 09:07:55 2018-04-10 09:07:55.830479
+Open price checked for: 0  stocks
+Ticks: 758 2018-04-10 09:07:55 2018-04-10 09:07:56.029393
+Open price checked for: 0  stocks
+Ticks: 759 2018-04-10 09:07:56 2018-04-10 09:07:56.428101
+Open price checked for: 0  stocks
+Ticks: 760 2018-04-10 09:07:56 2018-04-10 09:07:56.631479
+Open price checked for: 0  stocks
+Ticks: 761 2018-04-10 09:07:56 2018-04-10 09:07:57.025845
+Open price checked for: 0  stocks
+Ticks: 762 2018-04-10 09:07:56 2018-04-10 09:07:57.228342
+Open price checked for: 0  stocks
+Ticks: 763 2018-04-10 09:07:57 2018-04-10 09:07:57.626185
+Open price checked for: 0  stocks
+Ticks: 764 2018-04-10 09:07:57 2018-04-10 09:07:57.831096
+Open price checked for: 0  stocks
+Ticks: 765 2018-04-10 09:07:57 2018-04-10 09:07:58.230721
+Open price checked for: 0  stocks
+Ticks: 766 2018-04-10 09:07:58 2018-04-10 09:07:58.429756
+Open price checked for: 0  stocks
+Ticks: 767 2018-04-10 09:07:58 2018-04-10 09:07:58.831532
+Open price checked for: 0  stocks
+Ticks: 768 2018-04-10 09:07:58 2018-04-10 09:07:59.026861
+Open price checked for: 0  stocks
+Ticks: 769 2018-04-10 09:07:59 2018-04-10 09:07:59.538037
+Open price checked for: 0  stocks
+Ticks: 770 2018-04-10 09:07:59 2018-04-10 09:07:59.625817
+Open price checked for: 0  stocks
+Ticks: 771 2018-04-10 09:07:59 2018-04-10 09:08:00.025767
+Open price checked for: 0  stocks
+Ticks: 772 2018-04-10 09:15:00 2018-04-10 09:15:00.915339
+Open price checked for: 1  stocks
+1 4451329
+Ticks: 773 2018-04-10 09:15:00 2018-04-10 09:15:01.329514
+Open price checked for: 2  stocks
+1 4451329
+2 4995329
+Ticks: 774 2018-04-10 09:15:00 2018-04-10 09:15:01.429291
+Open price checked for: 5  stocks
+1 2061825
+2 2674433
+3 3365633
+4 4451329
+5 4995329
+Ticks: 775 2018-04-10 09:15:01 2018-04-10 09:15:01.951395
+Open price checked for: 90  stocks
+1 6401
+2 25601
+3 40193
+4 41729
+5 54273
+6 70401
+7 81153
+8 134657
+9 141569
+10 160001
+11 160769
+12 173057
+13 215553
+14 225537
+15 261889
+16 340481
+17 341249
+18 348929
+19 359937
+20 377857
+21 387841
+22 408065
+23 415745
+24 424961
+25 462849
+26 492033
+27 511233
+28 593665
+29 681985
+30 731905
+31 737793
+32 758529
+33 779521
+34 794369
+35 806401
+36 836353
+37 837889
+38 857857
+39 871681
+40 873217
+41 877057
+42 878593
+43 884737
+44 897537
+45 900609
+46 951809
+47 975873
+48 1076225
+49 1102337
+50 1195009
+51 1270529
+52 1346049
+53 1837825
+54 1850625
+55 1887745
+56 2061825
+57 2170625
+58 2524673
+59 2674433
+60 2714625
+61 2763265
+62 2800641
+63 2815745
+64 2865921
+65 2911489
+66 2953217
+67 2997505
+68 3050241
+69 3076609
+70 3365633
+71 3431425
+72 3465729
+73 3660545
+74 3675137
+75 3689729
+76 3924993
+77 4159745
+78 4267265
+79 4268801
+80 4343041
+81 4451329
+82 4632577
+83 4995329
+84 5215745
+85 5444865
+86 6054401
+87 7455745
+88 7458561
+89 7670273
+90 7712001
+Ticks: 776 2018-04-10 09:15:01 2018-04-10 09:15:02.051069
+Open price checked for: 114  stocks
+1 6401
+2 25601
+3 40193
+4 41729
+5 49409
+6 54273
+7 60417
+8 70401
+9 81153
+10 85761
+11 87297
+12 94977
+13 98049
+14 108033
+15 112129
+16 134657
+17 141569
+18 160001
+19 160769
+20 173057
+21 215553
+22 225537
+23 232961
+24 261889
+25 340481
+26 341249
+27 348929
+28 359937
+29 377857
+30 387841
+31 408065
+32 415745
+33 424961
+34 462849
+35 492033
+36 511233
+37 593665
+38 681985
+39 731905
+40 737793
+41 738561
+42 758529
+43 779521
+44 784129
+45 794369
+46 806401
+47 836353
+48 837889
+49 857857
+50 871681
+51 873217
+52 877057
+53 878593
+54 884737
+55 895745
+56 897537
+57 900609
+58 951809
+59 969473
+60 975873
+61 1076225
+62 1102337
+63 1195009
+64 1270529
+65 1346049
+66 1510401
+67 1723649
+68 1837825
+69 1850625
+70 1887745
+71 2061825
+72 2170625
+73 2524673
+74 2674433
+75 2714625
+76 2730497
+77 2763265
+78 2800641
+79 2815745
+80 2865921
+81 2911489
+82 2952193
+83 2953217
+84 2997505
+85 3050241
+86 3076609
+87 3365633
+88 3375873
+89 3431425
+90 3463169
+91 3465729
+92 3660545
+93 3675137
+94 3689729
+95 3735553
+96 3832833
+97 3834113
+98 3903745
+99 3906305
+100 3924993
+101 4159745
+102 4267265
+103 4268801
+104 4343041
+105 4451329
+106 4632577
+107 4995329
+108 5215745
+109 5444865
+110 6054401
+111 7455745
+112 7458561
+113 7670273
+114 7712001
+Ticks: 777 2018-04-10 09:15:01 2018-04-10 09:15:02.235014
+Open price checked for: 124  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 141569
+21 160001
+22 160769
+23 173057
+24 177665
+25 215553
+26 225537
+27 232961
+28 245249
+29 261889
+30 340481
+31 341249
+32 348929
+33 359937
+34 377857
+35 387841
+36 408065
+37 415745
+38 424961
+39 462849
+40 492033
+41 511233
+42 593665
+43 633601
+44 681985
+45 731905
+46 737793
+47 738561
+48 758529
+49 779521
+50 784129
+51 794369
+52 806401
+53 836353
+54 837889
+55 857857
+56 871681
+57 873217
+58 877057
+59 878593
+60 884737
+61 895745
+62 897537
+63 900609
+64 951809
+65 952577
+66 969473
+67 975873
+68 1076225
+69 1102337
+70 1195009
+71 1270529
+72 1346049
+73 1510401
+74 1723649
+75 1837825
+76 1850625
+77 1887745
+78 2061825
+79 2170625
+80 2524673
+81 2674433
+82 2714625
+83 2730497
+84 2752769
+85 2763265
+86 2800641
+87 2815745
+88 2865921
+89 2889473
+90 2911489
+91 2939649
+92 2952193
+93 2953217
+94 2997505
+95 3050241
+96 3076609
+97 3365633
+98 3375873
+99 3431425
+100 3463169
+101 3465729
+102 3660545
+103 3675137
+104 3689729
+105 3735553
+106 3832833
+107 3834113
+108 3903745
+109 3906305
+110 3924993
+111 4159745
+112 4267265
+113 4268801
+114 4343041
+115 4451329
+116 4632577
+117 4995329
+118 5215745
+119 5444865
+120 6054401
+121 7455745
+122 7458561
+123 7670273
+124 7712001
+Ticks: 778 2018-04-10 09:15:02 2018-04-10 09:15:02.430369
+Open price checked for: 138  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 177665
+27 215553
+28 225537
+29 232961
+30 245249
+31 261889
+32 302337
+33 315393
+34 319233
+35 340481
+36 341249
+37 345089
+38 348929
+39 352001
+40 356865
+41 359937
+42 377857
+43 387841
+44 408065
+45 415745
+46 424961
+47 462849
+48 492033
+49 511233
+50 593665
+51 633601
+52 681985
+53 731905
+54 737793
+55 738561
+56 758529
+57 779521
+58 784129
+59 794369
+60 806401
+61 836353
+62 837889
+63 857857
+64 871681
+65 873217
+66 877057
+67 878593
+68 884737
+69 895745
+70 897537
+71 900609
+72 951809
+73 952577
+74 969473
+75 975873
+76 1076225
+77 1102337
+78 1195009
+79 1270529
+80 1346049
+81 1510401
+82 1522689
+83 1723649
+84 1837825
+85 1850625
+86 1887745
+87 1921537
+88 2061825
+89 2170625
+90 2524673
+91 2674433
+92 2714625
+93 2730497
+94 2752769
+95 2763265
+96 2800641
+97 2815745
+98 2865921
+99 2889473
+100 2911489
+101 2939649
+102 2952193
+103 2953217
+104 2997505
+105 3050241
+106 3076609
+107 3365633
+108 3375873
+109 3431425
+110 3463169
+111 3465729
+112 3660545
+113 3675137
+114 3689729
+115 3735553
+116 3832833
+117 3834113
+118 3903745
+119 3906305
+120 3924993
+121 3930881
+122 4159745
+123 4267265
+124 4268801
+125 4343041
+126 4451329
+127 4454401
+128 4464129
+129 4465665
+130 4632577
+131 4995329
+132 5215745
+133 5444865
+134 6054401
+135 7455745
+136 7458561
+137 7670273
+138 7712001
+Ticks: 779 2018-04-10 09:15:02 2018-04-10 09:15:02.625762
+Open price checked for: 142  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 215553
+30 225537
+31 232961
+32 245249
+33 261889
+34 302337
+35 315393
+36 319233
+37 340481
+38 341249
+39 345089
+40 348929
+41 352001
+42 356865
+43 359937
+44 364545
+45 377857
+46 387841
+47 408065
+48 415745
+49 424961
+50 462849
+51 492033
+52 511233
+53 593665
+54 633601
+55 681985
+56 731905
+57 737793
+58 738561
+59 758529
+60 779521
+61 784129
+62 794369
+63 806401
+64 836353
+65 837889
+66 857857
+67 871681
+68 873217
+69 877057
+70 878593
+71 884737
+72 895745
+73 897537
+74 900609
+75 951809
+76 952577
+77 969473
+78 975873
+79 1076225
+80 1102337
+81 1195009
+82 1270529
+83 1346049
+84 1510401
+85 1522689
+86 1723649
+87 1837825
+88 1850625
+89 1887745
+90 1921537
+91 2061825
+92 2170625
+93 2524673
+94 2674433
+95 2714625
+96 2730497
+97 2752769
+98 2763265
+99 2800641
+100 2815745
+101 2865921
+102 2889473
+103 2911489
+104 2939649
+105 2952193
+106 2953217
+107 2997505
+108 3050241
+109 3076609
+110 3365633
+111 3375873
+112 3431425
+113 3463169
+114 3465729
+115 3660545
+116 3675137
+117 3689729
+118 3735553
+119 3832833
+120 3834113
+121 3903745
+122 3906305
+123 3924993
+124 3930881
+125 4159745
+126 4267265
+127 4268801
+128 4343041
+129 4451329
+130 4454401
+131 4464129
+132 4465665
+133 4488705
+134 4632577
+135 4995329
+136 5215745
+137 5444865
+138 6054401
+139 7455745
+140 7458561
+141 7670273
+142 7712001
+Ticks: 780 2018-04-10 09:15:02 2018-04-10 09:15:02.835930
+Open price checked for: 147  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 492033
+56 511233
+57 593665
+58 633601
+59 681985
+60 731905
+61 737793
+62 738561
+63 758529
+64 779521
+65 784129
+66 794369
+67 806401
+68 836353
+69 837889
+70 857857
+71 871681
+72 873217
+73 877057
+74 878593
+75 884737
+76 895745
+77 897537
+78 900609
+79 951809
+80 952577
+81 969473
+82 975873
+83 1076225
+84 1102337
+85 1195009
+86 1270529
+87 1346049
+88 1510401
+89 1522689
+90 1723649
+91 1837825
+92 1850625
+93 1887745
+94 1921537
+95 2061825
+96 2170625
+97 2524673
+98 2674433
+99 2714625
+100 2730497
+101 2752769
+102 2763265
+103 2800641
+104 2815745
+105 2865921
+106 2889473
+107 2911489
+108 2939649
+109 2952193
+110 2953217
+111 2997505
+112 3050241
+113 3076609
+114 3365633
+115 3375873
+116 3431425
+117 3463169
+118 3465729
+119 3660545
+120 3675137
+121 3689729
+122 3735553
+123 3832833
+124 3834113
+125 3903745
+126 3906305
+127 3924993
+128 3930881
+129 4159745
+130 4267265
+131 4268801
+132 4343041
+133 4451329
+134 4454401
+135 4464129
+136 4465665
+137 4488705
+138 4598529
+139 4632577
+140 4995329
+141 5215745
+142 5444865
+143 6054401
+144 7455745
+145 7458561
+146 7670273
+147 7712001
+Ticks: 781 2018-04-10 09:15:02 2018-04-10 09:15:03.029507
+Open price checked for: 152  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 524545
+59 558337
+60 593665
+61 633601
+62 681985
+63 731905
+64 737793
+65 738561
+66 758529
+67 779521
+68 784129
+69 794369
+70 806401
+71 836353
+72 837889
+73 857857
+74 871681
+75 873217
+76 877057
+77 878593
+78 884737
+79 895745
+80 897537
+81 900609
+82 951809
+83 952577
+84 969473
+85 975873
+86 1076225
+87 1102337
+88 1195009
+89 1270529
+90 1346049
+91 1510401
+92 1522689
+93 1723649
+94 1837825
+95 1850625
+96 1887745
+97 1921537
+98 2061825
+99 2170625
+100 2524673
+101 2674433
+102 2714625
+103 2730497
+104 2752769
+105 2763265
+106 2800641
+107 2815745
+108 2865921
+109 2889473
+110 2911489
+111 2939649
+112 2952193
+113 2953217
+114 2997505
+115 3050241
+116 3076609
+117 3365633
+118 3375873
+119 3431425
+120 3463169
+121 3465729
+122 3660545
+123 3675137
+124 3689729
+125 3735553
+126 3832833
+127 3834113
+128 3903745
+129 3906305
+130 3924993
+131 3930881
+132 4159745
+133 4267265
+134 4268801
+135 4343041
+136 4451329
+137 4454401
+138 4464129
+139 4465665
+140 4488705
+141 4598529
+142 4632577
+143 4708097
+144 4879617
+145 4995329
+146 5215745
+147 5444865
+148 6054401
+149 7455745
+150 7458561
+151 7670273
+152 7712001
+Ticks: 782 2018-04-10 09:15:02 2018-04-10 09:15:03.230544
+Open price checked for: 154  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 524545
+59 558337
+60 593665
+61 633601
+62 681985
+63 731905
+64 737793
+65 738561
+66 758529
+67 779521
+68 784129
+69 794369
+70 806401
+71 836353
+72 837889
+73 857857
+74 871681
+75 873217
+76 877057
+77 878593
+78 884737
+79 895745
+80 897537
+81 900609
+82 951809
+83 952577
+84 969473
+85 975873
+86 1076225
+87 1102337
+88 1195009
+89 1214721
+90 1215745
+91 1270529
+92 1346049
+93 1510401
+94 1522689
+95 1723649
+96 1837825
+97 1850625
+98 1887745
+99 1921537
+100 2061825
+101 2170625
+102 2524673
+103 2674433
+104 2714625
+105 2730497
+106 2752769
+107 2763265
+108 2800641
+109 2815745
+110 2865921
+111 2889473
+112 2911489
+113 2939649
+114 2952193
+115 2953217
+116 2997505
+117 3050241
+118 3076609
+119 3365633
+120 3375873
+121 3431425
+122 3463169
+123 3465729
+124 3660545
+125 3675137
+126 3689729
+127 3735553
+128 3832833
+129 3834113
+130 3903745
+131 3906305
+132 3924993
+133 3930881
+134 4159745
+135 4267265
+136 4268801
+137 4343041
+138 4451329
+139 4454401
+140 4464129
+141 4465665
+142 4488705
+143 4598529
+144 4632577
+145 4708097
+146 4879617
+147 4995329
+148 5215745
+149 5444865
+150 6054401
+151 7455745
+152 7458561
+153 7670273
+154 7712001
+Ticks: 783 2018-04-10 09:15:03 2018-04-10 09:15:03.631696
+Open price checked for: 158  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 524545
+59 558337
+60 593665
+61 633601
+62 681985
+63 731905
+64 737793
+65 738561
+66 758529
+67 779521
+68 784129
+69 794369
+70 806401
+71 836353
+72 837889
+73 857857
+74 871681
+75 873217
+76 877057
+77 878593
+78 884737
+79 895745
+80 897537
+81 900609
+82 951809
+83 952577
+84 969473
+85 975873
+86 1076225
+87 1102337
+88 1195009
+89 1207553
+90 1214721
+91 1215745
+92 1256193
+93 1270529
+94 1346049
+95 1510401
+96 1522689
+97 1723649
+98 1837825
+99 1850625
+100 1887745
+101 1921537
+102 2029825
+103 2061825
+104 2079745
+105 2170625
+106 2524673
+107 2674433
+108 2714625
+109 2730497
+110 2752769
+111 2763265
+112 2800641
+113 2815745
+114 2865921
+115 2889473
+116 2911489
+117 2939649
+118 2952193
+119 2953217
+120 2997505
+121 3050241
+122 3076609
+123 3365633
+124 3375873
+125 3431425
+126 3463169
+127 3465729
+128 3660545
+129 3675137
+130 3689729
+131 3735553
+132 3832833
+133 3834113
+134 3903745
+135 3906305
+136 3924993
+137 3930881
+138 4159745
+139 4267265
+140 4268801
+141 4343041
+142 4451329
+143 4454401
+144 4464129
+145 4465665
+146 4488705
+147 4598529
+148 4632577
+149 4708097
+150 4879617
+151 4995329
+152 5215745
+153 5444865
+154 6054401
+155 7455745
+156 7458561
+157 7670273
+158 7712001
+Ticks: 784 2018-04-10 09:15:03 2018-04-10 09:15:04.029137
+Open price checked for: 160  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 524545
+59 558337
+60 593665
+61 633601
+62 681985
+63 731905
+64 737793
+65 738561
+66 758529
+67 779521
+68 784129
+69 794369
+70 806401
+71 836353
+72 837889
+73 857857
+74 871681
+75 873217
+76 877057
+77 878593
+78 884737
+79 895745
+80 897537
+81 900609
+82 951809
+83 952577
+84 969473
+85 975873
+86 1076225
+87 1102337
+88 1195009
+89 1207553
+90 1214721
+91 1215745
+92 1256193
+93 1270529
+94 1346049
+95 1510401
+96 1522689
+97 1723649
+98 1837825
+99 1850625
+100 1887745
+101 1921537
+102 2029825
+103 2061825
+104 2079745
+105 2170625
+106 2524673
+107 2674433
+108 2714625
+109 2730497
+110 2752769
+111 2760193
+112 2763265
+113 2800641
+114 2815745
+115 2865921
+116 2889473
+117 2911489
+118 2939649
+119 2952193
+120 2953217
+121 2997505
+122 3050241
+123 3076609
+124 3365633
+125 3375873
+126 3431425
+127 3463169
+128 3465729
+129 3529217
+130 3660545
+131 3675137
+132 3689729
+133 3735553
+134 3832833
+135 3834113
+136 3903745
+137 3906305
+138 3924993
+139 3930881
+140 4159745
+141 4267265
+142 4268801
+143 4343041
+144 4451329
+145 4454401
+146 4464129
+147 4465665
+148 4488705
+149 4598529
+150 4632577
+151 4708097
+152 4879617
+153 4995329
+154 5215745
+155 5444865
+156 6054401
+157 7455745
+158 7458561
+159 7670273
+160 7712001
+Ticks: 785 2018-04-10 09:15:04 2018-04-10 09:15:04.223630
+Open price checked for: 166  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 524545
+59 558337
+60 593665
+61 633601
+62 681985
+63 731905
+64 737793
+65 738561
+66 758529
+67 779521
+68 784129
+69 794369
+70 806401
+71 836353
+72 837889
+73 857857
+74 871681
+75 873217
+76 877057
+77 878593
+78 884737
+79 895745
+80 897537
+81 900609
+82 951809
+83 952577
+84 969473
+85 975873
+86 1076225
+87 1102337
+88 1195009
+89 1207553
+90 1214721
+91 1215745
+92 1256193
+93 1270529
+94 1346049
+95 1510401
+96 1522689
+97 1723649
+98 1837825
+99 1850625
+100 1887745
+101 1895937
+102 1921537
+103 2029825
+104 2061825
+105 2079745
+106 2170625
+107 2513665
+108 2524673
+109 2585345
+110 2661633
+111 2674433
+112 2714625
+113 2730497
+114 2752769
+115 2760193
+116 2763265
+117 2800641
+118 2815745
+119 2865921
+120 2889473
+121 2911489
+122 2939649
+123 2952193
+124 2953217
+125 2997505
+126 3050241
+127 3076609
+128 3365633
+129 3375873
+130 3431425
+131 3463169
+132 3465729
+133 3529217
+134 3637249
+135 3660545
+136 3675137
+137 3689729
+138 3735553
+139 3832833
+140 3834113
+141 3903745
+142 3906305
+143 3924993
+144 3930881
+145 4159745
+146 4267265
+147 4268801
+148 4343041
+149 4451329
+150 4454401
+151 4464129
+152 4465665
+153 4488705
+154 4598529
+155 4632577
+156 4708097
+157 4879617
+158 4995329
+159 5215745
+160 5444865
+161 6054401
+162 6386689
+163 7455745
+164 7458561
+165 7670273
+166 7712001
+Ticks: 786 2018-04-10 09:15:04 2018-04-10 09:15:04.425700
+Open price checked for: 169  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 524545
+59 558337
+60 593665
+61 633601
+62 681985
+63 731905
+64 737793
+65 738561
+66 758529
+67 779521
+68 784129
+69 794369
+70 806401
+71 836353
+72 837889
+73 857857
+74 871681
+75 873217
+76 877057
+77 878593
+78 884737
+79 895745
+80 897537
+81 900609
+82 951809
+83 952577
+84 969473
+85 975873
+86 1076225
+87 1102337
+88 1195009
+89 1207553
+90 1214721
+91 1215745
+92 1256193
+93 1270529
+94 1346049
+95 1510401
+96 1522689
+97 1723649
+98 1837825
+99 1850625
+100 1887745
+101 1895937
+102 1921537
+103 2029825
+104 2061825
+105 2079745
+106 2170625
+107 2513665
+108 2524673
+109 2585345
+110 2661633
+111 2674433
+112 2714625
+113 2730497
+114 2747905
+115 2752769
+116 2760193
+117 2763265
+118 2800641
+119 2815745
+120 2865921
+121 2889473
+122 2911489
+123 2939649
+124 2952193
+125 2953217
+126 2997505
+127 3050241
+128 3076609
+129 3365633
+130 3375873
+131 3431425
+132 3463169
+133 3465729
+134 3513601
+135 3529217
+136 3637249
+137 3660545
+138 3675137
+139 3689729
+140 3735553
+141 3832833
+142 3834113
+143 3903745
+144 3906305
+145 3924993
+146 3930881
+147 3932673
+148 4159745
+149 4267265
+150 4268801
+151 4343041
+152 4451329
+153 4454401
+154 4464129
+155 4465665
+156 4488705
+157 4598529
+158 4632577
+159 4708097
+160 4879617
+161 4995329
+162 5215745
+163 5444865
+164 6054401
+165 6386689
+166 7455745
+167 7458561
+168 7670273
+169 7712001
+Ticks: 787 2018-04-10 09:15:04 2018-04-10 09:15:04.826940
+Open price checked for: 180  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 524545
+59 558337
+60 593665
+61 633601
+62 681985
+63 731905
+64 737793
+65 738561
+66 758529
+67 779521
+68 784129
+69 794369
+70 806401
+71 836353
+72 837889
+73 857857
+74 871681
+75 873217
+76 877057
+77 878593
+78 884737
+79 895745
+80 897537
+81 900609
+82 951809
+83 952577
+84 969473
+85 975873
+86 1076225
+87 1102337
+88 1195009
+89 1207553
+90 1214721
+91 1215745
+92 1256193
+93 1270529
+94 1346049
+95 1510401
+96 1522689
+97 1723649
+98 1837825
+99 1850625
+100 1887745
+101 1895937
+102 1921537
+103 2029825
+104 2061825
+105 2079745
+106 2170625
+107 2513665
+108 2524673
+109 2585345
+110 2661633
+111 2674433
+112 2714625
+113 2730497
+114 2747905
+115 2752769
+116 2760193
+117 2763265
+118 2796801
+119 2800641
+120 2815745
+121 2863105
+122 2865921
+123 2883073
+124 2889473
+125 2911489
+126 2933761
+127 2939649
+128 2952193
+129 2953217
+130 2997505
+131 3001089
+132 3050241
+133 3076609
+134 3365633
+135 3375873
+136 3431425
+137 3463169
+138 3465729
+139 3513601
+140 3529217
+141 3637249
+142 3660545
+143 3675137
+144 3689729
+145 3721473
+146 3735553
+147 3771393
+148 3832833
+149 3834113
+150 3903745
+151 3906305
+152 3924993
+153 3930881
+154 3932673
+155 4159745
+156 4267265
+157 4268801
+158 4278529
+159 4343041
+160 4369665
+161 4451329
+162 4454401
+163 4464129
+164 4465665
+165 4488705
+166 4598529
+167 4632577
+168 4708097
+169 4879617
+170 4995329
+171 5215745
+172 5444865
+173 6054401
+174 6386689
+175 7455745
+176 7458561
+177 7577089
+178 7670273
+179 7712001
+180 7982337
+Ticks: 788 2018-04-10 09:15:04 2018-04-10 09:15:05.025816
+Open price checked for: 184  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 524545
+59 558337
+60 593665
+61 633601
+62 681985
+63 731905
+64 737793
+65 738561
+66 758529
+67 779521
+68 784129
+69 794369
+70 806401
+71 836353
+72 837889
+73 857857
+74 871681
+75 873217
+76 877057
+77 878593
+78 884737
+79 895745
+80 897537
+81 900609
+82 951809
+83 952577
+84 969473
+85 975873
+86 1076225
+87 1102337
+88 1195009
+89 1207553
+90 1214721
+91 1215745
+92 1256193
+93 1270529
+94 1346049
+95 1510401
+96 1522689
+97 1723649
+98 1837825
+99 1850625
+100 1887745
+101 1895937
+102 1921537
+103 2029825
+104 2061825
+105 2079745
+106 2170625
+107 2513665
+108 2524673
+109 2585345
+110 2661633
+111 2674433
+112 2714625
+113 2730497
+114 2747905
+115 2752769
+116 2760193
+117 2763265
+118 2796801
+119 2800641
+120 2815745
+121 2863105
+122 2865921
+123 2883073
+124 2889473
+125 2911489
+126 2933761
+127 2939649
+128 2952193
+129 2953217
+130 2997505
+131 3001089
+132 3039233
+133 3050241
+134 3076609
+135 3365633
+136 3375873
+137 3431425
+138 3463169
+139 3465729
+140 3513601
+141 3529217
+142 3637249
+143 3660545
+144 3675137
+145 3689729
+146 3721473
+147 3735553
+148 3771393
+149 3832833
+150 3834113
+151 3861249
+152 3876097
+153 3903745
+154 3906305
+155 3924993
+156 3930881
+157 3932673
+158 4159745
+159 4267265
+160 4268801
+161 4278529
+162 4343041
+163 4369665
+164 4451329
+165 4454401
+166 4464129
+167 4465665
+168 4488705
+169 4598529
+170 4632577
+171 4708097
+172 4879617
+173 4995329
+174 5215745
+175 5444865
+176 6054401
+177 6386689
+178 7455745
+179 7458561
+180 7577089
+181 7670273
+182 7712001
+183 7982337
+184 8042241
+Ticks: 789 2018-04-10 09:15:04 2018-04-10 09:15:05.224585
+Open price checked for: 185  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 524545
+59 558337
+60 593665
+61 633601
+62 681985
+63 731905
+64 737793
+65 738561
+66 758529
+67 779521
+68 784129
+69 794369
+70 806401
+71 836353
+72 837889
+73 857857
+74 871681
+75 873217
+76 877057
+77 878593
+78 884737
+79 895745
+80 897537
+81 900609
+82 951809
+83 952577
+84 969473
+85 975873
+86 1076225
+87 1102337
+88 1195009
+89 1207553
+90 1214721
+91 1215745
+92 1256193
+93 1270529
+94 1346049
+95 1510401
+96 1522689
+97 1723649
+98 1837825
+99 1850625
+100 1887745
+101 1895937
+102 1921537
+103 2029825
+104 2061825
+105 2079745
+106 2170625
+107 2513665
+108 2524673
+109 2585345
+110 2661633
+111 2674433
+112 2714625
+113 2730497
+114 2747905
+115 2752769
+116 2760193
+117 2763265
+118 2796801
+119 2800641
+120 2815745
+121 2863105
+122 2865921
+123 2883073
+124 2889473
+125 2911489
+126 2933761
+127 2939649
+128 2952193
+129 2953217
+130 2997505
+131 3001089
+132 3039233
+133 3050241
+134 3076609
+135 3365633
+136 3375873
+137 3431425
+138 3463169
+139 3465729
+140 3513601
+141 3529217
+142 3637249
+143 3660545
+144 3675137
+145 3689729
+146 3721473
+147 3735553
+148 3771393
+149 3832833
+150 3834113
+151 3861249
+152 3876097
+153 3903745
+154 3905025
+155 3906305
+156 3924993
+157 3930881
+158 3932673
+159 4159745
+160 4267265
+161 4268801
+162 4278529
+163 4343041
+164 4369665
+165 4451329
+166 4454401
+167 4464129
+168 4465665
+169 4488705
+170 4598529
+171 4632577
+172 4708097
+173 4879617
+174 4995329
+175 5215745
+176 5444865
+177 6054401
+178 6386689
+179 7455745
+180 7458561
+181 7577089
+182 7670273
+183 7712001
+184 7982337
+185 8042241
+Ticks: 790 2018-04-10 09:15:05 2018-04-10 09:15:05.428843
+Open price checked for: 186  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 524545
+59 558337
+60 593665
+61 633601
+62 681985
+63 731905
+64 737793
+65 738561
+66 758529
+67 779521
+68 784129
+69 794369
+70 806401
+71 836353
+72 837889
+73 857857
+74 871681
+75 873217
+76 877057
+77 878593
+78 884737
+79 895745
+80 897537
+81 900609
+82 951809
+83 952577
+84 969473
+85 975873
+86 1076225
+87 1102337
+88 1195009
+89 1207553
+90 1214721
+91 1215745
+92 1256193
+93 1270529
+94 1346049
+95 1510401
+96 1522689
+97 1723649
+98 1837825
+99 1850625
+100 1887745
+101 1895937
+102 1921537
+103 2029825
+104 2061825
+105 2079745
+106 2170625
+107 2513665
+108 2524673
+109 2585345
+110 2661633
+111 2674433
+112 2714625
+113 2730497
+114 2747905
+115 2752769
+116 2760193
+117 2763265
+118 2796801
+119 2800641
+120 2815745
+121 2863105
+122 2865921
+123 2883073
+124 2889473
+125 2911489
+126 2933761
+127 2939649
+128 2952193
+129 2953217
+130 2997505
+131 3001089
+132 3039233
+133 3050241
+134 3060993
+135 3076609
+136 3365633
+137 3375873
+138 3431425
+139 3463169
+140 3465729
+141 3513601
+142 3529217
+143 3637249
+144 3660545
+145 3675137
+146 3689729
+147 3721473
+148 3735553
+149 3771393
+150 3832833
+151 3834113
+152 3861249
+153 3876097
+154 3903745
+155 3905025
+156 3906305
+157 3924993
+158 3930881
+159 3932673
+160 4159745
+161 4267265
+162 4268801
+163 4278529
+164 4343041
+165 4369665
+166 4451329
+167 4454401
+168 4464129
+169 4465665
+170 4488705
+171 4598529
+172 4632577
+173 4708097
+174 4879617
+175 4995329
+176 5215745
+177 5444865
+178 6054401
+179 6386689
+180 7455745
+181 7458561
+182 7577089
+183 7670273
+184 7712001
+185 7982337
+186 8042241
+Ticks: 791 2018-04-10 09:15:05 2018-04-10 09:15:06.024358
+Open price checked for: 190  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 519937
+59 523009
+60 524545
+61 558337
+62 593665
+63 633601
+64 681985
+65 731905
+66 737793
+67 738561
+68 758529
+69 779521
+70 784129
+71 794369
+72 806401
+73 836353
+74 837889
+75 857857
+76 871681
+77 873217
+78 877057
+79 878593
+80 884737
+81 895745
+82 897537
+83 900609
+84 951809
+85 952577
+86 969473
+87 975873
+88 1076225
+89 1102337
+90 1195009
+91 1207553
+92 1214721
+93 1215745
+94 1256193
+95 1270529
+96 1346049
+97 1510401
+98 1522689
+99 1723649
+100 1837825
+101 1850625
+102 1887745
+103 1895937
+104 1921537
+105 2029825
+106 2061825
+107 2079745
+108 2170625
+109 2513665
+110 2524673
+111 2585345
+112 2661633
+113 2674433
+114 2714625
+115 2730497
+116 2747905
+117 2752769
+118 2760193
+119 2763265
+120 2796801
+121 2800641
+122 2815745
+123 2863105
+124 2865921
+125 2883073
+126 2889473
+127 2911489
+128 2933761
+129 2939649
+130 2952193
+131 2953217
+132 2997505
+133 3001089
+134 3039233
+135 3050241
+136 3060993
+137 3076609
+138 3365633
+139 3375873
+140 3431425
+141 3463169
+142 3465729
+143 3513601
+144 3529217
+145 3637249
+146 3660545
+147 3663105
+148 3675137
+149 3677697
+150 3689729
+151 3721473
+152 3735553
+153 3771393
+154 3832833
+155 3834113
+156 3861249
+157 3876097
+158 3903745
+159 3905025
+160 3906305
+161 3924993
+162 3930881
+163 3932673
+164 4159745
+165 4267265
+166 4268801
+167 4278529
+168 4343041
+169 4369665
+170 4451329
+171 4454401
+172 4464129
+173 4465665
+174 4488705
+175 4598529
+176 4632577
+177 4708097
+178 4879617
+179 4995329
+180 5215745
+181 5444865
+182 6054401
+183 6386689
+184 7455745
+185 7458561
+186 7577089
+187 7670273
+188 7712001
+189 7982337
+190 8042241
+Ticks: 792 2018-04-10 09:15:05 2018-04-10 09:15:06.221915
+Open price checked for: 192  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 519937
+59 523009
+60 524545
+61 548353
+62 558337
+63 584449
+64 593665
+65 633601
+66 681985
+67 731905
+68 737793
+69 738561
+70 758529
+71 779521
+72 784129
+73 794369
+74 806401
+75 836353
+76 837889
+77 857857
+78 871681
+79 873217
+80 877057
+81 878593
+82 884737
+83 895745
+84 897537
+85 900609
+86 951809
+87 952577
+88 969473
+89 975873
+90 1076225
+91 1102337
+92 1195009
+93 1207553
+94 1214721
+95 1215745
+96 1256193
+97 1270529
+98 1346049
+99 1510401
+100 1522689
+101 1723649
+102 1837825
+103 1850625
+104 1887745
+105 1895937
+106 1921537
+107 2029825
+108 2061825
+109 2079745
+110 2170625
+111 2513665
+112 2524673
+113 2585345
+114 2661633
+115 2674433
+116 2714625
+117 2730497
+118 2747905
+119 2752769
+120 2760193
+121 2763265
+122 2796801
+123 2800641
+124 2815745
+125 2863105
+126 2865921
+127 2883073
+128 2889473
+129 2911489
+130 2933761
+131 2939649
+132 2952193
+133 2953217
+134 2997505
+135 3001089
+136 3039233
+137 3050241
+138 3060993
+139 3076609
+140 3365633
+141 3375873
+142 3431425
+143 3463169
+144 3465729
+145 3513601
+146 3529217
+147 3637249
+148 3660545
+149 3663105
+150 3675137
+151 3677697
+152 3689729
+153 3721473
+154 3735553
+155 3771393
+156 3832833
+157 3834113
+158 3861249
+159 3876097
+160 3903745
+161 3905025
+162 3906305
+163 3924993
+164 3930881
+165 3932673
+166 4159745
+167 4267265
+168 4268801
+169 4278529
+170 4343041
+171 4369665
+172 4451329
+173 4454401
+174 4464129
+175 4465665
+176 4488705
+177 4598529
+178 4632577
+179 4708097
+180 4879617
+181 4995329
+182 5215745
+183 5444865
+184 6054401
+185 6386689
+186 7455745
+187 7458561
+188 7577089
+189 7670273
+190 7712001
+191 7982337
+192 8042241
+Ticks: 793 2018-04-10 09:15:06 2018-04-10 09:15:06.429068
+Open price checked for: 194  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 519937
+59 523009
+60 524545
+61 548353
+62 558337
+63 582913
+64 584449
+65 593665
+66 633601
+67 681985
+68 731905
+69 737793
+70 738561
+71 758529
+72 779521
+73 784129
+74 794369
+75 806401
+76 836353
+77 837889
+78 857857
+79 871681
+80 873217
+81 877057
+82 878593
+83 884737
+84 895745
+85 897537
+86 900609
+87 951809
+88 952577
+89 969473
+90 975873
+91 1076225
+92 1102337
+93 1195009
+94 1207553
+95 1214721
+96 1215745
+97 1256193
+98 1270529
+99 1346049
+100 1510401
+101 1522689
+102 1723649
+103 1837825
+104 1850625
+105 1887745
+106 1895937
+107 1921537
+108 2029825
+109 2061825
+110 2079745
+111 2170625
+112 2513665
+113 2524673
+114 2585345
+115 2661633
+116 2674433
+117 2714625
+118 2730497
+119 2747905
+120 2752769
+121 2760193
+122 2763265
+123 2796801
+124 2800641
+125 2815745
+126 2863105
+127 2865921
+128 2883073
+129 2889473
+130 2911489
+131 2933761
+132 2939649
+133 2952193
+134 2953217
+135 2997505
+136 3001089
+137 3039233
+138 3050241
+139 3060993
+140 3076609
+141 3365633
+142 3375873
+143 3431425
+144 3463169
+145 3465729
+146 3513601
+147 3529217
+148 3637249
+149 3660545
+150 3663105
+151 3675137
+152 3677697
+153 3689729
+154 3721473
+155 3735553
+156 3771393
+157 3789569
+158 3832833
+159 3834113
+160 3861249
+161 3876097
+162 3903745
+163 3905025
+164 3906305
+165 3924993
+166 3930881
+167 3932673
+168 4159745
+169 4267265
+170 4268801
+171 4278529
+172 4343041
+173 4369665
+174 4451329
+175 4454401
+176 4464129
+177 4465665
+178 4488705
+179 4598529
+180 4632577
+181 4708097
+182 4879617
+183 4995329
+184 5215745
+185 5444865
+186 6054401
+187 6386689
+188 7455745
+189 7458561
+190 7577089
+191 7670273
+192 7712001
+193 7982337
+194 8042241
+Ticks: 794 2018-04-10 09:15:06 2018-04-10 09:15:06.623874
+Open price checked for: 198  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 519937
+59 523009
+60 524545
+61 548353
+62 558337
+63 582913
+64 584449
+65 593665
+66 617473
+67 633601
+68 636673
+69 681985
+70 731905
+71 737793
+72 738561
+73 758529
+74 779521
+75 784129
+76 794369
+77 806401
+78 836353
+79 837889
+80 857857
+81 871681
+82 873217
+83 877057
+84 878593
+85 884737
+86 895745
+87 897537
+88 900609
+89 951809
+90 952577
+91 969473
+92 975873
+93 1076225
+94 1102337
+95 1195009
+96 1207553
+97 1214721
+98 1215745
+99 1256193
+100 1270529
+101 1346049
+102 1510401
+103 1522689
+104 1723649
+105 1837825
+106 1850625
+107 1887745
+108 1895937
+109 1921537
+110 2029825
+111 2061825
+112 2079745
+113 2170625
+114 2513665
+115 2524673
+116 2585345
+117 2661633
+118 2674433
+119 2714625
+120 2730497
+121 2747905
+122 2752769
+123 2760193
+124 2763265
+125 2796801
+126 2800641
+127 2815745
+128 2863105
+129 2865921
+130 2883073
+131 2889473
+132 2911489
+133 2933761
+134 2939649
+135 2952193
+136 2953217
+137 2997505
+138 3001089
+139 3039233
+140 3050241
+141 3060993
+142 3076609
+143 3365633
+144 3375873
+145 3431425
+146 3463169
+147 3465729
+148 3513601
+149 3529217
+150 3637249
+151 3660545
+152 3663105
+153 3675137
+154 3677697
+155 3689729
+156 3721473
+157 3735553
+158 3771393
+159 3789569
+160 3832833
+161 3834113
+162 3861249
+163 3876097
+164 3903745
+165 3905025
+166 3906305
+167 3920129
+168 3924993
+169 3930881
+170 3932673
+171 4159745
+172 4267265
+173 4268801
+174 4278529
+175 4314113
+176 4343041
+177 4369665
+178 4451329
+179 4454401
+180 4464129
+181 4465665
+182 4488705
+183 4598529
+184 4632577
+185 4708097
+186 4879617
+187 4995329
+188 5215745
+189 5444865
+190 6054401
+191 6386689
+192 7455745
+193 7458561
+194 7577089
+195 7670273
+196 7712001
+197 7982337
+198 8042241
+Ticks: 795 2018-04-10 09:15:07 2018-04-10 09:15:07.235914
+Open price checked for: 200  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 519937
+59 523009
+60 524545
+61 548353
+62 558337
+63 582913
+64 584449
+65 593665
+66 617473
+67 633601
+68 636673
+69 681985
+70 731905
+71 737793
+72 738561
+73 758529
+74 779521
+75 784129
+76 794369
+77 806401
+78 836353
+79 837889
+80 857857
+81 871681
+82 873217
+83 877057
+84 878593
+85 884737
+86 895745
+87 897537
+88 900609
+89 951809
+90 952577
+91 969473
+92 975873
+93 1041153
+94 1076225
+95 1102337
+96 1195009
+97 1207553
+98 1214721
+99 1215745
+100 1256193
+101 1270529
+102 1346049
+103 1510401
+104 1522689
+105 1723649
+106 1837825
+107 1850625
+108 1887745
+109 1895937
+110 1921537
+111 2029825
+112 2061825
+113 2079745
+114 2170625
+115 2513665
+116 2524673
+117 2585345
+118 2661633
+119 2674433
+120 2714625
+121 2730497
+122 2747905
+123 2752769
+124 2760193
+125 2763265
+126 2796801
+127 2800641
+128 2815745
+129 2863105
+130 2865921
+131 2883073
+132 2889473
+133 2911489
+134 2933761
+135 2939649
+136 2952193
+137 2953217
+138 2997505
+139 3001089
+140 3039233
+141 3050241
+142 3060993
+143 3076609
+144 3365633
+145 3375873
+146 3431425
+147 3463169
+148 3465729
+149 3513601
+150 3529217
+151 3637249
+152 3660545
+153 3663105
+154 3675137
+155 3677697
+156 3689729
+157 3721473
+158 3735553
+159 3771393
+160 3789569
+161 3832833
+162 3834113
+163 3861249
+164 3876097
+165 3903745
+166 3905025
+167 3906305
+168 3920129
+169 3924993
+170 3930881
+171 3932673
+172 4159745
+173 4267265
+174 4268801
+175 4278529
+176 4314113
+177 4343041
+178 4369665
+179 4451329
+180 4454401
+181 4464129
+182 4465665
+183 4488705
+184 4598529
+185 4632577
+186 4708097
+187 4774913
+188 4879617
+189 4995329
+190 5215745
+191 5444865
+192 6054401
+193 6386689
+194 7455745
+195 7458561
+196 7577089
+197 7670273
+198 7712001
+199 7982337
+200 8042241
+Ticks: 796 2018-04-10 09:15:07 2018-04-10 09:15:07.823259
+Open price checked for: 202  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 519937
+59 523009
+60 524545
+61 548353
+62 558337
+63 582913
+64 584449
+65 593665
+66 617473
+67 633601
+68 636673
+69 681985
+70 731905
+71 737793
+72 738561
+73 758529
+74 779521
+75 784129
+76 794369
+77 806401
+78 836353
+79 837889
+80 857857
+81 871681
+82 873217
+83 877057
+84 878593
+85 884737
+86 895745
+87 897537
+88 900609
+89 951809
+90 952577
+91 969473
+92 975873
+93 1041153
+94 1076225
+95 1102337
+96 1195009
+97 1207553
+98 1214721
+99 1215745
+100 1256193
+101 1270529
+102 1346049
+103 1510401
+104 1522689
+105 1629185
+106 1723649
+107 1790465
+108 1837825
+109 1850625
+110 1887745
+111 1895937
+112 1921537
+113 2029825
+114 2061825
+115 2079745
+116 2170625
+117 2513665
+118 2524673
+119 2585345
+120 2661633
+121 2674433
+122 2714625
+123 2730497
+124 2747905
+125 2752769
+126 2760193
+127 2763265
+128 2796801
+129 2800641
+130 2815745
+131 2863105
+132 2865921
+133 2883073
+134 2889473
+135 2911489
+136 2933761
+137 2939649
+138 2952193
+139 2953217
+140 2997505
+141 3001089
+142 3039233
+143 3050241
+144 3060993
+145 3076609
+146 3365633
+147 3375873
+148 3431425
+149 3463169
+150 3465729
+151 3513601
+152 3529217
+153 3637249
+154 3660545
+155 3663105
+156 3675137
+157 3677697
+158 3689729
+159 3721473
+160 3735553
+161 3771393
+162 3789569
+163 3832833
+164 3834113
+165 3861249
+166 3876097
+167 3903745
+168 3905025
+169 3906305
+170 3920129
+171 3924993
+172 3930881
+173 3932673
+174 4159745
+175 4267265
+176 4268801
+177 4278529
+178 4314113
+179 4343041
+180 4369665
+181 4451329
+182 4454401
+183 4464129
+184 4465665
+185 4488705
+186 4598529
+187 4632577
+188 4708097
+189 4774913
+190 4879617
+191 4995329
+192 5215745
+193 5444865
+194 6054401
+195 6386689
+196 7455745
+197 7458561
+198 7577089
+199 7670273
+200 7712001
+201 7982337
+202 8042241
+Ticks: 797 2018-04-10 09:15:07 2018-04-10 09:15:08.423277
+Open price checked for: 204  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 519937
+59 523009
+60 524545
+61 548353
+62 558337
+63 582913
+64 584449
+65 593665
+66 617473
+67 633601
+68 636673
+69 681985
+70 731905
+71 737793
+72 738561
+73 758529
+74 779521
+75 784129
+76 794369
+77 806401
+78 836353
+79 837889
+80 857857
+81 871681
+82 873217
+83 877057
+84 878593
+85 884737
+86 895745
+87 897537
+88 900609
+89 951809
+90 952577
+91 969473
+92 975873
+93 1041153
+94 1076225
+95 1102337
+96 1195009
+97 1207553
+98 1214721
+99 1215745
+100 1256193
+101 1270529
+102 1346049
+103 1510401
+104 1522689
+105 1629185
+106 1723649
+107 1790465
+108 1837825
+109 1850625
+110 1887745
+111 1895937
+112 1921537
+113 2029825
+114 2061825
+115 2079745
+116 2170625
+117 2513665
+118 2524673
+119 2585345
+120 2661633
+121 2672641
+122 2674433
+123 2714625
+124 2730497
+125 2747905
+126 2748929
+127 2752769
+128 2760193
+129 2763265
+130 2796801
+131 2800641
+132 2815745
+133 2863105
+134 2865921
+135 2883073
+136 2889473
+137 2911489
+138 2933761
+139 2939649
+140 2952193
+141 2953217
+142 2997505
+143 3001089
+144 3039233
+145 3050241
+146 3060993
+147 3076609
+148 3365633
+149 3375873
+150 3431425
+151 3463169
+152 3465729
+153 3513601
+154 3529217
+155 3637249
+156 3660545
+157 3663105
+158 3675137
+159 3677697
+160 3689729
+161 3721473
+162 3735553
+163 3771393
+164 3789569
+165 3832833
+166 3834113
+167 3861249
+168 3876097
+169 3903745
+170 3905025
+171 3906305
+172 3920129
+173 3924993
+174 3930881
+175 3932673
+176 4159745
+177 4267265
+178 4268801
+179 4278529
+180 4314113
+181 4343041
+182 4369665
+183 4451329
+184 4454401
+185 4464129
+186 4465665
+187 4488705
+188 4598529
+189 4632577
+190 4708097
+191 4774913
+192 4879617
+193 4995329
+194 5215745
+195 5444865
+196 6054401
+197 6386689
+198 7455745
+199 7458561
+200 7577089
+201 7670273
+202 7712001
+203 7982337
+204 8042241
+Ticks: 798 2018-04-10 09:15:08 2018-04-10 09:15:08.633756
+Open price checked for: 205  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 519937
+59 523009
+60 524545
+61 548353
+62 558337
+63 582913
+64 584449
+65 593665
+66 617473
+67 633601
+68 636673
+69 681985
+70 731905
+71 737793
+72 738561
+73 758529
+74 779521
+75 784129
+76 794369
+77 806401
+78 836353
+79 837889
+80 857857
+81 871681
+82 873217
+83 877057
+84 878593
+85 884737
+86 895745
+87 897537
+88 900609
+89 951809
+90 952577
+91 969473
+92 975873
+93 1041153
+94 1076225
+95 1102337
+96 1195009
+97 1207553
+98 1214721
+99 1215745
+100 1256193
+101 1270529
+102 1346049
+103 1510401
+104 1522689
+105 1629185
+106 1723649
+107 1790465
+108 1837825
+109 1850625
+110 1887745
+111 1895937
+112 1921537
+113 2029825
+114 2061825
+115 2079745
+116 2170625
+117 2513665
+118 2524673
+119 2585345
+120 2661633
+121 2672641
+122 2674433
+123 2714625
+124 2730497
+125 2747905
+126 2748929
+127 2752769
+128 2760193
+129 2763265
+130 2796801
+131 2800641
+132 2815745
+133 2863105
+134 2865921
+135 2883073
+136 2889473
+137 2905857
+138 2911489
+139 2933761
+140 2939649
+141 2952193
+142 2953217
+143 2997505
+144 3001089
+145 3039233
+146 3050241
+147 3060993
+148 3076609
+149 3365633
+150 3375873
+151 3431425
+152 3463169
+153 3465729
+154 3513601
+155 3529217
+156 3637249
+157 3660545
+158 3663105
+159 3675137
+160 3677697
+161 3689729
+162 3721473
+163 3735553
+164 3771393
+165 3789569
+166 3832833
+167 3834113
+168 3861249
+169 3876097
+170 3903745
+171 3905025
+172 3906305
+173 3920129
+174 3924993
+175 3930881
+176 3932673
+177 4159745
+178 4267265
+179 4268801
+180 4278529
+181 4314113
+182 4343041
+183 4369665
+184 4451329
+185 4454401
+186 4464129
+187 4465665
+188 4488705
+189 4598529
+190 4632577
+191 4708097
+192 4774913
+193 4879617
+194 4995329
+195 5215745
+196 5444865
+197 6054401
+198 6386689
+199 7455745
+200 7458561
+201 7577089
+202 7670273
+203 7712001
+204 7982337
+205 8042241
+Ticks: 799 2018-04-10 09:15:08 2018-04-10 09:15:08.835434
+Open price checked for: 206  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 519937
+59 523009
+60 524545
+61 548353
+62 558337
+63 582913
+64 584449
+65 593665
+66 617473
+67 633601
+68 636673
+69 681985
+70 731905
+71 737793
+72 738561
+73 758529
+74 779521
+75 784129
+76 794369
+77 806401
+78 836353
+79 837889
+80 857857
+81 871681
+82 873217
+83 877057
+84 878593
+85 884737
+86 895745
+87 897537
+88 900609
+89 951809
+90 952577
+91 969473
+92 975873
+93 1041153
+94 1076225
+95 1102337
+96 1195009
+97 1207553
+98 1214721
+99 1215745
+100 1256193
+101 1270529
+102 1346049
+103 1510401
+104 1522689
+105 1629185
+106 1723649
+107 1790465
+108 1837825
+109 1850625
+110 1887745
+111 1895937
+112 1921537
+113 2029825
+114 2061825
+115 2079745
+116 2170625
+117 2513665
+118 2524673
+119 2585345
+120 2661633
+121 2672641
+122 2674433
+123 2714625
+124 2730497
+125 2747905
+126 2748929
+127 2752769
+128 2760193
+129 2763265
+130 2796801
+131 2800641
+132 2815745
+133 2863105
+134 2865921
+135 2883073
+136 2889473
+137 2905857
+138 2906881
+139 2911489
+140 2933761
+141 2939649
+142 2952193
+143 2953217
+144 2997505
+145 3001089
+146 3039233
+147 3050241
+148 3060993
+149 3076609
+150 3365633
+151 3375873
+152 3431425
+153 3463169
+154 3465729
+155 3513601
+156 3529217
+157 3637249
+158 3660545
+159 3663105
+160 3675137
+161 3677697
+162 3689729
+163 3721473
+164 3735553
+165 3771393
+166 3789569
+167 3832833
+168 3834113
+169 3861249
+170 3876097
+171 3903745
+172 3905025
+173 3906305
+174 3920129
+175 3924993
+176 3930881
+177 3932673
+178 4159745
+179 4267265
+180 4268801
+181 4278529
+182 4314113
+183 4343041
+184 4369665
+185 4451329
+186 4454401
+187 4464129
+188 4465665
+189 4488705
+190 4598529
+191 4632577
+192 4708097
+193 4774913
+194 4879617
+195 4995329
+196 5215745
+197 5444865
+198 6054401
+199 6386689
+200 7455745
+201 7458561
+202 7577089
+203 7670273
+204 7712001
+205 7982337
+206 8042241
+Ticks: 800 2018-04-10 09:15:08 2018-04-10 09:15:09.028712
+Open price checked for: 208  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 519937
+59 523009
+60 524545
+61 548353
+62 558337
+63 582913
+64 584449
+65 593665
+66 617473
+67 633601
+68 636673
+69 681985
+70 731905
+71 737793
+72 738561
+73 758529
+74 779521
+75 784129
+76 794369
+77 806401
+78 836353
+79 837889
+80 857857
+81 871681
+82 873217
+83 877057
+84 878593
+85 884737
+86 895745
+87 897537
+88 900609
+89 951809
+90 952577
+91 969473
+92 975873
+93 1041153
+94 1076225
+95 1102337
+96 1195009
+97 1207553
+98 1214721
+99 1215745
+100 1256193
+101 1270529
+102 1346049
+103 1510401
+104 1522689
+105 1629185
+106 1723649
+107 1790465
+108 1837825
+109 1850625
+110 1887745
+111 1895937
+112 1921537
+113 2029825
+114 2061825
+115 2079745
+116 2170625
+117 2513665
+118 2524673
+119 2585345
+120 2661633
+121 2672641
+122 2674433
+123 2714625
+124 2730497
+125 2747905
+126 2748929
+127 2752769
+128 2760193
+129 2763265
+130 2796801
+131 2800641
+132 2815745
+133 2863105
+134 2865921
+135 2883073
+136 2889473
+137 2905857
+138 2906881
+139 2911489
+140 2933761
+141 2939649
+142 2952193
+143 2953217
+144 2955009
+145 2977281
+146 2997505
+147 3001089
+148 3039233
+149 3050241
+150 3060993
+151 3076609
+152 3365633
+153 3375873
+154 3431425
+155 3463169
+156 3465729
+157 3513601
+158 3529217
+159 3637249
+160 3660545
+161 3663105
+162 3675137
+163 3677697
+164 3689729
+165 3721473
+166 3735553
+167 3771393
+168 3789569
+169 3832833
+170 3834113
+171 3861249
+172 3876097
+173 3903745
+174 3905025
+175 3906305
+176 3920129
+177 3924993
+178 3930881
+179 3932673
+180 4159745
+181 4267265
+182 4268801
+183 4278529
+184 4314113
+185 4343041
+186 4369665
+187 4451329
+188 4454401
+189 4464129
+190 4465665
+191 4488705
+192 4598529
+193 4632577
+194 4708097
+195 4774913
+196 4879617
+197 4995329
+198 5215745
+199 5444865
+200 6054401
+201 6386689
+202 7455745
+203 7458561
+204 7577089
+205 7670273
+206 7712001
+207 7982337
+208 8042241
+Ticks: 801 2018-04-10 09:15:09 2018-04-10 09:15:09.632047
+Open price checked for: 209  stocks
+1 5633
+2 6401
+3 25601
+4 40193
+5 41729
+6 49409
+7 54273
+8 60417
+9 70401
+10 81153
+11 85761
+12 87297
+13 94977
+14 98049
+15 101121
+16 103425
+17 108033
+18 112129
+19 134657
+20 140033
+21 141569
+22 149249
+23 160001
+24 160769
+25 173057
+26 175361
+27 177665
+28 194561
+29 197633
+30 215553
+31 225537
+32 232961
+33 245249
+34 261889
+35 302337
+36 315393
+37 319233
+38 320001
+39 325121
+40 340481
+41 341249
+42 345089
+43 348929
+44 352001
+45 356865
+46 359937
+47 364545
+48 377857
+49 381697
+50 387841
+51 408065
+52 415745
+53 424961
+54 462849
+55 486657
+56 492033
+57 511233
+58 519937
+59 523009
+60 524545
+61 548353
+62 558337
+63 582913
+64 584449
+65 593665
+66 617473
+67 633601
+68 636673
+69 681985
+70 731905
+71 737793
+72 738561
+73 758529
+74 779521
+75 784129
+76 794369
+77 806401
+78 836353
+79 837889
+80 857857
+81 871681
+82 873217
+83 877057
+84 878593
+85 884737
+86 895745
+87 897537
+88 900609
+89 951809
+90 952577
+91 969473
+92 975873
+93 1041153
+94 1076225
+95 1102337
+96 1195009
+97 1207553
+98 1214721
+99 1215745
+100 1256193
+101 1270529
+102 1346049
+103 1510401
+104 1522689
+105 1629185
+106 1723649
+107 1790465
+108 1837825
+109 1850625
+110 1887745
+111 1895937
+112 1921537
+113 2029825
+114 2061825
+115 2079745
+116 2170625
+117 2513665
+118 2524673
+119 2585345
+120 2661633
+121 2672641
+122 2674433
+123 2714625
+124 2730497
+125 2747905
+126 2748929
+127 2752769
+128 2760193
+129 2763265
+130 2796801
+131 2800641
+132 2815745
+133 2863105
+134 2865921
+135 2883073
+136 2889473
+137 2905857
+138 2906881
+139 2911489
+140 2933761
+141 2939649
+142 2952193
+143 2953217
+144 2955009
+145 2977281
+146 2997505
+147 3001089
+148 3039233
+149 3050241
+150 3060993
+151 3076609
+152 3365633
+153 3375873
+154 3400961
+155 3431425
+156 3463169
+157 3465729
+158 3513601
+159 3529217
+160 3637249
+161 3660545
+162 3663105
+163 3675137
+164 3677697
+165 3689729
+166 3721473
+167 3735553
+168 3771393
+169 3789569
+170 3832833
+171 3834113
+172 3861249
+173 3876097
+174 3903745
+175 3905025
+176 3906305
+177 3920129
+178 3924993
+179 3930881
+180 3932673
+181 4159745
+182 4267265
+183 4268801
+184 4278529
+185 4314113
+186 4343041
+187 4369665
+188 4451329
+189 4454401
+190 4464129
+191 4465665
+192 4488705
+193 4598529
+194 4632577
+195 4708097
+196 4774913
+197 4879617
+198 4995329
+199 5215745
+200 5444865
+201 6054401
+202 6386689
+203 7455745
+204 7458561
+205 7577089
+206 7670273
+207 7712001
+208 7982337
+209 8042241
+The current time is: 2018-04-10 09:15:09.636292
+Staring gap up strategy
+All gapped up stocks:
+    Gap_Up_Percent  Instrument  Open Price
+21        1.423150     8042241      213.80
+15        1.089531     2730497      106.70
+7         0.954294      261889      100.50
+13        0.715893     1723649      246.20
+12        0.691085      784129      291.40
+19        0.362319     2760193       55.40
+2         0.290818     3924993      120.70
+8         0.267917      377857       74.85
+0         0.215983     4995329     1160.00
+9         0.214896      160769     1025.95
+4         0.193424      415745      181.30
+5         0.186594     1076225      349.00
+22        0.185185      548353      459.85
+14        0.178117     3834113      196.85
+20        0.164042     2883073      305.30
+24        0.137174     1629185       73.00
+1         0.130804      758529       76.55
+17        0.130020      345089     3812.05
+18        0.114580      356865     1398.00
+16        0.111638      633601      179.35
+3         0.066864      873217     1047.60
+6         0.066101      134657      454.15
+11        0.040623      359937      369.40
+23        0.039952     3920129      250.40
+The top four stocks less than two percent are:
+[8042241 2730497  261889 1723649]
+Preparing for placing orders at: 2018-04-10 09:15:09.670218
+Placing MIS order for: NBCC at: 2018-04-10 09:15:09.682420
+Placing MIS order for: PNB at: 2018-04-10 09:15:09.988944
+Placing MIS order for: FEDERALBNK at: 2018-04-10 09:15:10.069871
+Placing MIS order for: JINDALSTEL at: 2018-04-10 09:15:10.166527
+Strategy execution completed at: 2018-04-10 09:15:10.249249
+All gapped up stocks with trading symbol:
+    Gap_Up_Percent  Instrument  Open Price Trading Symbol
+21        1.423150     8042241      213.80           NBCC
+15        1.089531     2730497      106.70            PNB
+7         0.954294      261889      100.50     FEDERALBNK
+13        0.715893     1723649      246.20     JINDALSTEL
+12        0.691085      784129      291.40           VEDL
+19        0.362319     2760193       55.40           ALBK
+2         0.290818     3924993      120.70           NMDC
+8         0.267917      377857       74.85           IDBI
+0         0.215983     4995329     1160.00      BHARATFIN
+9         0.214896      160769     1025.95           CESC
+4         0.193424      415745      181.30            IOC
+5         0.186594     1076225      349.00     MOTHERSUMI
+22        0.185185      548353      459.85           MFSL
+14        0.178117     3834113      196.85      POWERGRID
+20        0.164042     2883073      305.30            IGL
+24        0.137174     1629185       73.00     NATIONALUM
+1         0.130804      758529       76.55           SAIL
+17        0.130020      345089     3812.05     HEROMOTOCO
+18        0.114580      356865     1398.00     HINDUNILVR
+16        0.111638      633601      179.35           ONGC
+3         0.066864      873217     1047.60      TATAELXSI
+6         0.066101      134657      454.15           BPCL
+11        0.040623      359937      369.40      HINDPETRO
+23        0.039952     3920129      250.40            IRB
+Connection error: 1006 - connection was closed uncleanly (WebSocket closing handshake timeout (peer did not finish the opening handshake in time))
+Connection closed: 1006 - connection was closed uncleanly (WebSocket closing handshake timeout (peer did not finish the opening handshake in time))
+^Z
+[2]+  Stopped                 python3.5 Live_Gap_Up.py
