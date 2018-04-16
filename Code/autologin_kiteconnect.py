@@ -64,8 +64,8 @@ def create_access_token():
     query = parse_qs(parse_url.query)
     #print(query)
     request_token=query['request_token'][0]
-    api_key=getApiKey()
-    api_secret=getApiSecret()
+    api_key=keys.getApiKey()
+    api_secret=keys.getApiSecret()
     kite=KiteConnect(api_key=api_key)
 
     data = kite.generate_session(request_token, api_secret)
