@@ -49,7 +49,9 @@ iterations = metaData.iterations
 gapup_df = pd.DataFrame()
 start_hr = 9
 start_min = 15
+total_capital = 600000
 capital_each_stock = 150000
+num_top_stocks = 4
 
 def print_list(l):
     for i in range(len(l)):
@@ -59,12 +61,16 @@ def print_list(l):
 def start_gap_up():
     #all_gapped_up = [{'Instrument':738561,'Gap_Up_Percent':1.9,'Open Price':25},{'Instrument':424961,'Gap_Up_Percent':2,'Open Price':200},{'Instrument':160001,'Gap_Up_Percent':1.3,'Open Price':2500}]
     print("Staring gap up strategy")
+    if len(all_gapped_up) == 0:
+        print("No stocks gapped up today")
+        return
     gapup_df = pd.DataFrame(all_gapped_up)
     gapup_df = gapup_df.sort_values('Gap_Up_Percent',ascending = False)
     gapup_df = gapup_df[gapup_df['Gap_Up_Percent']<=max_percent]
     #print("All gapped up stocks:")
     #print(gapup_df)
-    gapup_df = gapup_df.head(4)
+    gapup_df = gapup_df.head(num_top_stocks)
+    capital_each_stock = total_capital/len(gapup_df)
     stocks = gapup_df['Instrument'].values
     stocks_prices = gapup_df['Open Price'].values
     print("The top four stocks less than two percent are:")
@@ -74,8 +80,8 @@ def start_gap_up():
     for index in range(gapup_df.shape[0]):
         capital = capital_each_stock
         open_price = stocks_prices[index]
-        #quantity = 1
         quantity = int((capital/open_price)+0.5)
+        #quantity = 1
         tradingsymbol = metaData.getTradingsymbol(stocks[index],list_NSE_instruments)
         print("Placing MIS order for:",tradingsymbol,"at:",datetime.now())
         kite.place_order('REGULAR',kite.EXCHANGE_NSE,tradingsymbol,'SELL',quantity,'MIS','MARKET',stocks_prices[index])
