@@ -48,6 +48,7 @@ max_percent = 2
 def start_gap_up():
     #all_gapped_up = [{'Instrument':738561,'Gap_Up_Percent':1.9,'Open Price':25},{'Instrument':424961,'Gap_Up_Percent':2,'Open Price':200},{'Instrument':160001,'Gap_Up_Percent':1.3,'Open Price':2500}]
     print("Staring gap up strategy")
+    print("Number of gapped up stocks:",len(all_gapped_up))
     gapup_df = pd.DataFrame(all_gapped_up)
     gapup_df = gapup_df.sort_values('Gap_Up_Percent',ascending = False)
     gapup_df = gapup_df[gapup_df['Gap_Up_Percent']<=max_percent]
@@ -67,7 +68,7 @@ def start_gap_up():
         tradingsymbol = metaData.getTradingsymbol(stocks[index],list_NSE_instruments)
         print("Placing MIS order for:",tradingsymbol,"at:",datetime.now())
         print(tradingsymbol,"Stock price",stocks_prices[index])
-        kite.place_order('REGULAR',kite.EXCHANGE_NSE,tradingsymbol,'SELL',quantity,'MIS','LIMIT',10)
+        kite.place_order('REGULAR',kite.EXCHANGE_NSE,tradingsymbol,'SELL',quantity,'MIS','LIMIT',1)
     current_time = datetime.now()
     print("Strategy execution completed at:",current_time)
 
