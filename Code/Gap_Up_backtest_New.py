@@ -15,8 +15,10 @@ position open time, position close price, position close time, total profit, pro
 def applygapup_day(instrument,currentDay_data,prevDay_high,interval,kite):
     #target_list = [0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9, 3.0, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 4.0, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9]
     #stop_loss_list = [2,2.1,2.2,2.3,2.4,2.5,2.6,2.7,2.8,2.9,3.0]
-    target_list = [0.5,0.75,1,1.25,1.5,1.75,2,2.25,2.5,2.75,3,3.25,3.5,3.75,4,4.25,4.5,4.75,5]
-    stop_loss_list = [2,2.25,2.5,2.75,3]
+    #target_list = [0.5,0.75,1,1.25,1.5,1.75,2,2.25,2.5,2.75,3,3.25,3.5,3.75,4,4.25,4.5,4.75,5]
+    #stop_loss_list = [2,2.25,2.5,2.75,3]
+    target_list = [5]
+    stop_loss_list = [2]
     if currentDay_data.shape[0] == 0:
         return None
     tradingsymbol = currentDay_data.iloc[0:1]['tradingsymbol'].values[0]
@@ -92,7 +94,7 @@ def applygapup(kite):
     All_NSE_FO_EQ = metaData.getNSEFOStocks(kite)
     tradingsymbols_NSE_FO_EQ = metaData.getTradingsymbol_NSE(All_NSE_FO_EQ,kite)
     #years = [2014,2015,2016,2017,2018]
-    years = [2014,2015,2016,2017,2018]
+    years = [2018]
     for year in years:
         t = datetime.now()
         ans = []
@@ -147,7 +149,7 @@ def applygapup(kite):
         dataframe = dataframe[['Target','Stop loss','Trading_Symbol','instrument','Date','Previous_Day_High','Current_Day_Open','Gap_Up_Percent','Position_Type','Position_Open_Price','Position_Open_Time','Position_Close_Price','Position_Close_Time','Total_Profit','Profit_Percent']]
         print(year,dataframe.shape)
         #_all_possibilities
-        dataframe.to_csv('Gap_Up_Backtest_'+str(year)+'_30_3_18.csv',sep=',')
+        dataframe.to_csv('Gap_Up_Backtest_'+str(year)+'_30_4_18.csv',sep=',')
         t = datetime.now() - t
         print("Time taken:",t,"for:",year)
     #return ans

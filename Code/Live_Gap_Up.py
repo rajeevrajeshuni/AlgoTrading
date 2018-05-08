@@ -42,7 +42,7 @@ else:
     pickle_file = open('Prev_day_high.pickle','rb')
     pickle_file_date = pickle.load(pickle_file)
     prev_day_high = pickle.load(pickle_file)
-
+print("Previous day high values",prev_day_high)
 all_gapped_up = []
 open_price_checked = []
 iterations = metaData.iterations

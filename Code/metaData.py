@@ -80,7 +80,7 @@ def getNiftyAuto(kite,need_trading_symbol=False):
 #Return the list of FO stocks in NSE. Each value in the format "tradename:instrument_token"
 def getNSEFOStocks(kite,need_trading_symbol=False):
     return getInstrumentTokens_csv('/Users/Rajeev/AlgoTrading/Files/NSE FO Stocks.csv',kite.EXCHANGE_NSE,kite,1,need_trading_symbol)
-
+    #return remove_exceptions(l)
 #Return a dictionary of FO stocks in NSE with instrument token as key and tradingsymbol as value.
 def getNSEFOStocks_instrument_tradingsymbol(kite):
     return getInstrumentToken_TradingSymbol_csv('/Users/Rajeev/AlgoTrading/Files/NSE FO Stocks.csv',kite.EXCHANGE_NSE,kite,1)

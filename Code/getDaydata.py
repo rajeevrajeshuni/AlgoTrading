@@ -12,7 +12,7 @@ tradingsymbols = {}
 full_list = kite.instruments(exchange = kite.EXCHANGE_NSE)
 for instrument in All_NFO_EQ:
     tradingsymbols[instrument] = metaData.getTradingsymbol(instrument,full_list)
-for year in range(2014,2019):
+for year in range(2013,2014):
     print("Getting the data for ",year)
     file_name = str(year) + '_day.csv'
     dates = [['-01-01','-05-31'],['-06-01','-10-31'],['-11-01','-12-31']]

@@ -17,6 +17,7 @@ if access_token == None:
 kws = kiteconnect.KiteTicker(api_key,access_token)
 kite = kiteconnect.KiteConnect(api_key,access_token)
 All_NFO_EQ = metaData.getNSEFOStocks(kite,False)
+All_NFO_EQ = core.remove_exceptions(All_NFO_EQ,kite)
 All_NFO_EQ.sort()
 max_percent = 2
 #print(All_NFO_EQ)
@@ -52,6 +53,7 @@ gapup_df = pd.DataFrame()
 start_hr = 9
 start_min = 15
 #capital_each_stock = 150000
+total_capital = 600000
 
 def print_list(l):
     for i in range(len(l)):
@@ -74,14 +76,16 @@ def start_gap_up():
     #Placing order for stocks
     print("Preparing for placing orders at:",datetime.now())
     for index in range(gapup_df.shape[0]):
+        capital_each_stock = total_capital/len(stocks)
+        print("capital_each_stock",capital_each_stock)
         #capital = capital_each_stock
         open_price = stocks_prices[index]
         quantity = 1
         #quantity = int(capital/open_price)
         tradingsymbol = metaData.getTradingsymbol(stocks[index],list_NSE_instruments)
         print("Placing MIS order for:",tradingsymbol,"at:",datetime.now())
-        print(tradingsymbol,"Stock price",stocks_prices[index])
-        kite.place_order('REGULAR',kite.EXCHANGE_NSE,tradingsymbol,'SELL',quantity,'MIS','LIMIT',10)
+        print(tradingsymbol,"Stock price",stocks_prices[index],"Stop Loss:",stocks_prices[index]*1.021)
+        kite.place_order('REGULAR',kite.EXCHANGE_NSE,tradingsymbol,'SELL',quantity,'MIS','LIMIT',0.05,stoploss = stocks_prices[index]*1.021)
     current_time = datetime.now()
     print("Strategy execution completed at:",current_time)
     #Ending code - only for debugging
@@ -102,24 +106,25 @@ def on_ticks(kws,ticks):
     immediately unsubsribe to the stock. Compare the open price with prev_day_high and if it is store it in a
     separate list"""
     metaData.iterations+=1
-    print("Ticks:",metaData.iterations,ticks[0]['timestamp'],datetime.now())
+    print("Ticks:",metaData.iterations,datetime.now())
     for tick in ticks:
-        timestamp = tick['timestamp']
+        timestamp = datetime.now()
         #print("Tick timestamp:",timestamp,datetime.now())
         if not (timestamp.date() == datetime.today().date() and timestamp.hour>=start_hr and timestamp.minute>=start_min):
             continue
         instrument_token = tick['instrument_token']
         ltp = tick['last_price']
         if instrument_token not in open_price_checked:
-            kws.unsubscribe([instrument_token])
+            #kws.unsubscribe([instrument_token])
             open_price_checked.append(instrument_token)
+            print(instrument_token)
             if ltp > prev_day_high[instrument_token] and (instrument_token not in all_gapped_up):
                 high_prev_day = prev_day_high[instrument_token]
                 gap_up_percent = (ltp - high_prev_day)*100.0/high_prev_day
                 all_gapped_up.append({'Instrument':instrument_token,'Gap_Up_Percent':gap_up_percent,'Open Price':ltp})
     open_price_checked.sort()
     print("Open price checked for:",len(open_price_checked)," stocks")
-    print_list(open_price_checked)
+    #print_list(open_price_checked)
     if open_price_checked == All_NFO_EQ:
         kws.close()
         current_time = datetime.now()
@@ -128,7 +133,7 @@ def on_ticks(kws,ticks):
 def on_connect(kws,response):
     initialise()
     kws.subscribe(All_NFO_EQ)
-    kws.set_mode(kws.MODE_FULL,All_NFO_EQ)
+    kws.set_mode(kws.MODE_LTP,All_NFO_EQ)
 print(kws)
 print("Connecting to websocket")
 kws.on_connect = on_connect

@@ -1,7 +1,7 @@
 import kiteconnect
 import metaData
 #import Gap_Up
-import Gap_Up_New
+import Gap_Up_backtest_New
 import corefunctions as core
 
 api_key = metaData.getApiKey()
@@ -11,7 +11,7 @@ kite = kiteconnect.KiteConnect(api_key,access_token)
 #AllNSEFOStocks = metaData.getNSEFOStocks(kite,False)
 #print(core.prev_day_high(AllNSEFOStocks,kite))
 
-#Gap_Up_New.applygapup(kite)
+Gap_Up_backtest_New.applygapup(kite)
 
 
 

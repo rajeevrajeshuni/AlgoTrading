@@ -31,7 +31,7 @@ def prev_day_high(instruments,kite):
     pickle.dump(prev_day_high,pickle_file)
     return prev_day_high
 
-#This function returns true if the input date is a day on which trading happens.
+#This function returns true if the input datetime object is a day on which trading happens.
 def is_trading_day_2018(date):
     #print(date,type(date))
     #print(date.year,type(date.year))
@@ -62,6 +62,18 @@ def is_trading_day_2018(date):
     if str_date in trading_holidays_2018:
         return False
     return True
+
+#The input will be the number of trading days before the current trading day. If you need immediate previous trading day pass 1. Pass 2 for the days before that.
+#Returns a datetime object with only date,month and year.
+def prev_trading_day(prior_days)
+    ans = datetime.now()
+    i = 0
+    while i<prior_days:
+        ans = ans - timedelta(days=1)
+        if is_trading_day_2018(ans):
+            i+=1
+    return datetime(ans.year,ans.month,ans.year)
+
 def buy_impact_cost(tick,instrument_token,quantity):
     cost_buy = 0
     for i in tick:
@@ -106,3 +118,11 @@ def sell_impact_cost(tick,instrument_token,quantity):
 def print_list(l):
     for i in range(len(l)):
         print(i+1,l[i])
+def remove_exceptions(l,kite):
+    exceptions_tradingsymbols = ['SHREECEM']
+    full_instruments_list = kite.instruments(exchange = kite.EXCHANGE_NSE)
+    exceptions_tokens = []
+    for symbol in exceptions_tradingsymbols:
+        exceptions_tokens.append(metaData.getInstrumentToken(symbol,full_instruments_list))
+    ans = [x for x in l if x not in exceptions_tokens]
+    return ans
