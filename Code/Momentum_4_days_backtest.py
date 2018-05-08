@@ -12,7 +12,8 @@ if access_token == None:
     access_token = metaData.getAccessToken()
 kite = kiteconnect.KiteConnect(api_key,access_token)
 
-file_names = ['2014_day.csv','2015_day.csv','2016_day.csv','2017_day.csv','2018_day.csv']
+#file_names = ['2014_day.csv','2015_day.csv','2016_day.csv','2017_day.csv','2018_day.csv']
+file_names = ['2015_day.csv']
 All_NFO_EQ = metaData.getNSEFOStocks(kite,False)
 All_NFO_EQ_tradingsymbol = metaData.getNSEFOStocks_instrument_tradingsymbol(kite)
 #If the stock rises for these many days
@@ -54,7 +55,7 @@ for fname in file_names:
                 tradingsymbol = All_NFO_EQ_tradingsymbol[instrument]
                 profit = day_5_open - day_4_close
                 profit_percent = (profit*100.0)/day_4_close
-                ans.append({'Trading_Symbol':tradingsymbol,'Instrument_Token':instrument,'Curreny_Day(day 4)':current_date,'Day_0_Close':day_0_close,'Day_1_Close':day_1_close,'Day_2_Close':day_2_close,'Day_3_Close':day_3_close,'Day_4_Close':day_4_close,'Day_5_Open':day_5_open,'Profit':profit,'Profit_Percent'})
+                ans.append({'Trading_Symbol':tradingsymbol,'Instrument_Token':instrument,'Current_Day(day_4)':current_date,'Day_0_Close':day_0_close,'Day_1_Close':day_1_close,'Day_2_Close':day_2_close,'Day_3_Close':day_3_close,'Day_4_Close':day_4_close,'Day_5_Open':day_5_open,'Profit':profit,'Profit_Percent':profit_percent})
     ans_df = pd.DataFrame(ans)
     ans_file_name = 'Momentum_4_'+fname[0:4]+'.csv'
     ans_df.to_csv(ans_file_name,sep=',')
