@@ -10,7 +10,7 @@ def prev_day_high(instruments,kite):
     prev_day_high = {}
     t = datetime.now()
     prev_trading_day = t - timedelta(days=1)
-    while not is_trading_day_2018(prev_trading_day):
+    while not is_trading_day(prev_trading_day):
         prev_trading_day-=timedelta(days=1)
     prev_trading_day = prev_trading_day.strftime("%Y-%m-%d")
     index = 0
@@ -30,6 +30,40 @@ def prev_day_high(instruments,kite):
     pickle.dump(datetime.now(),pickle_file)
     pickle.dump(prev_day_high,pickle_file)
     return prev_day_high
+
+#This function returns true if the input datetime object is a day on which trading happens.
+#Added days for 2014,2015,2016,2017,2018
+def is_trading_day(date):
+    #print(date,type(date))
+    #print(date.year,type(date.year))
+
+    #Returns None if the date is not in year 2018
+    if date.year not in [2014,2015,2016,2017,2018]:
+        return None
+    date_of_week = date.weekday()
+    #Checking if the day is saturday or sunday
+    if date_of_week == 5 or date_of_week == 6:
+        return False
+
+    trading_holidays = metaData.getTradingHolidays()
+
+    #date is a datetime object
+    day = date.day
+    month = date.month
+    str_date = ""
+    if month<10:
+        str_date+='0'+str(month)+'/'
+    else:
+        str_date+=str(month)+'/'
+    if day<10:
+        str_date+='0'+str(day)
+    else:
+        str_date+=str(day)
+    str_date = str_date + '/' + str(date.year)
+    #print(str_date)
+    if str_date in trading_holidays:
+        return False
+    return True
 
 #This function returns true if the input datetime object is a day on which trading happens.
 def is_trading_day_2018(date):
@@ -65,12 +99,12 @@ def is_trading_day_2018(date):
 
 #The input will be the number of trading days before the current trading day. If you need immediate previous trading day pass 1. Pass 2 for the days before that.
 #Returns a datetime object with only date,month and year.
-def prev_trading_day(prior_days)
+def prev_trading_day(prior_days):
     ans = datetime.now()
     i = 0
     while i<prior_days:
         ans = ans - timedelta(days=1)
-        if is_trading_day_2018(ans):
+        if is_trading_day(ans):
             i+=1
     return datetime(ans.year,ans.month,ans.year)
 
