@@ -7,6 +7,7 @@ import pandas as pd
 import pickle
 #import autologin_kiteconnect
 import keys
+import time
 
 current_time = datetime.now()
 print("Program started at:",current_time)
@@ -49,13 +50,29 @@ iterations = metaData.iterations
 gapup_df = pd.DataFrame()
 start_hr = 9
 start_min = 15
-total_capital = 600000
+total_capital = 1200000
 capital_each_stock = 150000
-num_top_stocks = 4
+num_top_stocks = 8
 
 def print_list(l):
     for i in range(len(l)):
         print(i+1,l[i])
+
+#Takes dictionary with orderid as key and open price as value
+#Returns a dictionary with orderid as key and slippage as value
+def getSlippage(orders):
+    slippage = {}
+    for orderid in orders:
+        history = kite.order_history(orderid)
+        for item in history:
+            if item['status'] == 'COMPLETE':
+                average_price = item['average_price']
+                tradingsymbol = item['tradingsymbol']
+                open_price = orders[orderid]
+                temp = (average_price - open_price)*100/open_price
+                temp = int(temp*100)/100
+                slippage[orderid] = temp
+    return slippage
 
 #Write code for gap up strategy here.
 def start_gap_up():
@@ -70,21 +87,32 @@ def start_gap_up():
     #print("All gapped up stocks:")
     #print(gapup_df)
     gapup_df = gapup_df.head(num_top_stocks)
-    capital_each_stock = total_capital/len(gapup_df)
+    capital_each_stock = total_capital/num_top_stocks
     stocks = gapup_df['Instrument'].values
     stocks_prices = gapup_df['Open Price'].values
-    print("The top four stocks less than two percent are:")
+    print("The top",num_top_stocks,"stocks less than two percent are:")
     print(stocks)
     #Placing order for stocks
     print("Preparing for placing orders at:",datetime.now())
+    orders = {}
     for index in range(gapup_df.shape[0]):
         capital = capital_each_stock
         open_price = stocks_prices[index]
         quantity = int((capital/open_price)+0.5)
         #quantity = 1
         tradingsymbol = metaData.getTradingsymbol(stocks[index],list_NSE_instruments)
-        print("Placing MIS order for:",tradingsymbol,"at:",datetime.now())
-        kite.place_order('REGULAR',kite.EXCHANGE_NSE,tradingsymbol,'SELL',quantity,'MIS','MARKET',stocks_prices[index])
+        #print("Placing MIS order for:",tradingsymbol,"at:",datetime.now())
+        while True:
+            try:
+                orderid = kite.place_order('REGULAR',kite.EXCHANGE_NSE,tradingsymbol,'SELL',quantity,'MIS','MARKET',stocks_prices[index])
+                print(orderid)
+                orders[orderid] = open_price
+                break
+            except Exception as e:
+                print("Error",e)
+                print("Trying again")
+        #kite.place_order('REGULAR',kite.EXCHANGE_NSE,tradingsymbol,'BUY',quantity,'MIS','SL-M',trigger_price = stocks_prices[index]*1.021)
+        #kite.place_order('REGULAR',kite.EXCHANGE_NSE,tradingsymbol,'BUY',quantity,'MIS','LIMIT',stocks_prices[index]*0.95)
     current_time = datetime.now()
     print("Strategy execution completed at:",current_time)
     #Ending code - only for debugging
@@ -94,6 +122,22 @@ def start_gap_up():
     gapup_df['Trading Symbol'] = metaData.getTradingsymbol_NSE(gapup_df['Instrument'].values,kite)
     print("All gapped up stocks with trading symbol:")
     print(gapup_df)
+
+    wait_time = 30
+    print("Waiting for ",wait_time," seconds to calculate slippage values")
+    time.sleep(wait_time)
+    try:
+        slippage = getSlippage(orders)
+        temp_list = []
+        for orderid in orders:
+            history = kite.order_history(orderid)
+            tradingsymbol = history[0]['tradingsymbol']
+            temp_list.append({'Order id':orderid,'Trading Symbol':tradingsymbol,'Open Price':orders[orderid],'Slippage':slippage[orderid]})
+        temp_df = pd.DataFrame(temp_list)
+        print("Printing the slippage values for today's orders")
+        print(temp_df)
+    except:
+        print("Some Error calculating slippages")
 def initialise():
     all_gapped_up = []
     open_price_checked = []
@@ -131,9 +175,13 @@ def on_connect(kws,response):
     initialise()
     kws.subscribe(All_NFO_EQ)
     kws.set_mode(kws.MODE_FULL,All_NFO_EQ)
+
 print(kws)
 print("Connecting to websocket")
+
 kws.on_connect = on_connect
 kws.on_ticks = on_ticks
+#kws.on_close = on_close
+
 kws.connect()
 #start_gap_up()
