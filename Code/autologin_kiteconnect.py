@@ -13,6 +13,7 @@ import pickle
 def create_access_token():
     options = webdriver.FirefoxOptions()
     options.set_headless(headless=True)
+    # TODO Add error handling here. Webdriver might fail if firefox is updating.
     driver = webdriver.Firefox(firefox_options=options)
     api_key = keys.getApiKey()
     print(api_key)
@@ -27,7 +28,7 @@ def create_access_token():
     username.send_keys("YZ0647")
     password.send_keys("Wallstreet1")
     button = driver.find_elements_by_tag_name("button")
-    driver.save_screenshot('/Users/Rajeev/AlgoTrading/screen1.png')
+    #driver.save_screenshot('/Users/Rajeev/AlgoTrading/screen1.png')
 
     button[0].click()
 
@@ -52,13 +53,13 @@ def create_access_token():
     ans2=dictionary[input_labels[1].text]
     inputs[1].send_keys(ans2)
 
-    driver.save_screenshot('/Users/Rajeev/AlgoTrading/screen2.png')
+    #driver.save_screenshot('/Users/Rajeev/AlgoTrading/screen2.png')
 
     button = driver.find_elements_by_tag_name("button")
     button[0].click()
 
     time.sleep(5)
-    driver.save_screenshot('/Users/Rajeev/AlgoTrading/screen3.png')
+    #driver.save_screenshot('/Users/Rajeev/AlgoTrading/screen3.png')
     url=driver.current_url
     parse_url = urlparse(url)
     query = parse_qs(parse_url.query)
@@ -70,7 +71,10 @@ def create_access_token():
 
     data = kite.generate_session(request_token, api_secret)
 
-    access_token_file = open('Secure/access_token.pickle','wb')
+    root_path = keys.getRootPath()
+    token_file_path = root_path + 'AlgoTrading/Code/Secure/access_token.pickle'
+    #access_token_file = open('Secure/access_token.pickle','wb')
+    access_token_file = open(token_file_path,'wb')
     pickle.dump(datetime.now(),access_token_file)
     pickle.dump(data['access_token'],access_token_file)
     access_token_file.close()
