@@ -29,6 +29,7 @@ def prev_day_high(instruments,kite):
     print("Time taken to extract previous day high values:",t)
     pickle.dump(datetime.now(),pickle_file)
     pickle.dump(prev_day_high,pickle_file)
+    pickle_file.close()
     return prev_day_high
 
 #This function returns true if the input datetime object is a day on which trading happens.
@@ -106,7 +107,7 @@ def prev_trading_day(prior_days):
         ans = ans - timedelta(days=1)
         if is_trading_day(ans):
             i+=1
-    return datetime(ans.year,ans.month,ans.year)
+    return datetime(ans.year,ans.month,ans.day)
 
 def buy_impact_cost(tick,instrument_token,quantity):
     cost_buy = 0

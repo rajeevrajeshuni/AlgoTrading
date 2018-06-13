@@ -26,7 +26,7 @@ try:
     pickle_file_date = pickle.load(pickle_file)
     prev_day_high = pickle.load(pickle_file)
     pickle_file.close()
-except:
+except Exception as e:
     print("Getting the values again today")
     core.prev_day_high(All_NFO_EQ,kite)
     pickle_file = open('Prev_day_high.pickle','rb')
@@ -82,7 +82,8 @@ def start_gap_up():
         tradingsymbol = metaData.getTradingsymbol(stocks[index],list_NSE_instruments)
         print("Placing MIS order for:",tradingsymbol,"at:",datetime.now())
         print(tradingsymbol,"Stock price",stocks_prices[index],"Stop Loss:",stocks_prices[index]*1.021)
-        kite.place_order('REGULAR',kite.EXCHANGE_NSE,tradingsymbol,'SELL',quantity,'MIS','LIMIT',0.05,stoploss = stocks_prices[index]*1.021)
+        kite.place_order('REGULAR',kite.EXCHANGE_NSE,tradingsymbol,'SELL',quantity,'MIS','LIMIT',0.05)
+        #kite.place_order('REGULAR',kite.EXCHANGE_NSE,tradingsymbol,'BUY',quantity,'MIS','SL-M',trigger_price = stocks_prices[index]*1.021)
     current_time = datetime.now()
     print("Strategy execution completed at:",current_time)
     #Ending code - only for debugging

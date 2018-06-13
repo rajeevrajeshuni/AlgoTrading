@@ -43,7 +43,7 @@ if __name__ == "__main__":
     api_key = metaData.getApiKey()
     kite = KiteConnect(api_key,access_token)
 
-    All_NFO_EQ = meta.getNSEFOStocks(kite)
+    All_NFO_EQ = metaData.getNSEFOStocks(kite)
     shortlist = getShortlist(kite,All_NFO_EQ)
     logging_file_name = datetime.now().strftime("%Y-%m-%d") + ".txt"
 

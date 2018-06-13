@@ -8,7 +8,9 @@ import pickle
 #import autologin_kiteconnect
 import keys
 import time
-
+# TODO Add log instead of print in this code.
+# TODO Clean this code and write it as a class rather than traditional way.
+# TODO Remove all the extra files which has backup versions of live gap up.
 current_time = datetime.now()
 print("Program started at:",current_time)
 api_key = metaData.getApiKey()
@@ -27,7 +29,7 @@ try:
     pickle_file_date = pickle.load(pickle_file)
     prev_day_high = pickle.load(pickle_file)
     pickle_file.close()
-except:
+except Exception as e:
     print("Getting the values again today")
     core.prev_day_high(All_NFO_EQ,kite)
     pickle_file = open('Prev_day_high.pickle','rb')
