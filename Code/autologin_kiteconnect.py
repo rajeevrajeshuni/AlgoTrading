@@ -14,7 +14,10 @@ def create_access_token():
     options = webdriver.FirefoxOptions()
     options.set_headless(headless=True)
     # TODO Add error handling here. Webdriver might fail if firefox is updating.
-    driver = webdriver.Firefox(firefox_options=options)
+    profile = webdriver.FirefoxProfile()
+    profile.set_preference('app.update.auto', False)
+    profile.set_preference('app.update.enabled', False)
+    driver = webdriver.Firefox(firefox_options=options,firefox_profile=profile)
     api_key = keys.getApiKey()
     print(api_key)
     app_login_url = 'https://kite.trade/connect/login?api_key=' + api_key + '&v=3'

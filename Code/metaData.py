@@ -19,7 +19,7 @@ def getApiSecret():
 
 def getAccessToken():
     try:
-        access_token_file = open('Secure/access_token.pickle','rb')
+        access_token_file = open(root_path+'AlgoTrading/Code/Secure/access_token.pickle','rb')
         pickle_file_date = pickle.load(access_token_file)
         #print(pickle_file_date,"metaData getAccessToken")
         #print(pickle_file_date)
@@ -169,3 +169,41 @@ def getInstrumentToken_TradingSymbol_csv(path,exchange,kite,ignore_lines=2):
         instrument_token = getInstrumentToken(tradingsymbol,full_instruments_list)
         ans[instrument_token] = tradingsymbol
     return ans
+
+def removeOutliers(instruments):
+    final_instruments = []
+    outliers = {
+        2933761:'JPASSOCIAT',
+        4369665:'UJJIVAN',
+        884737:'TATAMOTORS',
+        2170625:'TVSMOTOR',
+        141569:'RELINFRA',
+        1723649:'JINDALSTEL',
+        2661633:'JISLJALEQS',
+        2674433:'MCDOWELL-N',
+        225537:'DRREDDY',
+        345089:'HEROMOTOCO',
+        3076609:'SUZLON',
+        4708097:'RBLBANK',
+        3637249:'TV18BRDCST',
+        3903745:'CAPF',
+        4454401:'NHPC',
+        7670273:'JUSTDIAL',
+        7712001:'IBULHSGFIN',
+        2939649:'LT',
+        2953217:'TCS',
+        4159745:'INFIBEAM',
+        593665:'NCC',
+        737793:'RELCAPITAL',
+        245249:'ESCORTS',
+        3861249:'ADANIPORTS',
+        424961:'ITC',
+        4465665:'RNAVAL',
+        134657:'BPCL',
+        356865:'HINDUNILVR',
+        4268801:'BAJAJFINSV'
+    }
+    for i in instruments:
+        if i not in outliers:
+            final_instruments.append(i)
+    return final_instruments

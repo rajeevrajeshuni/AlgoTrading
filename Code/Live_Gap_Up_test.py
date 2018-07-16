@@ -13,11 +13,15 @@ api_key = metaData.getApiKey()
 access_token = metaData.getAccessToken()
 kws = kiteconnect.KiteTicker(api_key,access_token)
 kite = kiteconnect.KiteConnect(api_key,access_token)
-All_NFO_EQ = metaData.getNSEFOStocks(kite,False)
-All_NFO_EQ = core.remove_exceptions(All_NFO_EQ,kite)
-All_NFO_EQ.sort()
+final_instruments = metaData.getNSEFOStocks(kite,False)
+final_instruments = core.remove_exceptions(final_instruments,kite)
+final_instruments.sort()
+
+#removing outliers
+final_instruments = metaData.removeOutliers(final_instruments)
+
 max_percent = 2
-#print(All_NFO_EQ)
+#print(final_instruments)
 list_NSE_instruments = kite.instruments(exchange = kite.EXCHANGE_NSE)
 
 print("Getting the previous day high values")
@@ -28,7 +32,7 @@ try:
     pickle_file.close()
 except Exception as e:
     print("Getting the values again today")
-    core.prev_day_high(All_NFO_EQ,kite)
+    core.prev_day_high(final_instruments,kite)
     pickle_file = open('Prev_day_high.pickle','rb')
     pickle_file_date = pickle.load(pickle_file)
     prev_day_high = pickle.load(pickle_file)
@@ -38,7 +42,7 @@ if pickle_file_date.date() == datetime.today().date():
 else:
     print("Got the previous day high values for:",pickle_file_date.date())
     print("Getting the values again today")
-    core.prev_day_high(All_NFO_EQ,kite)
+    core.prev_day_high(final_instruments,kite)
     pickle_file = open('Prev_day_high.pickle','rb')
     pickle_file_date = pickle.load(pickle_file)
     prev_day_high = pickle.load(pickle_file)
@@ -51,6 +55,7 @@ start_hr = 9
 start_min = 15
 #capital_each_stock = 150000
 total_capital = 600000
+num_top_stocks = 4
 
 def print_list(l):
     for i in range(len(l)):
@@ -65,7 +70,7 @@ def start_gap_up():
     gapup_df = gapup_df[gapup_df['Gap_Up_Percent']<=max_percent]
     print("All gapped up stocks:")
     print(gapup_df)
-    gapup_df = gapup_df.head(4)
+    gapup_df = gapup_df.head(num_top_stocks)
     stocks = gapup_df['Instrument'].values
     stocks_prices = gapup_df['Open Price'].values
     print("The top four stocks less than two percent are:")
@@ -97,7 +102,7 @@ def initialise():
     all_gapped_up = []
     open_price_checked = []
     iterations = 0
-    All_NFO_EQ.sort()
+    final_instruments.sort()
 
 def on_ticks(kws,ticks):
     """Iterate through the list and whenever you get the first tick of a stock note that as open price
@@ -123,15 +128,15 @@ def on_ticks(kws,ticks):
     open_price_checked.sort()
     print("Open price checked for:",len(open_price_checked)," stocks")
     #print_list(open_price_checked)
-    if open_price_checked == All_NFO_EQ:
+    if open_price_checked == final_instruments:
         kws.close()
         current_time = datetime.now()
         print("The current time is:",current_time)
         start_gap_up()
 def on_connect(kws,response):
     initialise()
-    kws.subscribe(All_NFO_EQ)
-    kws.set_mode(kws.MODE_LTP,All_NFO_EQ)
+    kws.subscribe(final_instruments)
+    kws.set_mode(kws.MODE_LTP,final_instruments)
 print(kws)
 print("Connecting to websocket")
 kws.on_connect = on_connect

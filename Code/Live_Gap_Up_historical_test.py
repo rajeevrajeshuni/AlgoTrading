@@ -44,6 +44,7 @@ else:
 all_gapped_up = []
 today = str(datetime.now().date())
 max_percent = 2
+num_top_stocks = 8
 #Write code for gap up strategy here.
 def start_gap_up():
     #all_gapped_up = [{'Instrument':738561,'Gap_Up_Percent':1.9,'Open Price':25},{'Instrument':424961,'Gap_Up_Percent':2,'Open Price':200},{'Instrument':160001,'Gap_Up_Percent':1.3,'Open Price':2500}]
@@ -54,7 +55,7 @@ def start_gap_up():
     gapup_df = gapup_df[gapup_df['Gap_Up_Percent']<=max_percent]
     print("All gapped up stocks:")
     print(gapup_df)
-    gapup_df = gapup_df.head(4)
+    gapup_df = gapup_df.head(num_top_stocks)
     stocks = gapup_df['Instrument'].values
     stocks_prices = gapup_df['Open Price'].values
     print("The top four stocks less than two percent are:")

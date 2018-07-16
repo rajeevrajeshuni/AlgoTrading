@@ -24,7 +24,7 @@ try:
     pickle_file_date = pickle.load(pickle_file)
     prev_day_high = pickle.load(pickle_file)
     pickle_file.close()
-except:
+except Exception as e:
     print("Getting the values again today")
     core.prev_day_high(All_NFO_EQ,kite)
     pickle_file = open('Prev_day_high.pickle','rb')
@@ -43,9 +43,10 @@ else:
 
 all_gapped_up = []
 today = str(datetime.now().date())
-capital_each_stock = 150000
+lakh = 100000
+capital_each_stock = 6*lakh
 max_percent = 2
-num_top_stocks = 8
+num_top_stocks = 6
 #Write code for gap up strategy here.
 def start_gap_up():
     #all_gapped_up = [{'Instrument':738561,'Gap_Up_Percent':1.9,'Open Price':25},{'Instrument':424961,'Gap_Up_Percent':2,'Open Price':200},{'Instrument':160001,'Gap_Up_Percent':1.3,'Open Price':2500}]
