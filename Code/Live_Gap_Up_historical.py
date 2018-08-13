@@ -14,8 +14,9 @@ api_key = keys.getApiKey()
 access_token = metaData.getAccessToken()
 kws = kiteconnect.KiteTicker(api_key,access_token)
 kite = kiteconnect.KiteConnect(api_key,access_token)
-All_NFO_EQ = metaData.getNSEFOStocks(kite,False)
-All_NFO_EQ.sort()
+final_instruments = metaData.getNSEFOStocks(kite,False)
+final_instruments.sort()
+final_instruments = metaData.removeOutliers(final_instruments)
 list_NSE_instruments = kite.instruments(exchange = kite.EXCHANGE_NSE)
 
 print("Getting the previous day high values")
@@ -26,7 +27,7 @@ try:
     pickle_file.close()
 except Exception as e:
     print("Getting the values again today")
-    core.prev_day_high(All_NFO_EQ,kite)
+    core.prev_day_high(final_instruments,kite)
     pickle_file = open('Prev_day_high.pickle','rb')
     pickle_file_date = pickle.load(pickle_file)
     prev_day_high = pickle.load(pickle_file)
@@ -36,7 +37,7 @@ if pickle_file_date.date() == datetime.today().date():
 else:
     print("Got the previous day high values for:",pickle_file_date.date())
     print("Getting the values again today")
-    core.prev_day_high(All_NFO_EQ,kite)
+    core.prev_day_high(final_instruments,kite)
     pickle_file = open('Prev_day_high.pickle','rb')
     pickle_file_date = pickle.load(pickle_file)
     prev_day_high = pickle.load(pickle_file)
@@ -75,8 +76,8 @@ def start_gap_up():
     print("Strategy execution completed at:",current_time)
 
 i = 0
-while i < len(All_NFO_EQ):
-    instrument = All_NFO_EQ[i]
+while i < len(final_instruments):
+    instrument = final_instruments[i]
     while True:
         try:
             today_open_price = kite.historical_data(instrument,today,today,'day')[0]['open']
