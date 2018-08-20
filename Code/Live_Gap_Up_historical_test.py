@@ -16,6 +16,7 @@ kws = kiteconnect.KiteTicker(api_key,access_token)
 kite = kiteconnect.KiteConnect(api_key,access_token)
 All_NFO_EQ = metaData.getNSEFOStocks(kite,False)
 All_NFO_EQ.sort()
+All_NFO_EQ = metaData.removeOutliers(All_NFO_EQ)
 list_NSE_instruments = kite.instruments(exchange = kite.EXCHANGE_NSE)
 
 print("Getting the previous day high values")
@@ -69,7 +70,7 @@ def start_gap_up():
         tradingsymbol = metaData.getTradingsymbol(stocks[index],list_NSE_instruments)
         print("Placing MIS order for:",tradingsymbol,"at:",datetime.now())
         print(tradingsymbol,"Stock price",stocks_prices[index])
-        kite.place_order('REGULAR',kite.EXCHANGE_NSE,tradingsymbol,'SELL',quantity,'MIS','LIMIT',1)
+        #kite.place_order('REGULAR',kite.EXCHANGE_NSE,tradingsymbol,'SELL',quantity,'MIS','LIMIT',1)
     current_time = datetime.now()
     print("Strategy execution completed at:",current_time)
 
