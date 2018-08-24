@@ -156,7 +156,8 @@ def on_ticks(kws,ticks):
     immediately unsubsribe to the stock. Compare the open price with prev_day_high and if it is store it in a
     separate list"""
     metaData.iterations+=1
-    print("Ticks:",metaData.iterations,ticks[0]['timestamp'],datetime.now())
+    if len(ticks) > 0:
+        print("Ticks:",metaData.iterations,ticks[0]['timestamp'],datetime.now())
     #print("Number of instruments in this ticks",len(ticks))
     for tick in ticks:
         timestamp = tick['timestamp']

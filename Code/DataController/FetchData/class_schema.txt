@@ -1,0 +1,11 @@
+Schema for a class fetching data from SQL:
+
+Method 1:
+
+1. Input: entry time, max exit time = None, entry price, target price, stop loss price, instrument
+2. Output: exit time and price
+
+Method 2:
+
+1. Input: time, instrument, candle interval
+2. Output: OHLCV candle
