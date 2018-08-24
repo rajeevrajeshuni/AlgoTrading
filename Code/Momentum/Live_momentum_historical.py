@@ -46,8 +46,8 @@ def getShortlist(kite,instrument_list):
                 shortlist[eq] = [day0_close,day1_close,day2_close]
     return shortlist
 if __name__ == "__main__":
-    start_hr = 15
-    start_min = 15
+    start_hr = 14
+    start_min = 0
     print("Starting momentum code at:",datetime.now())
     total_capital = 600000
     num_top_stocks = 4
