@@ -90,7 +90,9 @@ if __name__ == "__main__":
                     quantity = int((capital_each_stock/day3_close)+0.5)
                     #kite.place_order('REGULAR',kite.EXCHANGE_NSE,tradingsymbol,'BUY',quantity,'CNC','LIMIT',0.05)
         df_ans = pd.DataFrame(ans)
-        df_ans = df_ans.sort_values('Day_0_3_increase_percent',ascending=False)
+        print(len(df_ans))
+        if len(df_ans) > 0:
+            df_ans = df_ans.sort_values('Day_0_3_increase_percent',ascending=False)
         print(df_ans.to_string())
         print('Strategy ended at:',datetime.now())
         break
